@@ -1158,6 +1158,236 @@
       "siteUrl": "https://www.reddit.com/r/selfhosted",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y02cyj/selfhosted_server_meta_quest_2_ideas/",
+          "author": null,
+          "description": "Hi!\n I've tested successfully my Plex Server with the Meta Quest 2 app Bigscreen so I can have a theater experience that can be shared with friends, and added a build of the Home Assistant app for the Quest to get diagnostics and use for automations!\n That got me thinking, are there any cool apps you self host that can be useful in VR? Preferably docker containers, if possible! I'm trying to build a mini metaverse for my students and I'm looking for ideas!\n Thank you!\n    submitted by    /u/dj_raidar_vip  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y02cyj/selfhosted_server_meta_quest_2_ideas/",
+          "publishedOn": "2022-10-10T01:49:22.000Z",
+          "wordCount": 31728,
+          "title": "Self-hosted Server + Meta Quest 2 ideas!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y028m2/has_anyone_setup_a_private_tracker/",
+          "author": null,
+          "description": "Hi I am looking to setup a private TORRENT tracker (backend only no website frontend) to be able to share files with a few friends. Does anyone know of a good software? I haven't had much luck with the ones I've been finding on GitHub. Thanks\n    submitted by    /u/mshriver2  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y028m2/has_anyone_setup_a_private_tracker/",
+          "publishedOn": "2022-10-10T01:43:06.000Z",
+          "wordCount": 31728,
+          "title": "Has anyone setup a private tracker?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y00p3l/data_volume_for_adminer/",
+          "author": null,
+          "description": "I'm looking forward to set up a docker-compose definition that may allow me to reinstall my MicroSD Raspberry Pi OS preserving my container's data on an SSD attached. But I couldn't find any direction on which directories I should put into a volume to preserve my Adminer. Any advice?\n    submitted by    /u/mfedatto  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y00p3l/data_volume_for_adminer/",
+          "publishedOn": "2022-10-10T00:25:42.000Z",
+          "wordCount": 31639,
+          "title": "Data volume for Adminer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y00bwk/are_web_interfaces_a_big_security_hole/",
+          "author": null,
+          "description": "When I buy good cheap chinese cameras I laugh with my belly knowing that my locked down network is invincible from spying or hacks. The cameras are on their own isolated network with zero access to anything, I host my own ntp, and recursive dns, that all requests are forced to go through. No one can touch me! Then it dawned me that I frequently access these devices through their web interfaces on my open laptop. Can't they, at that point, load whatever data they want from the cameras and use the web interface to send it wherever they want?\n    submitted by    /u/thinkloop  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y00bwk/are_web_interfaces_a_big_security_hole/",
+          "publishedOn": "2022-10-10T00:07:22.000Z",
+          "wordCount": 31884,
+          "title": "Are web interfaces a big security hole?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y0071d/suitecrm_self_hosted_help/",
+          "author": null,
+          "description": "Has anyone managed to deploy suiteCRM 8 on Ubuntu 22 with PHP 8? Install guide is lacking and multiple attempts just fail. I know php 8.1 isn't supported but I've tried multiple times in a fresh VM and can never get an install page to load\n    submitted by    /u/spudd01  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y0071d/suitecrm_self_hosted_help/",
+          "publishedOn": "2022-10-10T00:00:51.000Z",
+          "wordCount": 31716,
+          "title": "SuiteCRM self hosted help",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzzdxh/namecheap_ddns_on_ddwrt_router/",
+          "author": null,
+          "description": "Hey all,\n My ASUS RT-AC66U has finally started failing after 7 long years of faithful service, so I got to work replacing it with a TP-Link Archer C7 I had lying around.\n The one feature on the ASUS router I really enjoyed was the built-in DDNS server they had running. You chose any domain you wanted and it was registered to <yourdomain>.asuscomm.com. I used this for many years to access my home services and, more recently, to self-host using NPM as my reverse proxy.\n I have Namecheap as my domain registrar and while setting up my Archer C7, I discovered that Namecheap has an article specifically for configuring DD-WRT-powered routers. I was able to follow these instructions successfully, and saw that the WAN IP I have was updated properly in Namecheap's portal, so I know that's working.\n However, I cannot hit any of my services at their appropriate DNS entries. I've already confirmed the ports are forwarded, and used a port checker. I can use <WAN IP>:<PORT> and it works fine, so I know it's an issue with my DNS config, just not sure where.\n Prior to swapping routers, my DNS entries in Namecheap were:\n CNAME record, *, <ASUS DDNS domain name> CNAME record, www, <mydomainname>.com\n My new namecheap records include an A+ Dynamic DNS record, but I'm not sure how to map the entries.\n Appreciate any help with this, thanks!\n    submitted by    /u/radakul  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzzdxh/namecheap_ddns_on_ddwrt_router/",
+          "publishedOn": "2022-10-09T23:22:12.000Z",
+          "wordCount": 32424,
+          "title": "NameCheap DDNS on DD-WRT router",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzyytw/best_selfhosted_webmail/",
+          "author": null,
+          "description": "hey all, i'm trying to find a good selfhosted webmail to group up all of my email accounts (all imap, nothing actually selfhosted)\n so far, the only thing i've tried is cypht w/ docker-compose, but that hardly worked, as I could login, but going to any page would take me back to the login screen and I wasn't able to log back in.\n the main alternatives I've found are snappymail and sogo. sogo looks really nice, but it seems heavy, as it has everything, and I only have 2.5g ram with 1.5 taken up. I also can't find a good docker image for both snappymail and sogo (i use nginx proxy manager to host everything so using docker for everything makes it easier because i can type in the container name in the dashboard, I also don't really know how to get a service on the host into nginx proxy manager)\n    submitted by    /u/dyoverdxuser12  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzyytw/best_selfhosted_webmail/",
+          "publishedOn": "2022-10-09T23:02:06.000Z",
+          "wordCount": 31956,
+          "title": "best selfhosted webmail?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzyw5z/looking_for_a_very_low_powered_device_to_run/",
+          "author": null,
+          "description": "I've just set up an M910Q running Proxmox at my mums place.. everything is running smooth.. tailscale subnet router.. remote access to it using Vpro.. but it's occured to me that if this box gets screwed up.. i've got no access to her network to fix things..\n I'm looking for a very low powered device to run proxmox and a couple of LXC's (the tailscale subnet router and maybe a backup vpn lxc)...\n It would need to have gigabit ethernet but other than that.. just low power..\n A pi would be perfect but the prices right now are stupid..\n There are plenty of thin clients or tiny pc's out there but i don't know which to buy..\n I'm looking at sub £50 if possible.. (if it's also got Vpro then that would be awesome!)\n If the £50 didn't make it obvious.. i'm in the UK :)\n    submitted by    /u/d4nm3d  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzyw5z/looking_for_a_very_low_powered_device_to_run/",
+          "publishedOn": "2022-10-09T22:59:00.000Z",
+          "wordCount": 32062,
+          "title": "Looking for a very low powered device to run proxmox",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzybtg/meetupcom_equivalent/",
+          "author": null,
+          "description": "Anyone aware of any social app that I can selfhost? It should allow scheduling of events and posting of images attached to that event? A message board would be nice to have but not necessary.\n    submitted by    /u/aram535  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzybtg/meetupcom_equivalent/",
+          "publishedOn": "2022-10-09T22:33:02.000Z",
+          "wordCount": 31610,
+          "title": "meetup.com equivalent?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzy69l/selfhosted_backup_server_and_open_source_client/",
+          "author": null,
+          "description": "Hi guys,\n I'm looking for a selfhosted backup and an open source client which will backup the whole system/OS with the files on it and upload it to backup server in x minutes/hours. should have a retention for backups for x days/weeks.\n    submitted by    /u/p01ntbr34k  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzy69l/selfhosted_backup_server_and_open_source_client/",
+          "publishedOn": "2022-10-09T22:25:56.000Z",
+          "wordCount": 32201,
+          "title": "Selfhosted backup server and open source client",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzy4jk/sharing_is_caring/",
+          "author": null,
+          "description": "submitted by    /u/uncmnsense  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzy4jk/sharing_is_caring/",
+          "publishedOn": "2022-10-09T22:23:47.000Z",
+          "wordCount": 31763,
+          "title": "sharing is caring",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzxmez/sake_a_task_runner_for_local_and_remote_hosts/",
+          "author": null,
+          "description": "submitted by    /u/alajmo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzxmez/sake_a_task_runner_for_local_and_remote_hosts/",
+          "publishedOn": "2022-10-09T22:01:23.000Z",
+          "wordCount": 31583,
+          "title": "sake - a task runner for local and remote hosts",
+          "imageUrl": "https://external-preview.redd.it/jpZ7Ddy8OlmBT2PUAFaHOTpnlLxFICxipZw9onurwXU.jpg?auto=webp&s=853707d74951059d14212957e6e10b065040839b"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzuiji/minecraft_server_time_out_behind_nginx_proxy/",
+          "author": null,
+          "description": "EDIT: My Original Post seems to be in some kind of bugged Private state so repost here\n Hello,\n I have following Setup:\n Internet -> VPS (NGINX Proxy Manager) <- Wireguard Tunnel -> Home Server (Minecraft)\n VPS Wireguard 10.0.0.1\n Home Server Wireguard 10.0.0.2\n Can Ping Both Sides\n Minecraft Server can be pinged and even seen when Pinging Ingame, when trying to join i only get..\n Joining Server -> Ecrypting -> Joining World -> Resaulting in Time Out after about 20 Seconds\n Joining Server resaults in Time Out\n https://preview.redd.it/mzf7c60vcus91.png?width=742&format=png&auto=webp&s=cabe1019f4e75af171284f7688632ccfaa80933c\n Am i Doing something wrong?\n    submitted by    /u/Aurora8orealis  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzuiji/minecraft_server_time_out_behind_nginx_proxy/",
+          "publishedOn": "2022-10-09T19:49:34.000Z",
+          "wordCount": 32185,
+          "title": "Minecraft Server Time Out behind Nginx Proxy Stream Through WireGuard tunnel",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzue7i/raid_hardware_compabitily/",
+          "author": null,
+          "description": "I was thinging on buying a raid hardware pcie, but I dont really know which one to buy and which one is compatible to my motherboard, msi h81m-e33, with a gen 2 pcie. Because I heard that raid hardware was the Best option for raid.\n    submitted by    /u/PaladinDiego  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzue7i/raid_hardware_compabitily/",
+          "publishedOn": "2022-10-09T19:44:10.000Z",
+          "wordCount": 31828,
+          "title": "raid hardware compabitily",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzucxz/is_there_software_that_will_automaticslly_encrypt/",
+          "author": null,
+          "description": "I only need them encrypted for cloud storage, not for my regular local use. Want to make sure they're encrypted without me having to manually do it\n    submitted by    /u/PradleyBitts  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzucxz/is_there_software_that_will_automaticslly_encrypt/",
+          "publishedOn": "2022-10-09T19:42:38.000Z",
+          "wordCount": 31806,
+          "title": "Is there software that will automaticslly encrypt selected folders on my external before automatically backing up to Backblaze/another backup solution?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xztxel/docker_bridged_networking/",
+          "author": null,
+          "description": "submitted by    /u/LeqitSebi  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xztxel/docker_bridged_networking/",
+          "publishedOn": "2022-10-09T19:24:11.000Z",
+          "wordCount": 31770,
+          "title": "Docker Bridged Networking",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzte0g/selfhosted_live_chat_for_a_website_with_chatwoot/",
+          "author": null,
+          "description": "Originally published on Gardens\n This guide walks you through creating a live chat for your website using a self-hosted app called Chatwoot.\n Deploy Chatwoot to your own machine or sign up for the hosted version\n You will first need to set up your Chatwoot instance. There's a guide on how to self-host in the official docs. If you feel like testing without deploying a self-hosted version, go to the official website and create an account. \n Configure the website channel\n Go to \"Settings\", then \"Inboxes\". After clicking “inbox” then clicking on “Add inbox”, a wizard process will guide you through the steps to set up your website. Click on “Website” and enter your website's details, such as:\n  \nWebsite Name\n Website Domain\n Widget Color\n Welcome heading And other data\n  \nAdding an inbox in Chatwoot\n Selecting the website channel\n Configuring your website\n Set up agents and install the website code\n You can select yourself as an agent to get the messages in your inbox. Then, copy the code and paste it into your website following the instructions. You would usually want to add it to the head or the body tag in your HTML, on the top level of your website structure.\n ​\n Copying the live chat snippet to paste into your website code\n The result\n A website live chat widget that customers can use to contact you directly from your website. With the self-hosted version, data is stored directly on your machine.\n If you like this guide, please upvote! If guides like this turn out to be helpful to the community, we will make more in the future for different tools.\n    submitted by    /u/joingardens  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzte0g/selfhosted_live_chat_for_a_website_with_chatwoot/",
+          "publishedOn": "2022-10-09T19:01:21.000Z",
+          "wordCount": 32065,
+          "title": "Self-hosted live chat for a website with Chatwoot (Step-by-step guide)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzsqwg/email_server_antispam_protection/",
+          "author": null,
+          "description": "Hello.\n What anti-spam protection are you using and how it's working for you ?\n My config for Incoming:\n I am using ASSP + 2 x Postfix as in this picture https://sourceforge.net/p/assp/wiki/ASSP_Advanced_Workflow/attachment/mime.png\n For now it's working ok but the internet domain is young so no spam yet.\n Even so, I'm looking also for additional protection since ASSP has only some of the protections mention here at Automated techniques for email administrators: https://en.wikipedia.org/wiki/Anti-spam_techniques\n So I'm looking to add Spamassasin to the \"chain\" at least for the Checksum-based filtering, Hashcash, e.t.c.\n Anybody tried this combination \"chain\" ?\n Fot Outgoing:\n For now I have none but I'm looking at PolicyD: https://wiki.policyd.org/\n Do you have other suggestions ?\n P.S. I have activated: DKIM, SPF, DMARK, PTR=banner, SSL/TLS, no open relay and the rest that comes default in ASSP also I found my static public IPv4 in one blacklist from over 100 and remove it.\n    submitted by    /u/wideace99  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzsqwg/email_server_antispam_protection/",
+          "publishedOn": "2022-10-09T18:34:55.000Z",
+          "wordCount": 32083,
+          "title": "E-mail server anti-spam protection.",
+          "imageUrl": "https://external-preview.redd.it/EQBdRe8lNrglKqZS7iENxDtpng4fv7yy4aksrxZJ0kg.png?auto=webp&s=51bf82018c2a0abde8a4b5054dccb1ba0e9117ca"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzsk5v/photo_app_that_can_utilize_editing_software/",
+          "author": null,
+          "description": "I've been trying out many, many different photo setups for my photography hobby but I can't seem to find one that really suits my exact needs. For photos from a phone with photosync, its an easy choice, but for more involved photo editing, it doesn't seem like theres a good solution.\n My biggest need/want is Transferrable metadata\n  \nI want to be able to move the metadata of files in and out of services so Im not locked into an app. If Photoprism dies tomorrow, I don't want to have to redo all my tagging and rating in Piwigo (for example)\n  \nId love to be able to Edit photos in DarkTable/another app, and then have the data populate to a web frontend for viewing. \n Right now, I use Piwigo and Love the granularity of it, but all of the tagging/album creation is done 'in app', and means that if piwigo goes away, or a new better solution arrives, I have to redo it all again in the new setup.\n    submitted by    /u/XxNerdAtHeartxX  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzsk5v/photo_app_that_can_utilize_editing_software/",
+          "publishedOn": "2022-10-09T18:27:04.000Z",
+          "wordCount": 32176,
+          "title": "Photo app that can utilize editing software (DarkTable) metadata?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzsaa0/matrix_vs_xmpp_for_bridgingtransports/",
+          "author": null,
+          "description": "Has anyone here compared XMPP transports to Matrix birdges? Or even just tried XMPP transports in the last year or two? I'm mainly thinking Facebook Messenger, Discord, MS Teams (without admin access, I know it's a stretch).\n I'm looking for something that will get me down to a single app and an f-droid only phone. I've been thinking of running a synapse server, but it still seems like it has a few too many rough edges and requires a fair bit of active monitoring. XMPP wonderfully boring and stable, but I don't know if they're fully featured enough that they wouldn't get in the way.\n    submitted by    /u/DIWesser  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzsaa0/matrix_vs_xmpp_for_bridgingtransports/",
+          "publishedOn": "2022-10-09T18:15:30.000Z",
+          "wordCount": 31755,
+          "title": "Matrix vs XMPP for bridging/transports",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xznz2q/encrypted_storage_for_highly_sensitive_information/",
+          "author": null,
+          "description": "There are some types of information that you want to be highly protected, but at the same time easily accessible and easily backed up. For example ssh keys, backup OTP codes, backups of password manager files etc.\n One way is to add all such sensitive information to a folder on the local disk, then move it to an encrypted archive. This offers good protection and is easy to back up, but it is not easy to add new information. I think the better option is an encrypted folder in a self-hosted Seafile installation. Seems to be well-protected and easy to add new information. What do you think about this? Or do you know other self-hosted applications to save such information?\n    submitted by    /u/AlexSt1975  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xznz2q/encrypted_storage_for_highly_sensitive_information/",
+          "publishedOn": "2022-10-09T15:11:01.000Z",
+          "wordCount": 41962,
+          "title": "Encrypted storage for highly sensitive information",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzhazl/selfhost_an_automated_jellyfin_media_streaming/",
+          "author": null,
+          "description": "submitted by    /u/Zerodya  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzhazl/selfhost_an_automated_jellyfin_media_streaming/",
+          "publishedOn": "2022-10-09T09:26:10.000Z",
+          "wordCount": 34400,
+          "title": "Self-host an automated Jellyfin media streaming stack",
+          "imageUrl": "https://external-preview.redd.it/PgovYaawN_11xvraOci8wP3tcB6iFyZ4sl5Jmp-F-L0.jpg?auto=webp&s=e4047020194e7b9b7e0da5db22829145685d8be2"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/xzgckg/best_alternative_to_notion/",
+          "author": null,
+          "description": "Last week I decided to try notion, I hear a lot about it and I wanted to give it a try.\n After a few days, I liked the idea and started to use it, but soon I started to find things that I didn't like so much (no 2FA, no offline...) so I started doing what I always do, looking for its self- hosted alternative.\n Until now I have found Obsidian, Affine and AppFlowy, all of them announce that they are the best alternative for notion. I see them very nice but similar and instead of trying several weeks each of them, I come here to ask your opinions. Which one would you recommend?\n ​\n EDIT: So many options! Now I am even more confused hahaha\n Usually there is two or three best alternatives from proprietary applications...but it seems there is no clear winner with this one.\n    submitted by    /u/TotalRickalll  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/xzgckg/best_alternative_to_notion/",
+          "publishedOn": "2022-10-09T08:26:17.000Z",
+          "wordCount": 32858,
+          "title": "Best alternative to Notion",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/selfhosted/comments/xz9nec/here_is_another_immichs_progress_update_and/",
           "author": null,
           "description": "Hello all,\n Alex here with another update on Immich.\n It is October already, the autumn is here, and I hope you are all enjoying the cool weather before the cold gets here (You see, I have lived in America long enough that the first thing that comes before any conversation is about the weather :P)\n This update includes many QoS improvements for the app. The important one is fixing some critical security bugs. Thanks to Huntr.dev and their researchers for helping with testing and reaching out to notify us of the vulnerability.\n We finally removed the Mapbox dependency. It was used for getting the location's name (city, state, province, country…etc.) of the photos/videos based on encoded GPS information. Immich now has that functionality baked in, so you don't have to worry about any part of…",
@@ -4425,6 +4655,246 @@
       "siteUrl": "https://www.reddit.com/r/homelab",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/homelab/comments/y027un/my_homelab_20/",
+          "author": null,
+          "description": "submitted by    /u/superdumbell  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y027un/my_homelab_20/",
+          "publishedOn": "2022-10-10T01:41:58.000Z",
+          "wordCount": 31867,
+          "title": "My HomeLab 2.0",
+          "imageUrl": "https://external-preview.redd.it/6IS3o4gBu2PHAyeDGKHpRkJgdHz_W3kqYW72g-J8rL0.jpg?auto=webp&s=27e725f7696d238becb0de913dd5ff6d008bc701"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y00tqq/i_made_some_drink_coasters_for_my_home_lab_and/",
+          "author": null,
+          "description": "submitted by    /u/TheAmateurRunner  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y00tqq/i_made_some_drink_coasters_for_my_home_lab_and/",
+          "publishedOn": "2022-10-10T00:32:16.000Z",
+          "wordCount": 31736,
+          "title": "I made some drink coasters for my home lab and work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzzxq2/maybe_its_a_bit_much/",
+          "author": null,
+          "description": "Got a new rack shelf, so I set out and inventoried all of my spares. Yikes, I've got more than I thought. Still looking for a larger UPS for the rack, the 1500va cyberpower isn't cutting it.\n    submitted by    /u/koltd93  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzzxq2/maybe_its_a_bit_much/",
+          "publishedOn": "2022-10-09T23:48:25.000Z",
+          "wordCount": 31795,
+          "title": "Maybe it's a bit much",
+          "imageUrl": "https://preview.redd.it/f93ru8ppavs91.jpg?auto=webp&s=cdd709acfacc39def36efad921520f380a920c82"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzzi1e/started_building_out_my_server_room_today/",
+          "author": null,
+          "description": "submitted by    /u/f8computer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzzi1e/started_building_out_my_server_room_today/",
+          "publishedOn": "2022-10-09T23:27:42.000Z",
+          "wordCount": 32019,
+          "title": "started building out my server room today.",
+          "imageUrl": "https://preview.redd.it/gy7yywp07vs91.jpg?auto=webp&s=57aa7eeaa05752600892398c158fe10ba04d202c"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzz4p5/upgrade_pc_to_get_a_homeserver/",
+          "author": null,
+          "description": "Hello there !\n I'm currently a bit shy about my setup and wont psot any pictures of it now, but i'm planing to do so.\n While I try to get enought courage to do it I'm thinking a lot about getting an actual server or get an upgrade on my current pc, as I don't have absolutely none experience with server hardware I'm kind of excited about it but ... there is always a but, here in Brazil every piece of tech is very expensive right now and used hardware is rarely reliable (a lot of fake and damaged stuff).\n I have a good pc right now, a Ryzen5 5600g + 16gb ram + asrock a320m + rtx3060 + ssd and nvme hd.\n One of my thoughts right now is to repurpose an old Athlon 3000g by upgrading my currently mobo and ram, so i can give this athlon a new place to be with this a320 + 16gb ddr4 2666 and get a new b450m + 16gb ddr4 3200. In the near future the plan is to get a dedicated CUDA gpu fot the atlhon pc.\n Would this pc be a good/viable option to run a 24/7 server runing proxmox ?\n I do have a mini pc (n5095 + 16gbram) running proxmox with a few LXC containers and Hassio on a VM, but I really want to get a way to run a face detection software with gpu processing and maybe a plex server.\n The \"lab\" includes an old rpi4 runing OMV, whitch I would transfer to the Atlhon pc as well.\n Financially speaking this upgrade would cost me less than a server, a used proliant gen8 can be found here for 600 ~ 1000 USD, a used r720 starts at 1500USD and to get the upgraded pc it would cost me something around 350 ~ 450 USD.\n Considering that regular pcs not always get to work well with 24/7 operation and server kind of are made for it, would you recomend? Does it worth the effort to upgrade the pc or its (much) better to wait more (2023.2 probably) to get a real server?\n ​\n Thanks in advance for any tips and sugestions.\n    submitted by    /u/Pedroxns  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzz4p5/upgrade_pc_to_get_a_homeserver/",
+          "publishedOn": "2022-10-09T23:09:48.000Z",
+          "wordCount": 33042,
+          "title": "Upgrade pc to get a homeserver",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzxp7n/ugly_home_lab/",
+          "author": null,
+          "description": "How about this for a ugly home lab. Thankfully won’t be for long network rack coming soon. Now for a vote upgrade to 2gb up and down fiber network for $100/month or keep charter 300mbs 10 up for the intro price of $20/month.\n    submitted by    /u/wibob1234  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzxp7n/ugly_home_lab/",
+          "publishedOn": "2022-10-09T22:04:48.000Z",
+          "wordCount": 33794,
+          "title": "Ugly home lab",
+          "imageUrl": "https://preview.redd.it/xvx25jq7sus91.jpg?auto=webp&s=30c63c4e3c58a804e1f74ba833daba80540b2b8a"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzxail/minimal_10gb_upgrade/",
+          "author": null,
+          "description": "submitted by    /u/boutch55555  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzxail/minimal_10gb_upgrade/",
+          "publishedOn": "2022-10-09T21:47:17.000Z",
+          "wordCount": 31698,
+          "title": "Minimal 10Gb upgrade",
+          "imageUrl": "https://preview.redd.it/uaz1pbrvous91.png?auto=webp&s=70671125e78ff06093966da4c56260445c63e52b"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzx46e/just_an_amateur_working_out_my_first_home_lab/",
+          "author": null,
+          "description": "submitted by    /u/Demfer  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzx46e/just_an_amateur_working_out_my_first_home_lab/",
+          "publishedOn": "2022-10-09T21:39:58.000Z",
+          "wordCount": 31832,
+          "title": "Just an amateur working out my first home lab space",
+          "imageUrl": "https://preview.redd.it/6l7g7ahsnus91.jpg?auto=webp&s=4aca0d510bc589607369e454c271b47fd4a4a176"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzwt03/we_still_going_uglyghetto_labs/",
+          "author": null,
+          "description": "submitted by    /u/ilikepie1974  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzwt03/we_still_going_uglyghetto_labs/",
+          "publishedOn": "2022-10-09T21:26:43.000Z",
+          "wordCount": 31619,
+          "title": "We still going ugly/ghetto labs",
+          "imageUrl": "https://external-preview.redd.it/ky-y_umy_Gpi_wDpPklND5XsiJgFcn7r_8xdsL8XccI.jpg?auto=webp&s=907417325dc52cbfb1ffbc5c76d1d6dc82b722c5"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzvvfi/to_the_tune_of_amazing_grace_on_bagpipes/",
+          "author": null,
+          "description": "submitted by    /u/intehstudy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzvvfi/to_the_tune_of_amazing_grace_on_bagpipes/",
+          "publishedOn": "2022-10-09T20:46:48.000Z",
+          "wordCount": 35479,
+          "title": "To the tune of \"Amazing Grace\" on Bagpipes.",
+          "imageUrl": "https://preview.redd.it/xs3wq3t9eus91.jpg?auto=webp&s=0c43b3b6dd7b76224700aefc76667e55cbfe7d6d"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzvlgz/time_to_start_security_hardening_been_lucky_for/",
+          "author": null,
+          "description": "Hi all\n Ive been labbing for around 7 years now and its grown to the point where I host quite a bit of stuff for friends/family on a semi serious level and have put a decent chunk of money into it, but aside from the bare minimum, ive not done a lot security wise. \n Just logged into my FTP server and found 18k failed login attempts and that suddenly prompted an oh cock moment. \n What would be your general tips for security hardening? I dont do anything super stupid (unique passwords for each vm, dont use root for everything, dont have unnecessary ports open, just installed fail2ban) - but I dont take any extra precautions either. \n Any beginner to intermediate hardening tips?\n Would it be worth paying someone some beer money to do some quick easy pentest stuff?\n    submitted by    /u/InfaSyn  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzvlgz/time_to_start_security_hardening_been_lucky_for/",
+          "publishedOn": "2022-10-09T20:34:55.000Z",
+          "wordCount": 34978,
+          "title": "Time to start security hardening - been lucky for too long",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzv30o/my_homehome_lab_finally_got_around_to_make_a/",
+          "author": null,
+          "description": "submitted by    /u/Nemorath  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzv30o/my_homehome_lab_finally_got_around_to_make_a/",
+          "publishedOn": "2022-10-09T20:13:31.000Z",
+          "wordCount": 34123,
+          "title": "My home/Home lab. Finally got around to make a network diagram.",
+          "imageUrl": "https://preview.redd.it/p7v6ra738us91.png?auto=webp&s=28cd324c66804589daa21853d298291502b8f09d"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzsws7/fine_ill_share_my_ugly_home_lab/",
+          "author": null,
+          "description": "submitted by    /u/rpallred  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzsws7/fine_ill_share_my_ugly_home_lab/",
+          "publishedOn": "2022-10-09T18:41:27.000Z",
+          "wordCount": 34822,
+          "title": "Fine, I’ll share my ugly home lab",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzsmwi/100g_solidrun_lx2160a_mitx_passive_edge_router/",
+          "author": null,
+          "description": "submitted by    /u/moarFR4  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzsmwi/100g_solidrun_lx2160a_mitx_passive_edge_router/",
+          "publishedOn": "2022-10-09T18:30:19.000Z",
+          "wordCount": 32091,
+          "title": "[100G] SolidRun lx2160a mITX passive edge router",
+          "imageUrl": "https://preview.redd.it/prjpnclbpts91.jpg?auto=webp&s=b8002ab3c102ef12d963fb5cfaf5d26988ec37dc"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzrhrs/my_homefarfromhome_lab/",
+          "author": null,
+          "description": "submitted by    /u/AVecesDuermo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzrhrs/my_homefarfromhome_lab/",
+          "publishedOn": "2022-10-09T17:42:12.000Z",
+          "wordCount": 32177,
+          "title": "My \"home-far-from-home\" lab",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzqar8/laptop_with_a_huge_battery_bulge_my_current/",
+          "author": null,
+          "description": "submitted by    /u/Ming_A  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzqar8/laptop_with_a_huge_battery_bulge_my_current/",
+          "publishedOn": "2022-10-09T16:51:08.000Z",
+          "wordCount": 34681,
+          "title": "Laptop with a huge battery bulge, my current homelab progress.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzpp3w/are_we_still_doing_ugly_labs_i_think_this_counts/",
+          "author": null,
+          "description": "submitted by    /u/jsclayton  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzpp3w/are_we_still_doing_ugly_labs_i_think_this_counts/",
+          "publishedOn": "2022-10-09T16:25:27.000Z",
+          "wordCount": 32500,
+          "title": "Are we still doing ugly labs? I think this counts.",
+          "imageUrl": "https://preview.redd.it/cx5dn39l3ts91.jpg?auto=webp&s=795d55a8d5863b75f01b1cfc212bef0b091b2dd7"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzphxn/am_i_too_late_for_the_jankiest_setup/",
+          "author": null,
+          "description": "submitted by    /u/bodefuceta92  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzphxn/am_i_too_late_for_the_jankiest_setup/",
+          "publishedOn": "2022-10-09T16:16:57.000Z",
+          "wordCount": 32039,
+          "title": "Am I too late for the jankiest setup?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzozah/is_this_a_good_deal_or_overkill_six_r510s_with/",
+          "author": null,
+          "description": "submitted by    /u/ContributionNew6245  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzozah/is_this_a_good_deal_or_overkill_six_r510s_with/",
+          "publishedOn": "2022-10-09T15:54:43.000Z",
+          "wordCount": 35522,
+          "title": "Is this a good deal or overkill? SIX r510's with 2xL5520 3x8tb \\48gb ram 512mb raid (all 6 same spec) plus case for $500. Seller said purchased from ebay and then went hosted instead.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzksl1/my_first_server_should_i_buy_it/",
+          "author": null,
+          "description": "submitted by    /u/Previous-Concert-313  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzksl1/my_first_server_should_i_buy_it/",
+          "publishedOn": "2022-10-09T12:44:51.000Z",
+          "wordCount": 34151,
+          "title": "My first server, should I buy it?",
+          "imageUrl": "https://preview.redd.it/eob6ebub0ss91.jpg?auto=webp&s=3c6d43d256b8eb7fdfdcb87bd27a40c1d4063950"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzjz46/welcome_to_my_old_closet_and_my_submission_to_the/",
+          "author": null,
+          "description": "submitted by    /u/NeVroe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzjz46/welcome_to_my_old_closet_and_my_submission_to_the/",
+          "publishedOn": "2022-10-09T12:02:00.000Z",
+          "wordCount": 33610,
+          "title": "Welcome to my old closet and my submission to the labgore contest",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzhhaw/small_but_functional/",
+          "author": null,
+          "description": "submitted by    /u/HX56Music  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzhhaw/small_but_functional/",
+          "publishedOn": "2022-10-09T09:37:15.000Z",
+          "wordCount": 33166,
+          "title": "Small, but functional.",
+          "imageUrl": "https://preview.redd.it/h553bdnu2rs91.jpg?auto=webp&s=e9021eadf72a8dbf0714e8e28b6ea57d425c41f9"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzefxi/bookshelf_homelab/",
+          "author": null,
+          "description": "submitted by    /u/99percentTSOL  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzefxi/bookshelf_homelab/",
+          "publishedOn": "2022-10-09T06:25:07.000Z",
+          "wordCount": 31703,
+          "title": "Bookshelf homelab",
+          "imageUrl": "https://preview.redd.it/lrfmibm23qs91.jpg?auto=webp&s=ada573d1b9616cbc6e197bdfa85bb289d09555c1"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/xzbctr/much_needed_cleanup/",
+          "author": null,
+          "description": "submitted by    /u/lussierd16  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/xzbctr/much_needed_cleanup/",
+          "publishedOn": "2022-10-09T03:26:18.000Z",
+          "wordCount": 32356,
+          "title": "much needed cleanup",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/homelab/comments/xzaahi/what_is_the_safest_way_to_give_remote_support/",
           "author": null,
           "description": "Firewalla support is trying to figure out what’s wrong with my network and they requested that I create a test account on a Linux or MacOS host and share the SSH credentials with them so they can run some manual tests and check the responses on the router.\n How can I set this up safely for them?\n    submitted by    /u/jlyfshhh  \n [link]   [comments]",
@@ -7642,6 +8112,236 @@
       "siteUrl": "https://www.reddit.com/r/DataHoarder",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y031ca/what_are_some_categories_or_specific_data_yall/",
+          "author": null,
+          "description": "Kinda new too this, I have a plex server with some movies and getting archives of some challenged and banned books. I’m looking to expand my library of stuff and want to hear what everyone likes to keep!\n    submitted by    /u/AdorableAri  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y031ca/what_are_some_categories_or_specific_data_yall/",
+          "publishedOn": "2022-10-10T02:23:31.000Z",
+          "wordCount": 31457,
+          "title": "What are some categories or specific data y’all are hoarding and why?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y02ncg/download_torrents_directly_to_ftp_cloud_storage/",
+          "author": null,
+          "description": "Hello folks, this is probably a really basic question, but I have a Hetzner Storage Box (FTP cloud storage) and I would like to download my torrents to directly upload to the cloud. I have a few large torrents I'd like to download that are too big for my computer, and I plan to move them to the cloud anyway, so sending them directly to the cloud would be the best option for me. Is there a tutorial on how to do this? I'd like to use as little third party software as possible, and without paying for a seedbox or something.\n I currently use qbittorent on mac but I also have access to a PC and wouldn't mind switching torrent clients. Thank you!\n    submitted by    /u/real-nia  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y02ncg/download_torrents_directly_to_ftp_cloud_storage/",
+          "publishedOn": "2022-10-10T02:03:46.000Z",
+          "wordCount": 31607,
+          "title": "Download torrents directly to FTP cloud storage?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y00zcl/sort_and_organize_ebookspdfsdocuments_rename/",
+          "author": null,
+          "description": "Hello, sorry for another \"help me organize\" post but I didn't find what I needed in the search.\n I have thousands of books downloaded and they aren't all named consistently. I'd like to rename all of them by \"author-title-year\" and group duplicate books together. Some duplicates may be different editions/quality scans so I don't want to delete them right away, so if it's possible to check if they files are exactly the same or not that would also help. also... the files are all stored on an FTP cloud storage right now, if that makes a difference. I have both a Mac and PC available.\n Thank you!\n    submitted by    /u/real-nia  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y00zcl/sort_and_organize_ebookspdfsdocuments_rename/",
+          "publishedOn": "2022-10-10T00:40:20.000Z",
+          "wordCount": 31710,
+          "title": "Sort and organize ebooks/pdfs/documents, rename files, and find duplicates?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y002mr/android_music/",
+          "author": null,
+          "description": "For those with androids what app do you use to play all your music? And I don't mean streaming sites such as Spotify, pandora etc.\n    submitted by    /u/OreoDayz  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y002mr/android_music/",
+          "publishedOn": "2022-10-09T23:55:04.000Z",
+          "wordCount": 31496,
+          "title": "android music",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzzrl6/going_to_transfer_around_400_gigabytes_of_files/",
+          "author": null,
+          "description": "Hi everybody, I am going to transfer about 400 gigs of .MP4 files of my very old Fraps gameplay videos from a 2TB Seagate external hard drive to a 2TB internal hard drive on my Windows 10, but I want to do this in the safest way possible, and to preserve the lifespan/integrity of both drives, and also the files, I just want to make sure everything goes right.\n  \nTo begin, the videos are all in a single folder, I could just simply copy and paste the whole 300 gb folder to the other hard drive, but I am afraid that this will overload either hard drive, or cause issues because of how big it is, so some of my friends told me to do it slowly, like, I am planning to instead transfer 10 gigabytes per minute or something, instead of everything all at the same time, idk, is this a good idea? or no?\n \nFrom the threads about it in here and elsewhere, people say to not drag the files to the other hard drive, but to ctrl+c ctrl+v it, so I will be doing this, also I do not care how long it will take, as long as everything goes right (I think it will take around an hour or so)\n \nI know that the external hard drive gets super hot when doing this, should I put a ventilator beside it? cause if so I have that ready, same for the internal hard drive too?\n \nI am planning to delete the files from the external hard drive they are in, because they are just uselessly occupying too much space, but I am planning to wait some few days to see if the files are alright on the other hd.\n \n That is all, pretty simple, but I wanted some advice cause I am not too much tech savvy.\n    submitted by    /u/2zo2  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzzrl6/going_to_transfer_around_400_gigabytes_of_files/",
+          "publishedOn": "2022-10-09T23:40:12.000Z",
+          "wordCount": 33357,
+          "title": "Going to transfer around 400 gigabytes of files from an external HD to an internal HD, how do I proceed?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzyhwz/ever_wondered_what_2_peta_bytes_looks_like/",
+          "author": null,
+          "description": "submitted by    /u/P_G_R_A  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzyhwz/ever_wondered_what_2_peta_bytes_looks_like/",
+          "publishedOn": "2022-10-09T22:40:43.000Z",
+          "wordCount": 32283,
+          "title": "Ever wondered what 2 Peta Bytes looks like?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzy4cc/is_upgrading_hdd_for_space_the_wrong_move_for_me/",
+          "author": null,
+          "description": "A little storage help if anyone can. I'm thinking of getting a new build and one of my issues right now is storage space. I've got a couple of small SSDs but I have an 8TB HDD that's almost full. I do have an equivalent amount in external and I use those to make back ups, but I want to expand to 12-14TB in my new build. What's really odd is that most recommended PC builds I've been looking at have HDDs with around 2-4TB. It has me thinking that maybe I'm approaching this the wrong way. Aren't 5-10TB hdd drives cheap? Why so low when today's AAA games are 100gb+ and 4K video sizes are enormous? Should I be data hoarding a smarter way? Let me know before I buy a 14TB HDD for my new build. \n \n My current data hoarding solution, and the dates next to hardware are purchase dates so you know the…",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzy4cc/is_upgrading_hdd_for_space_the_wrong_move_for_me/",
+          "publishedOn": "2022-10-09T22:23:31.000Z",
+          "wordCount": 34459,
+          "title": "Is Upgrading HDD for Space the Wrong Move for Me?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzx8zw/rookie_questions/",
+          "author": null,
+          "description": "I’m in the process of building a home theatre. I’m looking for a NAS storage that I can install vpn on it and torrent client to automate downloading media. I’m new to this whole scene so I’m not sure if that’s even possible, is it ? Also what kind of operating system will be on the NAS storage ? I need around 10 TB how much will that cost me !?\n    submitted by    /u/Lilstitious__  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzx8zw/rookie_questions/",
+          "publishedOn": "2022-10-09T21:45:29.000Z",
+          "wordCount": 31483,
+          "title": "Rookie questions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzwplu/moving_moviestv_shows_to_ssd/",
+          "author": null,
+          "description": "Ill try to keep this short and easy to grasp what I'm thinking.\n Currently my media is on various 14,16,18TB disk drives. - I don't like how slow it is to wake the drives up and load the content.\n I currently have 12 4TB mx500s. - I was thinking of raid 5 or 6 for parity. \n HOWEVER - \n If I take 4 - 4TB MX500s and raid 0 - 16TB - ill gain 4x on read speed on top of the already gain from going from disk to ssd.\n Ill use the spin disks to make backups of each \"x4-4TB raid 0\" so if I lose a SSD in the raid I can rebuild from the spin disk.\n If I'm paranoid about it I can make two backups ups of the raid 0s just in case if I need to spin up the disk that has been sitting for a year and it fails ill have a backup to that backup.\n Thoughts?\n    submitted by    /u/n00b420_  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzwplu/moving_moviestv_shows_to_ssd/",
+          "publishedOn": "2022-10-09T21:22:38.000Z",
+          "wordCount": 32068,
+          "title": "Moving movies/tv shows to SSD?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzwdve/disk_not_showing_up_in_new_nas_but_still_showing/",
+          "author": null,
+          "description": "I've had such an odd issue.\n I have a 10TB SATA drive I'm trying to get working in a new TrueNAS build. I can't get it to show up when connected to my HBA or directly to the motherboard with a SATA cable. I've tried getting to show up in lsblk on this new host but it just won't seem to.\n The model is WD101EMAZ-11G7DA0, which I don't believe needs the 3.3v mod.\n Here is the Crystal Disk Info: https://imgur.com/a/FCSN460\n I've tried multiple SATA power connectors, as well as multiple breakout cables and SATA data cables and nothing seems to help or make a difference\n The really odd thing is that the disk shows up just fine on the R720XD that I've been using until now as my NAS.\n Is anyone able to provide some insight on something I might be overlooking?\n    submitted by    /u/Boonigan  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzwdve/disk_not_showing_up_in_new_nas_but_still_showing/",
+          "publishedOn": "2022-10-09T21:08:33.000Z",
+          "wordCount": 31675,
+          "title": "Disk not showing up in new NAS but still showing up when plugged into old NAS",
+          "imageUrl": "https://external-preview.redd.it/BTfjUN5wMYxUejoCHupULe3WcSONYbeOMnzh_6Hl-d4.jpg?auto=webp&s=c6684195ddb61c97733933106451a763cddbbe81"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzvrt4/betaarchive/",
+          "author": null,
+          "description": "Is anyone with ftp access able to help me out, I'm missing this one last piece of my collection and can only find it there but don't have ftp access. Thanks in advance! File link\n    submitted by    /u/Kqdi  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzvrt4/betaarchive/",
+          "publishedOn": "2022-10-09T20:42:29.000Z",
+          "wordCount": 31557,
+          "title": "BetaArchive",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzvdbh/need_datacrow_helptutorials/",
+          "author": null,
+          "description": "Right what it says in the title. I really want to like Datacrow, it seems like exactly what I'm looking for, but I can't really find any sort of tutorials/wikis/guides outside of the in-software help menu. Which, while extensive, is difficult for me to read through and doesn't seem to answer a lot of questions.\n If any of you know of a resource that might be of use to me, please share. \n And if anyone can help me out with my two biggest questions right now, that'd be great: one, is there any kind of dark mode? I've looked through the color/view settings and while I've found some options, the large center fields remain white and it's hurting my eyes. Two, how are individual tags separated? Brackets or something? Because ultimately, that's what I really want from a catalog system, the ability to search and filter by tags and I can't figure out how to separate them so they're usable\n    submitted by    /u/Moth-time  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzvdbh/need_datacrow_helptutorials/",
+          "publishedOn": "2022-10-09T20:25:22.000Z",
+          "wordCount": 35668,
+          "title": "Need Datacrow help/tutorials",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzvc9m/calling_all_data_hoarders_who_played_minecraft_in/",
+          "author": null,
+          "description": "Hello everyone! I am a member of a Minecraft archival group that goes by the name of Omniarchive. Our primary focus is to preserve the game's history by archiving missing versions of the game, as well as other content such as screenshot, videos, mods, maps etc. We made a post on this over a year ago but I thought it would be a good idea to renew the appeal.\n We have also relatively recently been featured in numerous articles thanks to our efforts with finding a particularly rare build of the game. Example: https://www.pcgamer.com/minecraft-archivists-have-found-their-holy-grail/\n You can join our Discord server if interested: https://discord.gg/h45wxnE and our website: Omniarchive.net\n If you have played the game in its earliest days (2009 and early 2010) and saved .jar files deliberately,…",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzvc9m/calling_all_data_hoarders_who_played_minecraft_in/",
+          "publishedOn": "2022-10-09T20:24:10.000Z",
+          "wordCount": 36778,
+          "title": "Calling all Data Hoarders who played Minecraft in its early days in 2009 and 2010",
+          "imageUrl": "https://external-preview.redd.it/r9KW5g2vli1mwjdAOEcpv9C3iPO7enBjPGJIPFNNp3E.jpg?auto=webp&s=279e7feee5da3e873cd80bfc91811ff0622ab730"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xztqod/how_to_archive_a_ton_of_images/",
+          "author": null,
+          "description": "I don't know if this is the right sub because I've never used it before but I gather that it's for discussion of archiving data. So I came to ask if there are any free and easy ways to archive large quantities of images somewhere private where I can access them from any device. I'm interested in archiving a ton of art (nothing nsfw FYI) so I can have it all in one place. So is there any site or application I can use to do that for free and conveniently (for example it has to support uploading images en masse so I don't have to upload them one by one)?\n    submitted by    /u/ReadyPlayer12345  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xztqod/how_to_archive_a_ton_of_images/",
+          "publishedOn": "2022-10-09T19:16:22.000Z",
+          "wordCount": 31851,
+          "title": "How to archive a ton of images?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzqm9g/best_local_method_for_photo_backup_from_a_set_of/",
+          "author": null,
+          "description": "Looking for a suggestions on how to back up photos from three iPhones. Approximately 500GB total but will continue to grow. Would like to be able to access it remotely if possible. \n Was thinking about MyCloud or similar but would like to see what others are running.\n    submitted by    /u/Bilfflip2112  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzqm9g/best_local_method_for_photo_backup_from_a_set_of/",
+          "publishedOn": "2022-10-09T17:04:48.000Z",
+          "wordCount": 31713,
+          "title": "Best local method for photo backup from a set of iPhones?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzq02p/drive_bender_updated/",
+          "author": null,
+          "description": "Looks like Drive Bender got an update not too long ago\n    submitted by    /u/TuxFanIA  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzq02p/drive_bender_updated/",
+          "publishedOn": "2022-10-09T16:38:39.000Z",
+          "wordCount": 31220,
+          "title": "Drive Bender updated...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzpuj8/is_it_possible_to_download_a_website_which/",
+          "author": null,
+          "description": "I’m trying to download a website but can’t figure out how to. You have to type in your email, they send you a code which which you have to type in.\n    submitted by    /u/Regular-Card2188  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzpuj8/is_it_possible_to_download_a_website_which/",
+          "publishedOn": "2022-10-09T16:32:04.000Z",
+          "wordCount": 35404,
+          "title": "Is it possible to download a website which requires and email code to login?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzpkni/question_about_movies_purchased_through_prime/",
+          "author": null,
+          "description": "My google-fu has failed me.\n What filetype will the movie be and will it have DRM?\n    submitted by    /u/Mahcks  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzpkni/question_about_movies_purchased_through_prime/",
+          "publishedOn": "2022-10-09T16:20:12.000Z",
+          "wordCount": 31542,
+          "title": "Question about movies purchased through Prime Video",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzo4qo/whats_this_on_the_back_of_an_old_hdd/",
+          "author": null,
+          "description": "submitted by    /u/imsosappy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzo4qo/whats_this_on_the_back_of_an_old_hdd/",
+          "publishedOn": "2022-10-09T15:17:57.000Z",
+          "wordCount": 32799,
+          "title": "What's this on the back of an old HDD?",
+          "imageUrl": "https://preview.redd.it/tbybw8smrss91.jpg?auto=webp&s=b0522e9bedab5e197b2cecabdff306e3ed8371c1"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzkffp/replacing_failing_hdd_what_to_do_with_the_old_one/",
+          "author": null,
+          "description": "So my Unraid server started spitting out some errors that one of my drives is having problems so I've ordered a new disk to replace the old disk.\n I was wondering if the old disk still has some value. Is there anything me or someone else can still use this disk for? And could I consider selling the old disk or is it just junk at this point?\n It's a WD RED 8TB (WD80EFZX)\n SMART:\n https://preview.redd.it/92bow14swrs91.png?width=1886&format=png&auto=webp&s=cb67725c6f0f2f7b916ba1545fba6f7024ee8b1f\n    submitted by    /u/oko2708  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzkffp/replacing_failing_hdd_what_to_do_with_the_old_one/",
+          "publishedOn": "2022-10-09T12:26:10.000Z",
+          "wordCount": 35805,
+          "title": "Replacing failing HDD - What to do with the old one?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xziyys/does_youtube_downgrade_quality_of_older_videos/",
+          "author": null,
+          "description": "It’s been asked here before, and I was curious so I checked. So this video from 2006 looks like a potato.(240p)\n https://m.youtube.com/watch?v=eklHFp9HzA8\n But this one looks and sounds so much better. (360p)\n https://m.youtube.com/watch?v=CC3kkZnt0kk\n Do they downgrade quality? Were those videos better before? Thank you.\n    submitted by    /u/BabyBandit616  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xziyys/does_youtube_downgrade_quality_of_older_videos/",
+          "publishedOn": "2022-10-09T11:06:56.000Z",
+          "wordCount": 32616,
+          "title": "Does YouTube Downgrade Quality of Older Videos?",
+          "imageUrl": "https://external-preview.redd.it/wcB4qpzSfjnW2Z0dTvPMKmzvDDDXOv5UUcz0L_Q1xWg.jpg?auto=webp&s=1ad892c1d69d16c92c559950f6346cbb4bf676ca"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzgrio/hoarding_in_the_cloud/",
+          "author": null,
+          "description": "Huge fan of the sub. I'm trying to gain a better understanding of those of you who use a cloud service to hoard, whether you have been grandfathered into an unlimited storage deal or not. \n 1) Wouldn't it be more practical to use an on-prem storage solution? I feel like the cost of a cloud service would eventually hit the point to where simply buying your own storage would become more economical. \n 2) Do you still feel you are in complete control and own your data? It's hard for me to imagine trusting someone else to maintain all of my data for me. \n 3) I am currently visiting outside of the US (my home country) and I use a Synology 1821+ to house about 70TBs of my data. The upload/download times are terrible. How long does it take you to upload or bring your data back down? I understand your internet service will play a large part in this, but it seems like it would take a long time to upload a single 4k REMUX that is >50GB. \n 4) How often are you accessing the data? Is it for archival purposes or are you regularly accessing it? \n Thanks in advance!\n    submitted by    /u/DoctorMalware  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzgrio/hoarding_in_the_cloud/",
+          "publishedOn": "2022-10-09T08:52:09.000Z",
+          "wordCount": 32461,
+          "title": "Hoarding in the Cloud",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/xzamdy/i_like_to_ask_about_once_a_year_in_your_opinion/",
+          "author": null,
+          "description": "Unraid obviously does it's own thing but for all the other folks out there, especially windows people it can be hard to know what tools work best when checking to see if a new drive is good or bad, so many regrets I see from people who ended up getting a lemon and didn't know until later on. So let's here it for 2022 before the buying spree starts, what tool do you prefer?\n    submitted by    /u/lagerea  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/xzamdy/i_like_to_ask_about_once_a_year_in_your_opinion/",
+          "publishedOn": "2022-10-09T02:46:25.000Z",
+          "wordCount": 32361,
+          "title": "I like to ask about once a year, in your opinion what is the best software for checking a new drive's integrity?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/DataHoarder/comments/xza118/did_anyone_save_the_unedited_woodstock_1999_home/",
           "author": null,
           "description": "There was a multi hour home video of someone filming their experience at Woodstock 1999. I knew I should’ve saved it but now I cannot find it.\n    submitted by    /u/HelloGoodbyeFriend  \n [link]   [comments]",
@@ -10819,6 +11519,236 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://github.com/nepx/halfix",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/nepx/halfix",
+          "publishedOn": "2022-10-10T00:36:34.000Z",
+          "wordCount": 1325,
+          "title": "Halfix – A portable x86 emulator written in C99",
+          "imageUrl": "https://opengraph.githubassets.com/c94ab7b91a78de996dbc3c222719e3ff169627b05fb90a68f113de4f47cbd368/nepx/halfix"
+        },
+        {
+          "id": "https://runno.dev/wasi",
+          "author": null,
+          "description": "Comments",
+          "link": "https://runno.dev/wasi",
+          "publishedOn": "2022-10-10T00:34:57.000Z",
+          "wordCount": 28,
+          "title": "Show HN: I built a WASI playground for running CLI binaries in the browser",
+          "imageUrl": "https://assets.runno.dev/social-media.png"
+        },
+        {
+          "id": "https://github.com/BentonEdmondson/knock",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/BentonEdmondson/knock",
+          "publishedOn": "2022-10-09T23:57:37.000Z",
+          "wordCount": 1006,
+          "title": "Knock: Convert ACSM files to PDF/EPUBs with one command on Linux",
+          "imageUrl": "https://opengraph.githubassets.com/279fd8c08fa55999878eea259615264aca102da5ea9a26d7ad7cfe80a9c33b12/BentonEdmondson/knock"
+        },
+        {
+          "id": "https://www.fisheries.noaa.gov/feature-story/whats-behind-chinook-and-chum-salmon-declines-alaska",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.fisheries.noaa.gov/feature-story/whats-behind-chinook-and-chum-salmon-declines-alaska",
+          "publishedOn": "2022-10-09T22:38:55.000Z",
+          "wordCount": 4062,
+          "title": "What’s Behind Chinook and Chum Salmon Declines in Alaska?",
+          "imageUrl": "https://media.fisheries.noaa.gov/2022-01/AKR%20750x500%20Chinook%20salmon%20juveniles.jpg"
+        },
+        {
+          "id": "https://singularityhub.com/2022/10/09/six-recent-discoveries-that-have-changed-how-we-think-about-human-origins/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://singularityhub.com/2022/10/09/six-recent-discoveries-that-have-changed-how-we-think-about-human-origins/",
+          "publishedOn": "2022-10-09T22:25:52.000Z",
+          "wordCount": 16444,
+          "title": "Six Recent Discoveries That Have Changed How We Think About Human Origins",
+          "imageUrl": "https://singularityhub.com/wp-content/uploads/2022/10/Homo_sapiens_neanderthalensis-Mr._N.jpeg"
+        },
+        {
+          "id": "https://www.lynalden.com/october-2022-newsletter/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.lynalden.com/october-2022-newsletter/",
+          "publishedOn": "2022-10-09T22:10:31.000Z",
+          "wordCount": 5683,
+          "title": "Energy vs. Sovereign Bond Markets",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.bitsgalore.org/2021/09/06/pdf-processing-and-analysis-with-open-source-tools",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.bitsgalore.org/2021/09/06/pdf-processing-and-analysis-with-open-source-tools",
+          "publishedOn": "2022-10-09T21:27:40.000Z",
+          "wordCount": 7623,
+          "title": "PDF processing and analysis with open-source tools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454",
+          "author": null,
+          "description": "Comments",
+          "link": "https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454",
+          "publishedOn": "2022-10-09T21:23:45.000Z",
+          "wordCount": 5895,
+          "title": "Why 23.976 and not 24 FPS?",
+          "imageUrl": "https://cinematography.com/uploads/monthly_2022_04/123589108_CINEFBLOGO.png.fcd986fba89f0634cb056906b706091b.png"
+        },
+        {
+          "id": "https://www.osfc.io/2022/talks/i-have-come-to-bury-the-bios-not-to-open-it-the-need-for-holistic-systems/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.osfc.io/2022/talks/i-have-come-to-bury-the-bios-not-to-open-it-the-need-for-holistic-systems/",
+          "publishedOn": "2022-10-09T21:14:03.000Z",
+          "wordCount": 792,
+          "title": "I have come to bury the BIOS, not to open it: The need for holistic systems",
+          "imageUrl": "https://osfc.io/images/meta/social-share.png"
+        },
+        {
+          "id": "https://docs.microblog.pub/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://docs.microblog.pub/",
+          "publishedOn": "2022-10-09T20:38:15.000Z",
+          "wordCount": 446,
+          "title": "Microblog.pub – A self-hosted, single-user, ActivityPub powered microblog",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.fractal.garden/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.fractal.garden/",
+          "publishedOn": "2022-10-09T19:48:41.000Z",
+          "wordCount": 144,
+          "title": "Show HN: Fractal Garden – An Exhibition of Mathematical Beauty",
+          "imageUrl": null
+        },
+        {
+          "id": "http://microjs.com/",
+          "author": null,
+          "description": "Comments",
+          "link": "http://microjs.com/",
+          "publishedOn": "2022-10-09T19:04:40.000Z",
+          "wordCount": 1732,
+          "title": "Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://github.com/monkbai/DNN-decompiler",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/monkbai/DNN-decompiler",
+          "publishedOn": "2022-10-09T18:18:23.000Z",
+          "wordCount": 1078,
+          "title": "Decompiling x86 Deep Neural Network Executables",
+          "imageUrl": "https://opengraph.githubassets.com/7c02c3202aa191c459e407abb125f7e23e901b9d94ad3ea769d3173229838fe3/monkbai/DNN-decompiler"
+        },
+        {
+          "id": "https://okso.app/showcase/data-structures",
+          "author": null,
+          "description": "Comments",
+          "link": "https://okso.app/showcase/data-structures",
+          "publishedOn": "2022-10-09T17:42:10.000Z",
+          "wordCount": 13,
+          "title": "Data Structures Sketches",
+          "imageUrl": "https://okso.app/banner.png"
+        },
+        {
+          "id": "https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac",
+          "author": null,
+          "description": "Comments",
+          "link": "https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac",
+          "publishedOn": "2022-10-09T17:04:05.000Z",
+          "wordCount": 57,
+          "title": "Running GUI Linux in a virtual machine on a Mac",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jobs.ashbyhq.com/motion?utm_source=hn",
+          "author": null,
+          "description": "Comments",
+          "link": "https://jobs.ashbyhq.com/motion?utm_source=hn",
+          "publishedOn": "2022-10-09T17:00:30.000Z",
+          "wordCount": 293,
+          "title": "Motion (YC W20) Is Hiring a Front End Architect and Full Stack Engineers",
+          "imageUrl": "https://app.ashbyhq.com/api/images/org-theme-logo/fd4042c5-a696-4b26-9058-2ac8131c2d75/78e55a8e-2b2c-4a96-88fd-98b28c13df76.png"
+        },
+        {
+          "id": "https://typesanitizer.com/blog/zig-generics.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://typesanitizer.com/blog/zig-generics.html",
+          "publishedOn": "2022-10-09T16:34:22.000Z",
+          "wordCount": 2567,
+          "title": "Zig-style generics are not well-suited for most languages",
+          "imageUrl": null
+        },
+        {
+          "id": "https://michael.stapelberg.ch/posts/2022-10-09-remote-power-button/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://michael.stapelberg.ch/posts/2022-10-09-remote-power-button/",
+          "publishedOn": "2022-10-09T14:33:35.000Z",
+          "wordCount": 1120,
+          "title": "DIY out-of-band management: remote power button",
+          "imageUrl": "https://michael.stapelberg.ch/posts/2022-10-09-remote-power-button/IMG_1085_featured_huf7f7db33074cb268ff172c7a33b2b9a7_1568716_200x200_fit_q75_box.jpg"
+        },
+        {
+          "id": "https://compellingsciencefiction.com/posts/top-science-fiction-short-stories-published-in-august.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://compellingsciencefiction.com/posts/top-science-fiction-short-stories-published-in-august.html",
+          "publishedOn": "2022-10-09T14:19:45.000Z",
+          "wordCount": 846,
+          "title": "Top science fiction short stories published in August",
+          "imageUrl": null
+        },
+        {
+          "id": "http://hummingbirdclock.info/about",
+          "author": null,
+          "description": "Comments",
+          "link": "http://hummingbirdclock.info/about",
+          "publishedOn": "2022-10-09T13:49:57.000Z",
+          "wordCount": 259,
+          "title": "The Hummingbird Clock: date videos by background mains hum",
+          "imageUrl": null
+        },
+        {
+          "id": "https://stevens.netmeister.org/631/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://stevens.netmeister.org/631/",
+          "publishedOn": "2022-10-09T13:32:00.000Z",
+          "wordCount": 2429,
+          "title": "CS631 – Advanced Programming in the Unix Environment",
+          "imageUrl": null
+        },
+        {
+          "id": "https://saveall.ai/blog/learn-exponentially",
+          "author": null,
+          "description": "Comments",
+          "link": "https://saveall.ai/blog/learn-exponentially",
+          "publishedOn": "2022-10-09T12:53:57.000Z",
+          "wordCount": 869,
+          "title": "Learn Exponentially",
+          "imageUrl": "/blog/memory/learn_exponentially_tagphoto.png"
+        },
+        {
+          "id": "https://www.macchaffee.com/blog/2022/carrying-capacity/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.macchaffee.com/blog/2022/carrying-capacity/",
+          "publishedOn": "2022-10-09T12:13:26.000Z",
+          "wordCount": 738,
+          "title": "Know Your Carrying Capacity",
+          "imageUrl": "https://www.macchaffee.com/static/favicon.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=33137417",
           "author": null,
           "description": "Comments",
@@ -11009,6 +11939,46 @@
           "imageUrl": "/images/blog/intel-leaked-fw.png"
         },
         {
+          "id": "https://www.wired.com/story/neuroscientists-unravel-the-mystery-of-why-you-cant-tickle-yourself/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.wired.com/story/neuroscientists-unravel-the-mystery-of-why-you-cant-tickle-yourself/",
+          "publishedOn": "2022-10-08T12:11:23.000Z",
+          "wordCount": 22007,
+          "title": "Why You Can’t Tickle Yourself",
+          "imageUrl": "https://media.wired.com/photos/633e235e85e7a4cc2f802276/191:100/w_1280,c_limit/Tickle_Science_GettyImages-80470748.jpg"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=LwicN2u6Dro",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.youtube.com/watch?v=LwicN2u6Dro",
+          "publishedOn": "2022-10-08T08:21:31.000Z",
+          "wordCount": null,
+          "title": "Liberating the Smalltalk lurking in C and Unix",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.quantamagazine.org/monumental-math-proof-solves-triple-bubble-problem-and-more-20221006/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.quantamagazine.org/monumental-math-proof-solves-triple-bubble-problem-and-more-20221006/",
+          "publishedOn": "2022-10-08T07:56:59.000Z",
+          "wordCount": 7749,
+          "title": "‘Monumental’ Math Proof Solves Triple Bubble Problem and More",
+          "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/10/Multi-Bubble-Conjecture_520x292.webp"
+        },
+        {
+          "id": "https://rarehistoricalphotos.com/retro-computer-ads-from-1980s/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://rarehistoricalphotos.com/retro-computer-ads-from-1980s/",
+          "publishedOn": "2022-10-08T05:02:54.000Z",
+          "wordCount": 2277,
+          "title": "Retro personal computer ads from the 1980s",
+          "imageUrl": "https://rarehistoricalphotos.com/wp-content/uploads/2022/10/retro-computer-ads-from-1980s-small.jpg"
+        },
+        {
           "id": "https://www.servethehome.com/the-ultimate-cheap-2-5gbe-poe-unmanaged-switch-hasivo-s1100p-8gt/",
           "author": null,
           "description": "Comments",
@@ -11077,6 +12047,16 @@
           "wordCount": 7457,
           "title": "Lufthansa bans AirTags in checked luggage",
           "imageUrl": "https://cdn.onemileatatime.com/wp-content/uploads/2021/10/Lufthansa-First-Class-747-8-87.jpeg"
+        },
+        {
+          "id": "https://www.vice.com/en/article/zmp8gy/the-forgotten-operating-system-that-keeps-the-nyc-subway-system-alive",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.vice.com/en/article/zmp8gy/the-forgotten-operating-system-that-keeps-the-nyc-subway-system-alive",
+          "publishedOn": "2022-10-07T22:02:42.000Z",
+          "wordCount": 7961,
+          "title": "The Forgotten Operating System That Keeps the NYC Subway System Alive (2019)",
+          "imageUrl": "https://video-images.vice.com/articles/5d06df8abe3d0f0008704a02/lede/1560732116664-GettyImages-462477089.jpeg?image-resize-opts=Y3JvcD0xeHc6MC45MTAxOTQxNzQ3NTcyODE2eGg7Y2VudGVyLGNlbnRlciZyZXNpemU9MTIwMDoqJnJlc2l6ZT0xMjAwOio"
         },
         {
           "id": "https://simplifier.neocities.org/4x4.html",
@@ -11359,6 +12339,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.archaeology.org/issues/489-2211/digs/10899-digs-turkey-assyrian-relief",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.archaeology.org/issues/489-2211/digs/10899-digs-turkey-assyrian-relief",
+          "publishedOn": "2022-10-07T05:21:55.000Z",
+          "wordCount": 1481,
+          "title": "Assyrian Soft Power",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.smithsonianmag.com/smart-news/mercenary-soldiers-were-more-common-in-greek-battles-than-historians-let-on-180980902/",
           "author": null,
           "description": "Comments",
@@ -11367,6 +12357,16 @@
           "wordCount": 1716,
           "title": "Mercenaries Were More Common in Greek Warfare Than Ancient Historians Let On",
           "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/ThewYmS7_stf3T9O33tw60zBD2k=/fit-in/1600x0/filters:focal(2406x1615:2407x1616)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/47/8a/478ae3f6-79d7-4f81-bc58-e98b71a9c8b0/gettyimages-480828799_1.jpg"
+        },
+        {
+          "id": "https://hackaday.com/2022/10/05/ugliest-airplane-ever-built-predicted-the-future/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://hackaday.com/2022/10/05/ugliest-airplane-ever-built-predicted-the-future/",
+          "publishedOn": "2022-10-07T01:54:38.000Z",
+          "wordCount": 2807,
+          "title": "Ugliest Airplane Ever Built Predicted the Future",
+          "imageUrl": "https://hackaday.com/wp-content/uploads/2022/10/plane.png"
         },
         {
           "id": "http://mywiki.wooledge.org/BashFAQ/105",
