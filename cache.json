@@ -12,6 +12,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=374466",
+          "author": "Geoff Graham",
+          "description": "By way of a post by Manuel Matuzović which is by way of a demo by Temani Afif.\n.wrapper {\n  margin-inline: max(0px, ((100% - 64rem) / 2)); \n}\nYou’d be doing yourself a favor to read Manuel’s breakdown of …\nManuel Matuzovic: max() Trickery originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/manuel-matuzovic-max-trickery/",
+          "publishedOn": "2022-10-18T13:54:38.000Z",
+          "wordCount": 940,
+          "title": "Manuel Matuzovic: max() Trickery",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/374466"
+        },
+        {
           "id": "https://css-tricks.com/?p=373600",
           "author": "Lu Wang",
           "description": "Are you a Bezier curve lover like I am?\nCodePen Embed Fallback\nBesides being elegant, Bezier curves have nice mathematical properties due to their definition and construction. No wonder they are widely used in so many areas:\nAs a \n…\nPure CSS Bezier Curve Motion Paths originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -220,16 +230,6 @@
           "wordCount": 1515,
           "title": "CSS Checkerboard Background… But With Rounded Corners and Hover Styles",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373167"
-        },
-        {
-          "id": "https://css-tricks.com/?p=373184",
-          "author": "Brecht De Ruyte",
-          "description": "Gradients have been a part of the CSS spectrum for quite some time now. We see a lot of radial and linear gradients in a lot of projects, but there is one type of gradient that seems to be a …\nMaking a Real-Time Clock With a Conic Gradient Face originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/making-a-real-time-clock-with-a-conic-gradient-face/",
-          "publishedOn": "2022-09-19T12:58:09.000Z",
-          "wordCount": 2144,
-          "title": "Making a Real-Time Clock With a Conic Gradient Face",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373184"
         }
       ]
     },
@@ -545,6 +545,56 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news/",
       "articles": [
+        {
+          "id": "https://www.freecodecamp.org/news/linux-command-line-tutorial/",
+          "author": "Destiny Erhabor",
+          "description": "An operating system is a set of software layers between you and your computer's hardware.  The operating system (or OS) is a piece of software that controls all other application programs and helps you manage the hardware and software of your computer. Examples of popular operating systems are Windows,",
+          "link": "https://www.freecodecamp.org/news/linux-command-line-tutorial/",
+          "publishedOn": "2022-10-18T23:33:44.000Z",
+          "wordCount": 3584,
+          "title": "Linux Command Line Tutorial – How to Use Common Terminal Commands",
+          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/10/pexels-sora-shimazaki-5935794--3-.jpg"
+        },
+        {
+          "id": "https://www.freecodecamp.org/news/wi-fi-hacking-101/",
+          "author": "Daniel Iwugo",
+          "description": "Welcome to the world of Wi-Fi hacking, everybody. 💻. In my previous article [/news/linux-basics/], we talked about some basic Linux skills and tricks. In this article you are going to learn a basic Wi-Fi hacking procedure using those skills. You'll learn things such as how to:  1. Monitor Wi-Fi",
+          "link": "https://www.freecodecamp.org/news/wi-fi-hacking-101/",
+          "publishedOn": "2022-10-18T20:37:37.000Z",
+          "wordCount": 3012,
+          "title": "Wi-Fi Hacking 101 – How to Hack WPA2 and Defend Against These Attacks",
+          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/10/image-74-1.png"
+        },
+        {
+          "id": "https://www.freecodecamp.org/news/append-a-string-in-python-str-appending/",
+          "author": "Ihechikara Vincent Abba",
+          "description": "In this article, you'll learn the different methods of appending strings in Python.  Another term commonly used when talking about appending strings is concatenation. So you'll often see these terms — append and concatenate — used interchangeably.  Either way, to append or concatenate strings means to add or",
+          "link": "https://www.freecodecamp.org/news/append-a-string-in-python-str-appending/",
+          "publishedOn": "2022-10-18T19:33:59.000Z",
+          "wordCount": 1417,
+          "title": "Append a String in Python – STR Appending",
+          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/10/alex-chumak-zGuBURGGmdY-unsplash.jpg"
+        },
+        {
+          "id": "https://www.freecodecamp.org/news/go-beginners-handbook/",
+          "author": "Flavio Copes",
+          "description": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang – also called Go – was created by Google engineers with these main goals:  * make their projects compile (and run) faster  * be simple so people can pick it",
+          "link": "https://www.freecodecamp.org/news/go-beginners-handbook/",
+          "publishedOn": "2022-10-18T18:35:37.000Z",
+          "wordCount": 5845,
+          "title": "The Go Handbook – Learn Golang for Beginners",
+          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/10/pexels-christina-morillo-1181290.jpg"
+        },
+        {
+          "id": "https://www.freecodecamp.org/news/build-a-cross-platform-app-with-next-and-tauri/",
+          "author": "Rajdeep Singh",
+          "description": "Tauri is a new Rust-based framework that builds an x86_64 cross-platform application for Windows, macOS, and Linux.  In this tutorial, we'll use Tauri and Next.js to build a desktop-based cross-platform application and publish it to the Snap store and AppImage. So why is building a cross-platform app, that works",
+          "link": "https://www.freecodecamp.org/news/build-a-cross-platform-app-with-next-and-tauri/",
+          "publishedOn": "2022-10-18T16:38:44.000Z",
+          "wordCount": 5058,
+          "title": "How to Build a Cross-Platform Application with Next.js and Tauri",
+          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/10/Tauri-and-nextjs--1-.png"
+        },
         {
           "id": "https://www.freecodecamp.org/news/github-search-tips/",
           "author": "Hillary Nyakundi",
@@ -1452,6 +1502,246 @@
       "feedUrl": "https://www.reddit.com/r/selfhosted.rss",
       "siteUrl": "https://www.reddit.com/r/selfhosted",
       "articles": [
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7ozwh/advice_on_moving_forward_with_my_server/",
+          "author": null,
+          "description": "I currently have a Dell T110 with a Intel Xeon X3470 (circa 2011ish). It has the original 2 x 1 TB SAS drives and I have an old laptop HDD as a cache drive in unRAID. I have noticed recently when downloading torrents its is taxing the CPU to 100% which degrades the performance of all my docker containers. \n My question ultimately is will upgrading the drives prolong the life of this server, or should I just build something new that is a little future proof? I want my sever to be a decent media server and also be able to host various VMs. Any advice is appreciated.\n    submitted by    /u/TrainedCranberry  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7ozwh/advice_on_moving_forward_with_my_server/",
+          "publishedOn": "2022-10-19T01:26:50.000Z",
+          "wordCount": 40732,
+          "title": "Advice on moving forward with my server.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7om7u/basic_software_infrastructure/",
+          "author": null,
+          "description": "What software do you consider basic infrastructure that you first install on a new server?\n For example maybe before installing something like nextcloud you first install portainer, SSO, fail2ban, etc. things you need to get thing working\n    submitted by    /u/augugusto  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7om7u/basic_software_infrastructure/",
+          "publishedOn": "2022-10-19T01:09:27.000Z",
+          "wordCount": 41052,
+          "title": "Basic software infrastructure",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7nurn/open_streamer_platform_installation_issues/",
+          "author": null,
+          "description": "Folks:\n I am trying to do default script install of the Open Streamer Platform on Ubuntu 22.4. The system (droplet on Linode) his basic install of Ubuntu, along with the proper hostname and IP addresses in the /etc/hosts and the /etc/hostname. It also has direct plain text smtp access to my email server (both are on the same private net).\n I am using the basic script install for singer server. I am running into these issues:\n  \nNginx does not seem to be running; I cannot get at the admin page at streamer.bellinghamtelevision.com; nothing is listening to port 80, according to the netstat -a command.\n I am getting some errors in /opt/osp/logs/osp-error.log that look like this:\n  \n[2022-10-19 00:11:18 +0000] [940] [ERROR] {'level': 'error', 'message': 'ejabberdctl failed to load: [Errno 111] …",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7nurn/open_streamer_platform_installation_issues/",
+          "publishedOn": "2022-10-19T00:34:12.000Z",
+          "wordCount": 41703,
+          "title": "Open Streamer Platform installation issues",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7nt84/paranoid_backup_fallback/",
+          "author": null,
+          "description": "Hello everyone, I have a number of servers which are all encrypted or only grant access via a private ssh key. Furthermore I have my backups distributed on 3 locations. There are 3 to 4 copys of every file (raid not included). I use restic and btrbk.\n Now I was wondering - what if I loose all me 3 clients at once, let's say due to flooding. How would I be able to access at least one of my servers to regain all over access to the \"fortress\".\n I need some sort of an easy to remember, not password protected (ideally), public space to either host a ssh private key or even better my keepass db.\n Any ideas?\n If you have a similar setup, I would like to hear your fallback plan.\n So far I have the following ideas:\n Gist / pastebin a ssh private key somewhere.\n For an attacker it's hard to find the right user, server, port combination (but not impossible!). The server could host the keepass db or other files. Downside, after, let's say a flooding, it might takes weeks before I would care about accessing my servers again. There is a chance that I'll even forget the combination.\n Public cloud, gdrive, more or less similar to gist / pastebin.\n Hosting the keepass db files itself, seems to insecure to me, even if my passphrase has 30 characters. Someone could just download it and use high powered brute force to crack it.\n Another idea would be a second keepass db on a public cloud, with a private ssh key and only hints, that would help me remember, but not give anything away.\n    submitted by    /u/Mean_Einstein  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7nt84/paranoid_backup_fallback/",
+          "publishedOn": "2022-10-19T00:32:17.000Z",
+          "wordCount": 45262,
+          "title": "paranoid backup fallback",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7nkix/paperlessngx_is_this_the_right_selfhosted/",
+          "author": null,
+          "description": "Since setting up my UnRAID server, I am pondering how to sort out all my documents. The sorting of these is a work-in-progress after a massive scanning session, and now the documents are sitting in a network share. Some are nicely named and live in a sensible folder structure, and a lot aren't - at least for the moment.\n I had considered using Paperless-ngx as a way to use automated tagging and OCR to make searching for things easier in the future. However, I believe that Paperless-ngx works by consuming documents within an 'import' directory, and from that point on the document will live within the docker container. This doesn't seem great to me as I'd rather have full control of the document locations.\n Am I correct in my thinking? I was wondering if there's a document system that works similar to how PhotoPrism works: point it at a directory and let it chew over everything there, writing tags and other information to its own database while leaving the original files untouched.\n ​\n Thanks in advance for any wisdom shared.\n    submitted by    /u/WhatAGoodDoggy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7nkix/paperlessngx_is_this_the_right_selfhosted/",
+          "publishedOn": "2022-10-19T00:21:16.000Z",
+          "wordCount": 41469,
+          "title": "Paperless-ngx - is this the right self-hosted document manger for me?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7nd8y/secure_dedicated_server_with_just_one_ip/",
+          "author": null,
+          "description": "I have obtained an OVH Kimsufi (or whatever their bottom tier is called) dedicated server and am running Proxmox on it. Before I start throwing anything of matter on it I want to make sure it is secure. Typically I would install a firewall VM and route traffic through it. However this machine only has one IP and I cannot order another one as it is not even an option. All the writeups I see require using two IP's. I did find a good writeup of using shorewall but it was from 13 years ago so it did not apply to todays setups. So with all that said: any tips on securing this box to where I can run everything through a firewall vm, still access it remotely, and expose a few ports?\n    submitted by    /u/kameleon25  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7nd8y/secure_dedicated_server_with_just_one_ip/",
+          "publishedOn": "2022-10-19T00:11:57.000Z",
+          "wordCount": 40807,
+          "title": "Secure dedicated server with just one IP?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7mvg4/release_v003_of_thephotogallery_support_for_lots/",
+          "author": null,
+          "description": "Hi everyone,\n This is the third release of the-photo-gallery, and it comes with some niceties!\n Demo: https://gallery.thenairn.com/\n New features:\n  \nWe now support lots more image types if you're happy to run Imagor \n HEIC, SVG, HDR, TIFF...\n Anything that is supported by Imagor\n \n Directory support \n Nested folders are now supported and statically generated as they are navigated to! \n \n Disabling of blurring \n You can now have *Many* more times the amount of photos in a single directory\n \n  \nLet me know what you think!\n Repo: https://github.com/inlustra/the-photo-gallery\n    submitted by    /u/the_nairn  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7mvg4/release_v003_of_thephotogallery_support_for_lots/",
+          "publishedOn": "2022-10-18T23:50:17.000Z",
+          "wordCount": 41049,
+          "title": "Release V0.0.3 of the-photo-gallery: Support for lots more image types and directories",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7kivb/bsimp_minimalistic_s3backed_audio_library/",
+          "author": null,
+          "description": "submitted by    /u/KAdot  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7kivb/bsimp_minimalistic_s3backed_audio_library/",
+          "publishedOn": "2022-10-18T22:10:25.000Z",
+          "wordCount": 40994,
+          "title": "Bsimp – Minimalistic S3-backed audio library",
+          "imageUrl": "https://external-preview.redd.it/fIsJkNwabA3fLF80MLKaO5x5QFzkJ9u_YZpdadsYTMc.jpg?auto=webp&s=8222bec78830ee829636ef763d35589c94eaefb0"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7jig9/cant_connect_to_oracle_free_tier_with/",
+          "author": null,
+          "description": "I have an Ubuntu VM set up with docker and Nginx-Proxy-Manager (NPM) (plus some other containers to test with). I have ingress the proper ports and can reach my services thru <public ip:port>. On Cloudflare, I have an A record for <domain.cloud> pointed to <public ip> and CNAMEs for <service>.domain.cloud pointed to <domain.cloud>. Cloudflare origin certs have also been added to NPM for HTTPS.\n The problem is getting NPM to resolve. No matter what I've tried, I cannot get DNS to resolve any service. I've got ingress on 80 and 443, I've checked and added them to ip-tables, and even tried creating and using a load balancer. \n I've had a homelab set up in my house for couple years now, so setting up NPM and cloudflare isn't anything new to me, what is new to me though is the Oracle Cloud side of things.\n Also, I have a Cloudflare tunnel set up and working, no problems. But I don't want to use the tunnel for a few services (Jellyfin, Audiobookshelf, Kavita, anything that streams any kind of media) because I don't want to deal with worrying about breaking CF's ToS or anything, hence why I want to use NPM.\n I've tried to search for a solution on Google many different ways, and nothing has helped. What am I missing here? Please help and thank you.\n EDIT: Currently, resolves with Bad Gateway Error 502, but I've seen others as I've tried different things, 502 being the most common.\n    submitted by    /u/dvreal765  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7jig9/cant_connect_to_oracle_free_tier_with/",
+          "publishedOn": "2022-10-18T21:30:36.000Z",
+          "wordCount": 41821,
+          "title": "Can't connect to Oracle Free Tier with Nginx-Proxy-Manager and Cloudflare",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7gaj6/vaultwarden_wont_update/",
+          "author": null,
+          "description": "I run a self-hosted Vaultwarden on a pi behind a VPN (PiVPN/wireguard). I can only update my vault when on my LAN (PC) or VPN (Android). I have certbot to update my SSL certificate for *.mydomain.net.\n I used the browser plug-in on Edge and the Android app. This setup has worked flawlessly for about 10 months until today. I went to update a password in through the Edge plug-in and received the \"Failed to fetch\" error. Then I went to update the password through Android app and received the \"Chain validation failed\" message.\n A little searching suggests that this is due to my cert, but when I checked the status with certbot, it says it's valid and doesn't expire for another month. Any help is appreciated!\n    submitted by    /u/phdibart  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7gaj6/vaultwarden_wont_update/",
+          "publishedOn": "2022-10-18T19:26:14.000Z",
+          "wordCount": 40903,
+          "title": "Vaultwarden won't update",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7fq81/authentik_is_great_ive_finished_centralising_my/",
+          "author": null,
+          "description": "I only have a couple of users, but it's still very useful for me.\n If you don't know, authentik is an identity provider that supports OpenID, SAML, LDAP and Proxy Auth out of the box.\n I have secured all my services with it, and it's working great.\n It can also do MFA authentication, except with LDAP.\n Previously i've used LDAP servers and keycloak but authentik was much easier to setup and maintain.\n The biggest issue i've ran into is services not supporting central authentication, but that was only a few of them, and i've mostly switched to alternatives.\n I suggest everyone set it up in their selfhosted environment - it makes it feel a bit like an integrated \"cloud\"\n some of my notes about doing this:\n OpenID/SAML make your apps redirect to your authentik instance's login screen which can be customized. You only have to login to authentik once, and then just grant the applications access when you login to them. \n LDAP should be used as a last resort, as it doesn't have 2fa and is quite an old protocol, so I suggest using it only when an app doesn't support other options. \n Proxy auth also displays the login portal, but it works on the reverse proxy level, so reverse proxy forwards requests to authentik, which makes sure the user is authenticated. Authentik then forwards the requests to the app, with a special header with the username. This option is best for static/single page/single-user apps, but not ideal for most of them as it will break mobile apps and some APIs due to it's low level nature. Some apps have explicit support for proxy auth and work just as well with it as some do with OpenID. \n Authentik docs have per-app instructions which show the recommended way to set it up.\n    submitted by    /u/dada513  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7fq81/authentik_is_great_ive_finished_centralising_my/",
+          "publishedOn": "2022-10-18T19:04:03.000Z",
+          "wordCount": 41891,
+          "title": "Authentik is great: i've finished centralising my homelab's user system",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7fcmq/selfhost_netbird/",
+          "author": null,
+          "description": "I have been trying to setup Netbird on a Ubuntu 22 VM and I guess I \"just don't get it.\" \n Is anyone aware of any good guides to selfhosting Netbird with? Netbird provides instructions but they're just vague enough that I am too stupid to follow them.\n Any guides?\n    submitted by    /u/blaine07  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7fcmq/selfhost_netbird/",
+          "publishedOn": "2022-10-18T18:49:35.000Z",
+          "wordCount": 41744,
+          "title": "Selfhost Netbird",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7epmg/tool_to_analyze_nginx_logs/",
+          "author": null,
+          "description": "Im self hosting a few sites and APIs and i would like some sort of analytics on them. However, i dont want to add full on analytics like Fathom or something similar. Is there a tool to analyze NGINX access logs? Maybe see which IPs are connecting the most, see which are bots, maybe even filter them out and see which countries the IPs belong to. I've heard of Goaccess but can that do what i want? Any better alternatives?\n    submitted by    /u/ItseKeisari  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7epmg/tool_to_analyze_nginx_logs/",
+          "publishedOn": "2022-10-18T18:24:39.000Z",
+          "wordCount": 40971,
+          "title": "Tool to analyze NGINX logs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7ek4y/orpington_news_selfhosted_rss_feed_reader_with/",
+          "author": null,
+          "description": "Hey there! For the past couple of months, I've been working on a new RSS feed reader. It's called Orpington News and it looks like this:\n https://user-images.githubusercontent.com/217806/195675958-3ecf972e-e9aa-437d-ad68-b7d29fcc6562.png\n There are many feed readers, but none quite matched my desired use case, so I just wrote my own. It was fun! And I think it works pretty well.\n Here's a demo: https://news-demo.orpington.software\n Features\n  \nLight and dark theme\n PWA support\n Collections\n Syntax highlighting in code snippets\n Configurable article fonts\n OPML import\n RSS feed auto-detection from page URL\n despite being built with TypeScript - small Docker image size (only 58 MB compressed)\n  \nFor more details (and installation instructions), see GitHub. Please enjoy!\n Any questions, suggestions, or feature requests are more than welcome!\n    submitted by    /u/mugwoomp  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7ek4y/orpington_news_selfhosted_rss_feed_reader_with/",
+          "publishedOn": "2022-10-18T18:18:55.000Z",
+          "wordCount": 41232,
+          "title": "Orpington News - self-hosted RSS feed reader with PWA support",
+          "imageUrl": "https://external-preview.redd.it/Bzn0Y5grk-V6EUe0fPDimgPlDmksQ_9T8zGz_7j60ro.png?auto=webp&s=b5cf350e9a2e28c68a03762187f623f3c368e58d"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7ddbp/what_security_and_monitoring_measures_do_you_have/",
+          "author": null,
+          "description": "Hi everyone, I'm interested to hear what kind of security and monitoring measures you all use for your servers and the services that you're self-hosting.\n My approach isn't very extensive so I'm looking for areas where I could make some improvements. So far it's:\n  \nTighten SSH \n Use SSH keys for authentication\n Disable root login\n Change the default port for SSH connections\n Tweak some of the miscellaneous settings in sshd_config\n \n Use fail2ban\n Use Cloudflare (DDoS protection features, caching reduces load on origin server, hide origin server for DNS entries)\n Deploy apps dockerised when possible\n Use NGINX as my web server/reverse proxy \n Force HTTPS connections\n Use NGINX authentication for services\n \n Use a password manager to generate strong credentials for every service/account.\n  \nSome things which I'm looking to add in the future are:\n  \nA backup solution for logs and other important files, on a daily basis\n An extra layer of authentication via Authelia or something similar\n Remote access for sensitive apps via a Wireguard tunnel (though this isn't something I need, at least for now)\n Find some kind of monitoring solution for app and server logs\n Find a Intrusion Detection System to use but I don't know if this is overkill?\n  \n   submitted by    /u/omermikhailk  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7ddbp/what_security_and_monitoring_measures_do_you_have/",
+          "publishedOn": "2022-10-18T17:32:56.000Z",
+          "wordCount": 40914,
+          "title": "What security and monitoring measures do you have in place for your servers?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7d68d/accessing_nextcloud_and_other_services_through/",
+          "author": null,
+          "description": "Right up front, I'm not really sure if this is supposed to be a forum for questions. If not, please excuse the misguided post (and kindly point me in the right direction, please :D) \n This actually is a compilation of several questions. I have a WireGuard VPN, Nextcloud and a 3D Printer with web frontend set up and I would (ideally) like access to all under one domain, even from outside the local network. I already have a DynDNS provider set up, so the WireGuard traffic is routed consistently even with changing public IPs. However, I can not directly access for example nextcloud under that domain, since only my custom WireGuard port is exposed.\n Currently, I do have access to everything even from the outside, but I have to type the IPs in the VPN of the respective server to access it. Curr…",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7d68d/accessing_nextcloud_and_other_services_through/",
+          "publishedOn": "2022-10-18T17:25:17.000Z",
+          "wordCount": 40537,
+          "title": "Accessing Nextcloud and other services through WireGuard VPN under nice domain name?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7d1pn/free_vps/",
+          "author": null,
+          "description": "Are there any free tier alternatives of Oracle Free Tier? Been trying to sign up for a month. Just doesn't work\n    submitted by    /u/Weeebdev  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7d1pn/free_vps/",
+          "publishedOn": "2022-10-18T17:20:24.000Z",
+          "wordCount": 41953,
+          "title": "Free VPS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7cbrf/selfhosted_support_ticket_system/",
+          "author": null,
+          "description": "I’m an software engineer, comfortable with his homelab running kubernetes. At the moment I’m working on a free app for mobile and pc. \n I want to offer users a place where they can leave a ticket if they have a problem. I have a strict user data policy, that I won’t collect data within the app. I know to submit a ticket the user will send data, and I’m collecting it. The best I can offer is a selfhosted solution, so it won’t leave my server. \n My question for you guys is what would you recommend?\n Here is some info/requirements:\n  \nI’m very busy so I would like to be a fire and forget solution I could deploy simple on my cluster. An helm chart ofc the most simple.\n \nI don’t have employees and don’t have plans to hire anyone so no need for collaboration functions. \n \nIt doesn’t need to be fancy for the users. They just need to be able to leave feedback/problem tickets.\n \n    submitted by    /u/selam0r  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7cbrf/selfhosted_support_ticket_system/",
+          "publishedOn": "2022-10-18T16:52:38.000Z",
+          "wordCount": 40579,
+          "title": "Selfhosted support ticket system",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y7avku/netmaker_config_backup/",
+          "author": null,
+          "description": "Is anyone running netmaker that has a valid and easy to restore backup routine for it?\n I'm running on DO droplet and i'm at a loss as to how to backup the config so that should i need to rebuild for whatever reason, i can easily inject the config back in to it..\n    submitted by    /u/d4nm3d  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y7avku/netmaker_config_backup/",
+          "publishedOn": "2022-10-18T15:57:06.000Z",
+          "wordCount": 40802,
+          "title": "Netmaker config backup",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y79eja/released_tooljet_v1271_opensource_lowcode/",
+          "author": null,
+          "description": "Excited to announce that we've released ToolJet v1.27.1 🚀\n About ToolJet: ToolJet is an open-source low-code platform for building and deploying internal tools. You can connect ToolJet to databases, cloud storage and services like Google sheets to build applications on top of the data by using our drag and drop application builder.\n GitHub repository: https://github.com/ToolJet/ToolJet\n Release notes: https://github.com/ToolJet/ToolJet/releases\n Documentation: https://docs.tooljet.com/\n ​\n You can try ToolJet on your machine using this command ( requires Docker installed ):\n docker run \\ --name tooljet \\ --restart unless-stopped \\ -p 3000:3000 \\ -v tooljet_data:/var/lib/postgresql/13/main \\ tooljet/try:latest \n Major features that were added recently:\n  \nTable component can now generate columns automatically from data.\n Server-side sort for table.\n Other ( over two dozen ) improvements to table widget.\n ToolJet now supports sub path installations. \n Added support for localisation. \n Added documentation for deploying on AWS ECS. \n New connectors: MariaDB, Zendesk, ClickHouse, CosmosDB.\n New widgets: tree select, icon, link.\n S3 integration now supports pagination. \n Ability to download data in xlsx format.\n  \n​\n Try out ToolJet at https://tooljet.com/\n Would love to know your thoughts on ToolJet!\n    submitted by    /u/navaneethpk  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y79eja/released_tooljet_v1271_opensource_lowcode/",
+          "publishedOn": "2022-10-18T14:59:30.000Z",
+          "wordCount": 39512,
+          "title": "Released ToolJet v1.27.1 - Open-source low-code framework for building internal tools. Can be selfhosted using docker, k8s & AMIs. Added MariaDB, Zendesk, ClickHouse, CosmosDB integrations. Now supports subpath installations and auto-column generation for tables.",
+          "imageUrl": "https://external-preview.redd.it/jeaU_hAY2nhwIMbBdr1ndDUcJ4fnhq9QTAc4zS9DsSE.jpg?auto=webp&s=d9e075edf50a95ad94d5f2f9477226965361100c"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y79ck5/would_it_be_useful_to_use_dynamically_updated/",
+          "author": null,
+          "description": "submitted by    /u/goino  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y79ck5/would_it_be_useful_to_use_dynamically_updated/",
+          "publishedOn": "2022-10-18T14:57:28.000Z",
+          "wordCount": 39631,
+          "title": "Would it be useful to use Dynamically updated Whitelist ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y77qte/self_hosted_server_setup_on_cheap_sbc/",
+          "author": null,
+          "description": "Here is my journey to find the right combo of hardware and mostly software to self host my thing.\n ​\n you will find the detailled instruction on github : NAS low Power Low Cost\n (step by step for the beginner like i am. from flashing the SD card to setting the SBC bootloader to look for USB drive to boot, to setup SSH and each of the basic services)\n for the hardware : it's a rockpro64 with 6x SATA 3.5 Drive (under 50W during start up, 200$ without drives)\n for the software : armbian with ZFS (this is story in itself as it was non trivial to get ZFS to run on ARM hardware with armbian), docker to host my service as container, cockit for a nice and shiny dashboard of the server and portainer for the container management\n on the service side :\n - syncthing : (selfhosted onedrive with syncronisation of my data accross all my device, easy to setup and use)\n - radicale cardav (but a nasty bug deleted all my calendar event when another got added from another device so I need to investigate and maybe replace it)\n - dashy (custom dashboard because it's a must around here and it's easy to setup)\n - transmission for torrents\n and many more to come as i only use 40% of the 4GB of ram and under 20 % CPU\n    submitted by    /u/nathmo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y77qte/self_hosted_server_setup_on_cheap_sbc/",
+          "publishedOn": "2022-10-18T13:55:20.000Z",
+          "wordCount": 41379,
+          "title": "Self hosted server setup on cheap SBC",
+          "imageUrl": "https://external-preview.redd.it/S-PL0mVU-nlwzwdL9Eak7xHcwFQGAtxcOErVaEiLbiw.jpg?auto=webp&s=f1f730e794267a010113d6520ef86dd14a3440cf"
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y74i9p/bandhelper_alternative/",
+          "author": null,
+          "description": "Hello,\n Does anyone know a good alternative to \"bandhelper\"?\n Important to me would be a user management, creating events and share documents / notes\n Thank you guys\n    submitted by    /u/Zig_Zockt  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y74i9p/bandhelper_alternative/",
+          "publishedOn": "2022-10-18T11:30:47.000Z",
+          "wordCount": 41024,
+          "title": "BandHelper alternative",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/selfhosted/comments/y71ktz/small_project_i_created_a_web_gui_to_configure/",
+          "author": null,
+          "description": "submitted by    /u/Proxtx  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/selfhosted/comments/y71ktz/small_project_i_created_a_web_gui_to_configure/",
+          "publishedOn": "2022-10-18T09:00:04.000Z",
+          "wordCount": 40214,
+          "title": "Small Project: I created a Web GUI to configure Nginx",
+          "imageUrl": "https://external-preview.redd.it/qMTKowXdXhPreg6vocTTOzfkP4iSMTQMA0T3foDQX6A.png?format=pjpg&auto=webp&s=99ed3778c66e7e0c358b56bb49cb0bcf8805d02c"
+        },
         {
           "id": "https://www.reddit.com/r/selfhosted/comments/y6udjr/connecting_own_domain_to_dynamic_ip/",
           "author": null,
@@ -6790,6 +7080,226 @@
       "siteUrl": "https://www.reddit.com/r/homelab",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/homelab/comments/y7q8a4/suricata_error_on_windows/",
+          "author": null,
+          "description": "Hey there! \n I just installed Suricata onto my Windows 10 and configured the .yaml file tailored for my Windows 10 instead of Linux. However, whenever I launch Suricata for live pcaps, it says \"[ERRCODE: SC_ERR_PCAP_TRANSLATE(201)] - failed to find a pcap device for\". I do have Npcap installed on my PC, and not sure what else need to be configured for this to work properly. Do I need to configure Npcap as well? Thanks ahead of time!\n    submitted by    /u/RedJasper13  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7q8a4/suricata_error_on_windows/",
+          "publishedOn": "2022-10-19T02:24:14.000Z",
+          "wordCount": 32562,
+          "title": "Suricata Error on Windows",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7pv7v/where_could_a_server_rack_live_here/",
+          "author": null,
+          "description": "submitted by    /u/electrowiz64  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7pv7v/where_could_a_server_rack_live_here/",
+          "publishedOn": "2022-10-19T02:07:30.000Z",
+          "wordCount": 33311,
+          "title": "Where could a server rack live here?",
+          "imageUrl": "https://preview.redd.it/qgfk7oiq7ou91.jpg?auto=webp&s=67b733db12f23c185054c6656b37ce78d44832b5"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7p2a9/upgrading_my_home_server_is_dual_10gbe_worth_it/",
+          "author": null,
+          "description": "A few years ago I bought a bunch of old used parts on eBay and build a modest server. It's a 4c/8T Xeon, m-ITX SuperMicro board, in a Node 804 case. I currently have 2x SSD cache and 5x HDD. I learned a lot but I've outgrown it and really want an upgrade. A few things I learned:\n  \nRegret the Node 804 case. Was a pain to build in. I wish I went full size ATX with a vertical stack of 8 drive bays. Eyeing the Fractal Design Define 7.\n Liked the piece of mind of ECC RAM and dual Ethernet\n IPMI came in clutch a few times\n I don't have enough cores/threads, I'd want at least 8c/16T next time\n I don't have enough PCI slots, only had enough room for one transcode GPU for Plex and one SAS card to expand the 6 SATA ports\n I wish I got a CPU with Intel QuickSync to use for Plex\n  \nSo to address the PCI issue, I figured a board with 10 SATA slots (2x SSD cache, inevitable 8x HDD) would clear that up, be better for cable management, and be one less point of failure vs my SAS card. Plus if I could find a CPU with ECC and QuickSync I'd save a PCI slot. Now I'd have enough room for 1-2 GPUs to finally have better VM performance. I'd want 1 light gaming VM and 1 productivity/streaming VM which could benefit from a basic GPU. If I ever needed more drives I still have my SAS card. So 3 PCI total.\n Another thought, is 10gbe worth it? None of my devices are ready for it, but how nice is it for future proofing? My main computer is an M1 MacBook Pro so I at least have Thunderbolt 4.\n Lastly, I can see a benefit in having a second cache pool for VMs. Probably just a single M.2 drive for VMs.\n The issue with all of the above, is it seems a board that supports: ECC, IMPI, M.2, 10x SATA 6gb/s, Dual 10gbps Ethernet, is $570 which is a lot to go for. It seems only the SuperMicro X11SPI-TF checks all those boxes. Is it worth it in the long run? Or what compromises should I have? I'd appreciate any advice.\n    submitted by    /u/New_Mud_1723  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7p2a9/upgrading_my_home_server_is_dual_10gbe_worth_it/",
+          "publishedOn": "2022-10-19T01:29:58.000Z",
+          "wordCount": 33135,
+          "title": "Upgrading my home server, is dual 10gbe worth it for future proofing? What about boards with 10x SATA ports? How much PCI slots do I really need?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7orlv/mac_os_hardware_recommendations_for_lab/",
+          "author": null,
+          "description": "Hi All, I'm looking for recommendations for dedicated Mac hardware to use as a build CI/CD server for some of my own projects. I've gone the route of VMWare / KWM / virtualization solution but the performance is poor and honestly just not worth the headache to hackintosh it from Apple.\n I've been looking at something like a 2019 / 2020 Mac Mini because the RAM modules should still be upgradeable. Are there any recommendations for specific Apple hardware that has a few years of OSX support still remaining? I've thought about doing a Macbook as well, but I plan to run it mostly headless, so the extra size is not something I'm eager to waste space on.\n    submitted by    /u/Aprelius  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7orlv/mac_os_hardware_recommendations_for_lab/",
+          "publishedOn": "2022-10-19T01:16:23.000Z",
+          "wordCount": 32642,
+          "title": "Mac OS Hardware recommendations for Lab",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7ofvp/intel_x710_nic_not_linking_up_using_10g_sfp/",
+          "author": null,
+          "description": "Anyone ever built a virtualization host using Intel’s X710 quad port SFP+ card and not have it recognize/link up using 10G SFP+ but will link up using 1G SFP+ and will link up to 10G if using a DAC? I’ve had this problem with Proxmox and now ESXi…\n    submitted by    /u/Mlyonff  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7ofvp/intel_x710_nic_not_linking_up_using_10g_sfp/",
+          "publishedOn": "2022-10-19T01:01:15.000Z",
+          "wordCount": 32421,
+          "title": "Intel X710 NIC not linking up using 10G SFP+ modules?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7o2bx/moxa_nat102twtf_are_these/",
+          "author": null,
+          "description": "So, I was helping my neighbor clear a couple storage units; keeping stuff; throwing most away...\n Thought these computer components could be worth something to somebody but, they don't seem to have an everyday use. \n Is anyone familiar with these parts and whom might be interested in something like this? Or what could be done with these? Did I find a dud? 🤷‍♂️\n    submitted by    /u/NeitherBalance5449  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7o2bx/moxa_nat102twtf_are_these/",
+          "publishedOn": "2022-10-19T00:44:06.000Z",
+          "wordCount": 32496,
+          "title": "Moxa NAT-102-T...wtf are these??",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7nj41/is_it_ok_to_put_motherboard_on_monitor_isolation/",
+          "author": null,
+          "description": "I know it's not the way but i have this laying around and want to use it for something otherwise other suggestions to put a motherboard on something cheap?\n ​\n https://preview.redd.it/vm4ix389onu91.jpg?width=1500&format=pjpg&auto=webp&s=c062bbbdbcdf37ad0ae4def0cf8b46b31b1a6788\n    submitted by    /u/bigbrobordo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7nj41/is_it_ok_to_put_motherboard_on_monitor_isolation/",
+          "publishedOn": "2022-10-19T00:19:32.000Z",
+          "wordCount": 32665,
+          "title": "Is it ok to put motherboard on monitor isolation pad?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7mytr/recommendations_for_a_10gb_sfp_managed_switch/",
+          "author": null,
+          "description": "I was going to get a Netgate device, but then I realized I was paying $800 more for only two sfp+ ports, when my requirement is only to have 10gb on the LAN - the WAN will remain 1gb.\n    submitted by    /u/thissideofheat  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7mytr/recommendations_for_a_10gb_sfp_managed_switch/",
+          "publishedOn": "2022-10-18T23:54:27.000Z",
+          "wordCount": 32747,
+          "title": "Recommendations for a 10gb sfp+ managed switch?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7mrj1/ups_connected_to_ungrounded_outlet/",
+          "author": null,
+          "description": "It's a 3 prong outlet, but the ground is broken somewhere. Unfortunately it's not right behind the outlet (I checked, wiring looks fine), so fixing it myself is beyond my skill level...guessing it would require running a new line, which is probably 1k+ from an electrician. So options are pay for that (f-me), install a gfci outlet (I know this won't really help with surges), or use it as-is. \n It's hard to explain, but it's in a difficult location and I can't really run an extension cord to another outlet unless I want to get something like 50ft or more and run it around door frames. \n So...am I SOL?\n    submitted by    /u/fourdimensionalknot  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7mrj1/ups_connected_to_ungrounded_outlet/",
+          "publishedOn": "2022-10-18T23:45:15.000Z",
+          "wordCount": 32851,
+          "title": "UPS connected to ungrounded outlet",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7me2c/hdd_error_with_perc_h700_and_dell_r610/",
+          "author": null,
+          "description": "I recently got 4 HDD’s for my Dell R610 which has a PERC H700 RAID controller. When I added those drives to the server and went into the RAID controller, I see that the drives show a FAILED status. The drives are used but the SMART info was all clear. \n Has anyone seen or faced this error? If so, how did you resolve it? \n https://i.imgur.com/KwVq9jf.jpg\n    submitted by    /u/varunmaster  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7me2c/hdd_error_with_perc_h700_and_dell_r610/",
+          "publishedOn": "2022-10-18T23:29:09.000Z",
+          "wordCount": 33221,
+          "title": "HDD error with PERC H700 and Dell R610",
+          "imageUrl": "https://external-preview.redd.it/qFR73U5xfZZ2pAA88LiQniOmzL11kqlReJoXclY_5w8.jpg?auto=webp&s=06b9cdcaa2f06bcf94d55004ffec93a81217c617"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7ma86/fiber_internet_cabling_question/",
+          "author": null,
+          "description": "Hey homelab. I'm finishing up wiring my house for ethernet, but while I have the walls open I want to run some fiber from my rack to the wall where my utilities come in. \n Centurylink in my area (Chandler, AZ) keeps saying they'll have fiber in my neighborhood \"soon\" and I want to futureproof, but I've never worked with fiber before in any capacity and I have no idea what I need to buy.\n Currently, they appear to be using Adtran total access 352 (based on what my coworker has) but all I can find is that it needs an SC/APC connector, and that its 1 fiber. Do I need single or multimode fiber? And what diameter fiber?\n Additionally, are there any other fiber cables I should run to the wall to better futureproof? I'm not sure if residential fiber standards may change by the time they get to my neighborhood, but I've already run 2 ethernet cables to that wall as well.\n    submitted by    /u/trrpip  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7ma86/fiber_internet_cabling_question/",
+          "publishedOn": "2022-10-18T23:24:28.000Z",
+          "wordCount": 33566,
+          "title": "Fiber Internet Cabling Question",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7l66o/a_guide_for_getting_started_with_self_hosting/",
+          "author": null,
+          "description": "submitted by    /u/HAMC-81  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7l66o/a_guide_for_getting_started_with_self_hosting/",
+          "publishedOn": "2022-10-18T22:37:03.000Z",
+          "wordCount": 32497,
+          "title": "A guide for getting started with Self Hosting devices including software and hardware that will make you a better and more efficient Self Hosting.",
+          "imageUrl": "https://external-preview.redd.it/pMGGLUF1dinz_Ugz0Om9aAShObg8SrTgFBuihUtNpdI.jpg?auto=webp&s=454b677b5fa07263a61259fa8b02b22fe78defc4"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7jf8w/how_to_go_about_upgrading_my_current_server/",
+          "author": null,
+          "description": "I have an Intel i7-6700 with 24GB of RAM running on an older dell desktop motherboard. I run proxmox and have been wanting to get more RAM but I am now wondering if it worth it instead to just start from scratch and get a new motherboard/cpu/ram. I'd love to hear anyone's thoughts. \n I pretty much use it for media storage/plex and a couple VMs here and there\n    submitted by    /u/Important_Reserve460  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7jf8w/how_to_go_about_upgrading_my_current_server/",
+          "publishedOn": "2022-10-18T21:27:04.000Z",
+          "wordCount": 32713,
+          "title": "How to go about upgrading my current Server?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7hc7p/i_would_like_help_understanding_vlans/",
+          "author": null,
+          "description": "I've tried reading things but cant quite seem to get how things can be / should be configured. I am wanting to make it so I can plug in something's management port (10.0.0.173) and have it be able to talk to my workstation (10.0.0.159) but not the internet, while keeping my workstation online. I'm not even quite sure if this is possible. Any help in making this work is appreciated, my network isn't advanced, its literally just a netgear r6220 running openwrt\n    submitted by    /u/PupperBoiYT  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7hc7p/i_would_like_help_understanding_vlans/",
+          "publishedOn": "2022-10-18T20:07:05.000Z",
+          "wordCount": 32928,
+          "title": "I would like help understanding vlans",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7g9z0/homelab_expansion/",
+          "author": null,
+          "description": "submitted by    /u/Beyond-1  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7g9z0/homelab_expansion/",
+          "publishedOn": "2022-10-18T19:25:40.000Z",
+          "wordCount": 32659,
+          "title": "Homelab Expansion",
+          "imageUrl": "https://external-preview.redd.it/3JSWDTeXNtp6_0boHF3frb3VfNsc9JV2gxTi_M-yBXI.jpg?auto=webp&s=6b994cc8df22b4dd08e13a0e49b9cdc308e2dac3"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7fov2/wireguard_server_behind_nat/",
+          "author": null,
+          "description": "Hi. \n I want to set up a VPN so that servers that I connect through it doesn't know I am connecting through VPN. I used WireGuard on rented VPS for those purposes. But the main problem is that VPN server IP is easily recognized as IP that belongs to hosting provider. So what I decided to do is to put Raspberry Pi at my home and set up WireGuard on it. \n But I run into a problem. I need to be able to connect to WireGuard server (peer) from outside. And my internet provider doesn't provide me with a public IP to my router, rather than router is behind internet provider NAT which I can't control.\n There is an option to opt into static IP. But they might have a separate pool of static IP, which may raise some red flags that I might be using a VPN. Also, preferably, I wanted to have different incoming and outgoing IPs of my VPN.\n One of the possible ways is reverse tunnels to Raspberry Pi. But since ping is also an issue, I either have to have a server in the same city or use a direct connection.\n What are my best options? My main priorities are to keep my VPN IP less suspicious and keep ping as low as possible (but the distance between server and client is 7000km+, so extra 10-20 ms won't matter).\n If reverse tunnel to can I do it all purely on WireGuard. Let's say I have peer with public IP to which both VPN server and client are connected, and use VPN server as gateway on my client?\n And are there any options to connect directly? I heard something about STUN, but haven't tried it.\n    submitted by    /u/dani0854  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7fov2/wireguard_server_behind_nat/",
+          "publishedOn": "2022-10-18T19:02:32.000Z",
+          "wordCount": 33349,
+          "title": "WireGuard server behind NAT",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7ffco/what_screw_driver_head_is_needed_for_to_remove/",
+          "author": null,
+          "description": "I am trying to install a NVMe SSD in HP ProDesk 400 G2 Mini. For that I need to unscrew the HDD plate, to access the NVMe slot. I am not able to understand which screw driver head is needed for that. I will have to buy a screw driver set as I have none.\n Is \"AmazonBasics 73-piece magnetic ratchet, spanner and screwdriver set\" kit enough for this activity and general works with computers for homelab ?\n This is my first time with HP ProDesk Mini systems. So please excuse my ignorance.\n    submitted by    /u/darkAngelRed007  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7ffco/what_screw_driver_head_is_needed_for_to_remove/",
+          "publishedOn": "2022-10-18T18:52:36.000Z",
+          "wordCount": 32845,
+          "title": "What screw driver head is needed for to remove HDD plate of HP ProDesk 400 G2 Mini ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7aq2r/difference_between_a_nuc_and_a_thin_client/",
+          "author": null,
+          "description": "I've been looking to get into homelab and for my first project I want to get my own router. Now I was thinking of virtualizing a router on a small machine and using that. I saw a few thin client recommendations regarding the hp t620 plus and the hp t730. I've also recently learned about the existence of nucs. \n I can't for the life of me figure out the difference. They are similar in price. They seem to have the same components. They seem like exactly the same devices. What exactly is the difference between a thin client and a nuc?\n    submitted by    /u/pizzapunt55  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7aq2r/difference_between_a_nuc_and_a_thin_client/",
+          "publishedOn": "2022-10-18T15:50:46.000Z",
+          "wordCount": 34358,
+          "title": "Difference between a nuc and a thin client",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y7a7kj/homelab_college_student_edition/",
+          "author": null,
+          "description": "submitted by    /u/surfnbari  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y7a7kj/homelab_college_student_edition/",
+          "publishedOn": "2022-10-18T15:30:24.000Z",
+          "wordCount": 35592,
+          "title": "Homelab: College Student Edition",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y79eeg/2u_amd_workstation/",
+          "author": null,
+          "description": "submitted by    /u/levix4991  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y79eeg/2u_amd_workstation/",
+          "publishedOn": "2022-10-18T14:59:21.000Z",
+          "wordCount": 33939,
+          "title": "2U AMD Workstation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y797u0/the_laws_of_technology/",
+          "author": null,
+          "description": "Everyone knows many of the basic laws of physics: Every action has an equal but opposite reaction; The earth's gravitational force is ~ 1/2 that of your mom's; etc. etc.\n With these in mind, I pose to you:\n What are the laws of Technology?\n I'll start with 3\n ​\n  \nNo matter how many you buy, you only ever have 1 good usb cable (https://xkcd.com/1892/)\n Whenever you are looking for a USBc cable, they all magically become microB, and vice versa The same applies to: HDMI vs DP; DVI vs VGA\n The correct orientation of a USB-A plug is ALWAYS the 3rd orientation (known as the superposition)\n  \n   submitted by    /u/BDMac1997  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y797u0/the_laws_of_technology/",
+          "publishedOn": "2022-10-18T14:52:35.000Z",
+          "wordCount": 33113,
+          "title": "The Laws of Technology",
+          "imageUrl": "https://external-preview.redd.it/G5k_R503oO2E_FVfF_sHtiMIVp7DFl9GP5Ra5CQpDG4.jpg?auto=webp&s=6657642e011cdde8bf5576f733ee625475cfcb08"
+        },
+        {
+          "id": "https://www.reddit.com/r/homelab/comments/y746fp/a_3d_printed_stand_turns_your_unifi_access_point/",
+          "author": null,
+          "description": "submitted by    /u/ThatGuy_ZA  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/homelab/comments/y746fp/a_3d_printed_stand_turns_your_unifi_access_point/",
+          "publishedOn": "2022-10-18T11:14:45.000Z",
+          "wordCount": 34532,
+          "title": "A 3D printed stand turns your Unifi access point into a UFO",
+          "imageUrl": "https://preview.redd.it/pf9q5qx3sju91.jpg?auto=webp&s=6b9abfa3fc08dae5bcf2ff9b848c0157ceb7a292"
+        },
+        {
           "id": "https://www.reddit.com/r/homelab/comments/y6tyfg/nic_suggestions_need_10gb_rj45_with_5gb_and_25gb/",
           "author": null,
           "description": "had my hand hovering over the checkout button on some used x540-t2 intel NIC's, then looked it up and found out they only support 1g and 10g connections, no 2.5 or 5.... \n is there something out there I can get used for a good price that would support those? going to the x550 is almost 4 times the price (60 bucks vs 200)\n    submitted by    /u/joejoeschmoe  \n [link]   [comments]",
@@ -11987,6 +12497,216 @@
       "siteUrl": "https://www.reddit.com/r/DataHoarder",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7n9qt/cheap_ssd_drives_how_bad_are_they/",
+          "author": null,
+          "description": "Hi, I don’t know how many of you saw them but I noticed that at some point I’ve the last year or two Amazon started selling ridiculously large storage capacity drives from unknown non-brands. In the past I bought those Samsung SDD drives t5 and t7. These non brand ones are clearly made to look almost identical to Samsung one except to mention of Samsung. Their colors, their shapes, and printed text on look just like Samsungs except they are.\n I tend to believe that something that is too cheap and offers too much for much less is probably somehow compromised in quality. So, I was wondering whether anyone has bought and used those, or maybe checked who makes the drives inside\n Thanks!\n    submitted by    /u/SlothChunks  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7n9qt/cheap_ssd_drives_how_bad_are_they/",
+          "publishedOn": "2022-10-19T00:07:31.000Z",
+          "wordCount": 34607,
+          "title": "Cheap SSD drives? How bad are they?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7lhz1/found_me_a_magical_18tb_blueray_disk_here_boys/",
+          "author": null,
+          "description": "submitted by    /u/ImaginaryCheetah  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7lhz1/found_me_a_magical_18tb_blueray_disk_here_boys/",
+          "publishedOn": "2022-10-18T22:51:04.000Z",
+          "wordCount": 34060,
+          "title": "found me a magical 18TB blueray disk here, boys. the future is looking bright!",
+          "imageUrl": "https://preview.redd.it/18iiwaex7nu91.png?auto=webp&s=953082a03e0155055fd507a5098fb5a7d915ff26"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7lb8q/transferring_files_from_ntfs_to_ext4btrfs_with/",
+          "author": null,
+          "description": "I have an external (USB-connected) HDD formatted with NTFS that I want to move its files to another HDD formatted with Ext4 (and later to another HDD formatted with Btrfs). Since many of my files on the NTFS volume have strange filenames (UTF-8, Asian characters, etc.), I'm afraid the NTFS driver on Linux would mess things up.\n An experienced user suggested using Samba/CIFS/SMB file sharing to transfer my files, using a Windows VM on my laptop and a virtual network adapter (unfortunately, I don't have any other computers). I'm running Fedora 36. This sounds complex and confusing to me because I'm a noob and don't know much about networking. I've already installed the Windows 10 VM in VirtualBox, and spent so many hours trying to find something from the internet, but I'm lost.\n Your help would be much appreciated!\n    submitted by    /u/imsosappy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7lb8q/transferring_files_from_ntfs_to_ext4btrfs_with/",
+          "publishedOn": "2022-10-18T22:42:59.000Z",
+          "wordCount": 34672,
+          "title": "Transferring files from NTFS to Ext4/Btrfs with strange filenames",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7l521/dc_and_port_forwarding/",
+          "author": null,
+          "description": "Been AGES since I've used this prog, and I was with Cable internet back in the day, decided to fire it up on fiber, and not sure what went sideways. but I can't search nor get file lists now. Am I missing something here? I'm on Active, not passive, any old ones from back in the day able to offer help?\n    submitted by    /u/mrhurg  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7l521/dc_and_port_forwarding/",
+          "publishedOn": "2022-10-18T22:35:37.000Z",
+          "wordCount": 34150,
+          "title": "DC++ and port forwarding",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7l4by/bluray_disc_recommendations/",
+          "author": null,
+          "description": "I'd quite like to archive lots and lots of my data. Long-term storage.\n I've bought an external Blu-ray drive (well, internal with a SATA-USB cable), now I just need the discs.\n Any recommendations? I figure Verbatim, double-layer (50GB). Other than that, I'm not sure.\n Write-once is fine; I don't care about write speed; I'm just looking for something reputable of archival quality, and ideally cheap :)\n    submitted by    /u/justsomebam  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7l4by/bluray_disc_recommendations/",
+          "publishedOn": "2022-10-18T22:34:46.000Z",
+          "wordCount": 37736,
+          "title": "Blu-ray disc recommendations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7kwb1/wow_only_139_usd_amazon_knows_and_yet_its_still/",
+          "author": null,
+          "description": "submitted by    /u/AndroidJo3guy  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7kwb1/wow_only_139_usd_amazon_knows_and_yet_its_still/",
+          "publishedOn": "2022-10-18T22:25:32.000Z",
+          "wordCount": 35290,
+          "title": "Wow! Only $139 USD?! Amazon knows and yet it's still for sale. Why don't they reign this in?",
+          "imageUrl": "https://preview.redd.it/745rnxb44nu91.jpg?auto=webp&s=6f66815af4c0a2e4387c6674472b8c434cad7686"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7kdqk/lost_something_search_through_917_million_files/",
+          "author": null,
+          "description": "submitted by    /u/jamesrc  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7kdqk/lost_something_search_through_917_million_files/",
+          "publishedOn": "2022-10-18T22:04:54.000Z",
+          "wordCount": 34707,
+          "title": "Lost something? Search through 91.7 million files from the 80s, 90s, and 2000s",
+          "imageUrl": "https://external-preview.redd.it/xgIMzCpAaXh2AoE80kqfRO4Q-xbel29dU9jEKiPB5oY.jpg?auto=webp&s=ab05f1e150c2a94ecfffb14f4f3d78ac786ac484"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7ieri/is_data_degradation_real_any_precautions_for_data/",
+          "author": null,
+          "description": "My 8TB external WD hard drive is almost full (80GB remaining). It contains video and subtitle files. I've been storing data in it for over 2 years. I recently read that the magnetic tape will lose data over time. There is also the added risk of hard disk failure (although I only use it for storage).\n My question is: how long should I wait before I transfer data to a new disk drive or is there a software for refreshing data like Diskfresh etc?\n I've also had two separate 1TB drives for audio storage and have been using them for 7 years without any sign of data degradation (some files are over ten years old).\n    submitted by    /u/rkj1990  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7ieri/is_data_degradation_real_any_precautions_for_data/",
+          "publishedOn": "2022-10-18T20:48:37.000Z",
+          "wordCount": 35242,
+          "title": "Is Data Degradation real? Any precautions for data stored on External Hard Disk Drives?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7hqiq/build_suggestions_for_dvd_ripping_machine/",
+          "author": null,
+          "description": "A few months ago, my FIL passed away. He had a collection of over 1000 dvds (still counting but possibly over 2k). My main pc can only burn 2 at once, and one additional with an external.\n I know the /r/pcmasterrace has suggested builds, do you all know if there's something like that here?\n    submitted by    /u/ckellingc  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7hqiq/build_suggestions_for_dvd_ripping_machine/",
+          "publishedOn": "2022-10-18T20:22:22.000Z",
+          "wordCount": 35562,
+          "title": "Build suggestions for DVD ripping machine",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7gz2l/hard_drive_suggestions/",
+          "author": null,
+          "description": "In the near future, I plan to purchase eight hard drives, at 16+TB each for my Synology Diskstation 1815+ (I am considering upgrading to the 1821+ model but someone told me that Plex is better with the 1815+). I currently have eight 8TB drives, but they are full.\n So far the best deals I found are:\n WD Red Pro 16TB at $299.99 each on many websites.\n Seagate Enterprise 16TB at $219 each https://www.ebay.com/itm/354163479355\n Toshiba Enterprise 18TB at $285 https://www.amazon.com/dp/B093Z5LFWD?th=1\n Not a complete deal breaker but someone told me that enterprise hard drives can be quite loud.\n I checked out https://shucks.top/ but seems I will save only about $10 per drive to shuck them and they won't be red.\n I also checked out https://diskprices.com\n My main uses for my NAS will be downloading, seeding, storing, and playing music and movies via Plex.\n Thank you for any advice that you may have.\n    submitted by    /u/joenorwood77  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7gz2l/hard_drive_suggestions/",
+          "publishedOn": "2022-10-18T19:53:05.000Z",
+          "wordCount": 38874,
+          "title": "Hard Drive Suggestions?",
+          "imageUrl": "https://external-preview.redd.it/WpDRdqO1m7YJrH9_HIIF0xsolSIjlwKZ2FnGZTf9NKY.jpg?auto=webp&s=b71f9b202207d2b16710dd9289d9ea3a54235997"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7fp2j/i_am_either_going_to_build_a_mini_itx_case_based/",
+          "author": null,
+          "description": "A little out of my depth here haha. They/I wanna do what I wrote in the title. They’d give me some extra money to do it. Do I need to do anything special for this or is it even possible? Probably gonna use plex. Someone recommended some components to me in a different thread in my profile but I’m unsure if I’ll build or buy and was wondering if I should change anything. Thank you!\n    submitted by    /u/v-a-g  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7fp2j/i_am_either_going_to_build_a_mini_itx_case_based/",
+          "publishedOn": "2022-10-18T19:02:47.000Z",
+          "wordCount": 34314,
+          "title": "I am either going to build a mini itx case based photo storage/movie streaming NAS device or buy a synology. Can I let my brothers family remotely upload photos to my NAS? Can they stream videos from my server? If so, should I adjust specifications?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7fba1/need_a_super_accurate_ntp_source_for_your/",
+          "author": null,
+          "description": "submitted by    /u/MzCWzL  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7fba1/need_a_super_accurate_ntp_source_for_your/",
+          "publishedOn": "2022-10-18T18:48:05.000Z",
+          "wordCount": 37034,
+          "title": "Need a super accurate NTP source for your datahoarding timestamps? I wrote a blog post on how to get microsecond-accurate time with a Raspberry Pi and a PPS GPS.",
+          "imageUrl": "https://external-preview.redd.it/WJFm6hsrURhsjd4PCLwSDe5Gj0litCBSPI1sPpU-9R8.jpg?auto=webp&s=6d4fe9fc5246a508ea59b009353363bacaeafca5"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7dvsh/old_sandisk_extreme_ii_mlc_ssd_writes_left/",
+          "author": null,
+          "description": "Got this around 10 years old mlc 240gb ssd that is at 55TB lifetime writes.\n In this review it is rated at 80TB but the rating is the same for all 3 versions 120gb 240gb 480gb.\n Drive Lifetime 80TB Written https://www.anandtech.com/show/7006/sandisk-extreme-ii-review-480gb\n Is it possible they only tested the 120gb and the rating could be 160TB?\n Considering using it as main drive again.\n    submitted by    /u/lemeie  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7dvsh/old_sandisk_extreme_ii_mlc_ssd_writes_left/",
+          "publishedOn": "2022-10-18T17:52:50.000Z",
+          "wordCount": 35630,
+          "title": "Old SanDisk Extreme II mlc SSD writes left?",
+          "imageUrl": "https://external-preview.redd.it/eDLO_YnbccJrHZ84mcnRAQiHNDVqji0llUAMVLyNEt4.jpg?auto=webp&s=8e4081eeebe7f654ecb0a72bed7a88ef1a7fe9f7"
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y7bmxb/file_tree_with_export_text/",
+          "author": null,
+          "description": "I am looking for a program that would display content of folder and its subfolder in a tree style format. Kinda like cmd does, but with more options, like sorting items in subfolder etc. Most important is the ability to export that text to compare to others. I have lots of pictures from different artists and would like to sort them to see what I am missing and download the rest\n    submitted by    /u/StrlA  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y7bmxb/file_tree_with_export_text/",
+          "publishedOn": "2022-10-18T16:26:17.000Z",
+          "wordCount": 36597,
+          "title": "file tree with export text",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y77wrm/trying_to_digitise_vhs_tapes_with_an_xbox_one_is/",
+          "author": null,
+          "description": "First of all, apologies if this is not particularly the appropriate subreddit for this post. I figured it might be worth a shot given the nature of the situation.\n I'm trying to digitise a small handful of VHS tapes. My original plan was to plug my VCR into the Xbox One via an AV-HDMI adapter/upscaler, and then use OneCast to connect from my computer and just do a screen cap. The problem now is that Microsoft have locked down the OneGuide app that takes in HDMI input and doesn't allow apps like OneCast to stream from that app anymore (same with apps like YouTube etc.). Maybe somebody knows of a different app that can capture an Xbox stream?\n Short of buying a capture card, are there any ways around this? Having a device in front of me with HDMI in and out, plus a 2-way AV-HDMI adapter, plus a VCR and a computer is making me think there has to be a solution with what I have.\n Again, I know the most obvious solution is \"buy a capture card\". I'm just trying to work with what I have at the moment. And if I do end up needing to purchase one, what would be your (budget) suggestions? Thank you in advance, and sorry for the wall of text!\n    submitted by    /u/kakar0tten  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y77wrm/trying_to_digitise_vhs_tapes_with_an_xbox_one_is/",
+          "publishedOn": "2022-10-18T14:01:49.000Z",
+          "wordCount": 35478,
+          "title": "Trying to digitise VHS tapes with an Xbox One. Is it possible?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y76qnv/the_cost_of_a_simple_hdd_docking_station_is_insane/",
+          "author": null,
+          "description": "I downsized my computer to a ITX form factor, thinking I could spend maybe £10-20 on a docking station for my six 3.5\" drives . Honestly shocked to see how much they cost. They're basically a cheap piece of plastic with daisy chained SATA connectors, USB, and a 12v out. Really nothing complex. Looking at £80-100+ for that. Madness. I know inflation is bad all-round, but items containing such materials can still be produced rather cheaply.\n I'm actually regretting throwing away the Western Digital enclosures that the hard drives come in originally.\n    submitted by    /u/DOOMed_Space_Marine  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y76qnv/the_cost_of_a_simple_hdd_docking_station_is_insane/",
+          "publishedOn": "2022-10-18T13:13:10.000Z",
+          "wordCount": 36496,
+          "title": "The cost of a simple HDD docking station is insane.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y6xrxc/lto6_to_backup_client_projects/",
+          "author": null,
+          "description": "I am a professional photographer (on the side, full time back end infrastructure engineer full time) and I have been thinking about reducing the impact of storing ~1Tb of RAW photos and/or video from each client project. \n My idea take inspiration from a (mostly) immutable backup project I am working on at work. Use tapes. To set the stage I am looking at this from a \"per-project\" standpoint not a \"backup my entire storage infra\" standpoint. \n I think would easily be able to fit a entire project (wedding, event, concert, etc...) on a single LTO-5 tape. With that I would double up and mirror the tapes and then just have them in a decent (but not great, admittedly) climate controlled environment for potential future access for up to 2-3 years after the project. So effectively I keep the \"good\" raw's and clips on my main storage array and then offload all of the project as a snapshot onto 2 identical tapes (original files, project files, and final exports).\n My goal is to reduce the spinning disks I need to maintain, decrease power usage, and decrese the space utilization of one off projects that I will likely never need to touch again, and still maintain that data for as long a possable for my own comfort and client good will. \n I am thinking I can find a LTO external SAS drive for ~$350, tapes for ~$9 per, and use something like bacula to manage the tapes.\n Thoughts?\n    submitted by    /u/kd5vmo  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y6xrxc/lto6_to_backup_client_projects/",
+          "publishedOn": "2022-10-18T05:21:41.000Z",
+          "wordCount": 36379,
+          "title": "LTO6 to backup client projects?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y6xqu9/my_trunas_server/",
+          "author": null,
+          "description": "submitted by    /u/convict16  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y6xqu9/my_trunas_server/",
+          "publishedOn": "2022-10-18T05:20:08.000Z",
+          "wordCount": 36234,
+          "title": "My TruNAS server",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y6xl7i/my_ytdlp_frontendvideo_hosting_site_has_been/",
+          "author": null,
+          "description": "You feed it urls and it downloads them, uploading them to the site under the original video metadata (tags, uploader, title, etc). it’s like Tubearchivist but heavier and with worse usability (WIP).\n Redesign was done by an open source contributor\n https://github.com/horahoradev/horahora\n    submitted by    /u/SigSmegV  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y6xl7i/my_ytdlp_frontendvideo_hosting_site_has_been/",
+          "publishedOn": "2022-10-18T05:11:49.000Z",
+          "wordCount": 35523,
+          "title": "My yt-dlp frontend/video hosting site has been redesigned 😳",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y6uliq/can_i_retrieve_the_data_out_of_this_broken_usb/",
+          "author": null,
+          "description": "submitted by    /u/XBL_Fede  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y6uliq/can_i_retrieve_the_data_out_of_this_broken_usb/",
+          "publishedOn": "2022-10-18T02:45:37.000Z",
+          "wordCount": 36468,
+          "title": "Can I retrieve the data out of this broken USB stick?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DataHoarder/comments/y6uiiq/is_this_good_enough_cheapest_intel_xl710_quad_i/",
+          "author": null,
+          "description": "submitted by    /u/mrpcmrz  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DataHoarder/comments/y6uiiq/is_this_good_enough_cheapest_intel_xl710_quad_i/",
+          "publishedOn": "2022-10-18T02:41:38.000Z",
+          "wordCount": 34673,
+          "title": "Is this good enough? Cheapest intel xl710 quad i can found",
+          "imageUrl": "https://preview.redd.it/cgdqnkfw8hu91.jpg?auto=webp&s=d7e7a0bd3b5009bbbc72bfa9b9d23c78db13ccd0"
+        },
+        {
           "id": "https://www.reddit.com/r/DataHoarder/comments/y6t06w/is_unlimited_cloud_dead/",
           "author": null,
           "description": "I recently ordered a TrueNas box to migrate my white box NAS into, and I want to take the opportunity to revisit my backup strategy. It really seems like unlimited cloud storage is dead, and doing the math, backing up my 18TB ZFS pool to e.g. B2 would cost $90 a month (!), compared to what I paid with CrashPlan before they went belly up. And I was on backblaze until I stopped daily driving a single windows machine. \n I’m gonna shut up before I ramble, but I’m curious because searching around the sub I sure get that impression.\n    submitted by    /u/tesfox  \n [link]   [comments]",
@@ -17124,6 +17844,266 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://krebsonsecurity.com/2022/10/how-card-skimming-disproportionally-affects-those-most-in-need/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://krebsonsecurity.com/2022/10/how-card-skimming-disproportionally-affects-those-most-in-need/",
+          "publishedOn": "2022-10-19T01:49:40.000Z",
+          "wordCount": 1807,
+          "title": "Card Skimming Disproportionally Affects Those Most in Need",
+          "imageUrl": null
+        },
+        {
+          "id": "https://apnews.com/article/science-texas-alabama-race-and-ethnicity-0d83fcc256ec2efef37b0d5c24f418a5",
+          "author": null,
+          "description": "Comments",
+          "link": "https://apnews.com/article/science-texas-alabama-race-and-ethnicity-0d83fcc256ec2efef37b0d5c24f418a5",
+          "publishedOn": "2022-10-19T01:49:30.000Z",
+          "wordCount": 10114,
+          "title": "With teachers in short supply, states ease job requirements",
+          "imageUrl": "https://storage.googleapis.com/afs-prod/media/4c7991b487fc4298a81c8ff7671a9c8a/3000.jpeg"
+        },
+        {
+          "id": "https://www.starlink.com/aviation",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.starlink.com/aviation",
+          "publishedOn": "2022-10-19T01:40:46.000Z",
+          "wordCount": 93,
+          "title": "Starlink for Aviation",
+          "imageUrl": "https://www.starlink.com/assets/images/social/share.jpg"
+        },
+        {
+          "id": "https://justforfunnoreally.dev/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://justforfunnoreally.dev/",
+          "publishedOn": "2022-10-19T00:27:25.000Z",
+          "wordCount": 522,
+          "title": "Just for Fun. No, really.",
+          "imageUrl": null
+        },
+        {
+          "id": "http://joelcrabb.com/?p=334",
+          "author": null,
+          "description": "Comments",
+          "link": "http://joelcrabb.com/?p=334",
+          "publishedOn": "2022-10-19T00:07:46.000Z",
+          "wordCount": 1340,
+          "title": "A digital ecommerce transformation (2017)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "https://www.usb.org/document-library/usb4r-specification-v20",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.usb.org/document-library/usb4r-specification-v20",
+          "publishedOn": "2022-10-19T00:07:40.000Z",
+          "wordCount": 1065,
+          "title": "USB4 Specification v2.0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://scienceplusplus.org/metascience/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://scienceplusplus.org/metascience/",
+          "publishedOn": "2022-10-18T23:26:24.000Z",
+          "wordCount": 40386,
+          "title": "A Vision of Metascience",
+          "imageUrl": null
+        },
+        {
+          "id": "https://arstechnica.com/gaming/2022/10/lost-something-search-through-91-7-million-files-from-the-80s-90s-and-2000s/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://arstechnica.com/gaming/2022/10/lost-something-search-through-91-7-million-files-from-the-80s-90s-and-2000s/",
+          "publishedOn": "2022-10-18T22:17:26.000Z",
+          "wordCount": 1833,
+          "title": "Lost something? Search through 91.7M files from the 80s, 90s, and 2000s",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/floppy-disc-scanner-760x380.jpg"
+        },
+        {
+          "id": "https://www.usenix.org/conference/nsdi22/presentation/gibson",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.usenix.org/conference/nsdi22/presentation/gibson",
+          "publishedOn": "2022-10-18T22:15:16.000Z",
+          "wordCount": 826,
+          "title": "Aquila: A unified, low-latency fabric for datacenter networks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.1000hoursoutside.com/blog/time-with-kids-before-age-12",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.1000hoursoutside.com/blog/time-with-kids-before-age-12",
+          "publishedOn": "2022-10-18T21:58:20.000Z",
+          "wordCount": 9053,
+          "title": "75% of the time we spend with our kids in our lifetime will be spent by age 12",
+          "imageUrl": "http://static1.squarespace.com/static/5f0097caead12b7ccccaac20/t/5f00f83d53502b7976dfaaf1/1593899071867/summer.jpg?format=1500w"
+        },
+        {
+          "id": "https://forms.gle/PEbQ7cXAfFc7bpXs9",
+          "author": null,
+          "description": "Comments",
+          "link": "https://forms.gle/PEbQ7cXAfFc7bpXs9",
+          "publishedOn": "2022-10-18T21:00:45.000Z",
+          "wordCount": 1393,
+          "title": "Bottomless (YC W19) is hiring a lead designer (anywhere)",
+          "imageUrl": "https://lh4.googleusercontent.com/1yua673tluY2QW1shDuRgySEWsJ3_O2YcTB1shGJDfksJWy0h_yrO-q08GFYEPR4R682CH-Ks18=w1200-h630-p"
+        },
+        {
+          "id": "https://thehustle.co/how-nuns-got-squeezed-out-of-the-communion-wafer-business/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://thehustle.co/how-nuns-got-squeezed-out-of-the-communion-wafer-business/",
+          "publishedOn": "2022-10-18T20:59:20.000Z",
+          "wordCount": 7891,
+          "title": "Nuns got squeezed out of the communion wafer business",
+          "imageUrl": "https://thehustle.co/wp-content/uploads/2022/10/share2.png"
+        },
+        {
+          "id": "https://stephanango.com/photoshop-for-text",
+          "author": null,
+          "description": "Comments",
+          "link": "https://stephanango.com/photoshop-for-text",
+          "publishedOn": "2022-10-18T20:43:19.000Z",
+          "wordCount": 732,
+          "title": "Photoshop for Text",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.fpgadeveloper.com/comprehensive-list-of-fpga-development-boards/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.fpgadeveloper.com/comprehensive-list-of-fpga-development-boards/",
+          "publishedOn": "2022-10-18T19:23:53.000Z",
+          "wordCount": 732,
+          "title": "Comprehensive list of FPGA development boards",
+          "imageUrl": "https://www.fpgadeveloper.com/images/list-of-dev-boards-small.jpg"
+        },
+        {
+          "id": "https://atproto.com/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://atproto.com/",
+          "publishedOn": "2022-10-18T18:49:54.000Z",
+          "wordCount": 95,
+          "title": "The AT Protocol",
+          "imageUrl": "https://atproto.com/img/default-social-card.jpg"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=8Ab3ArE8W3s",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.youtube.com/watch?v=8Ab3ArE8W3s",
+          "publishedOn": "2022-10-18T18:27:31.000Z",
+          "wordCount": null,
+          "title": "Stop Writing Dead Programs [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://ciechanow.ski/sound/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://ciechanow.ski/sound/",
+          "publishedOn": "2022-10-18T15:48:16.000Z",
+          "wordCount": 8005,
+          "title": "Sound",
+          "imageUrl": "https://ciechanow.ski/images/og/sound.png"
+        },
+        {
+          "id": "https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/",
+          "publishedOn": "2022-10-18T15:36:45.000Z",
+          "wordCount": 1911,
+          "title": "Fine-grained personal access tokens for GitHub",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/10/PAT-header.png"
+        },
+        {
+          "id": "https://github.com/Linen-dev/linen.dev",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/Linen-dev/linen.dev",
+          "publishedOn": "2022-10-18T15:12:43.000Z",
+          "wordCount": 1171,
+          "title": "Show HN: Linen – Open-source Slack for communities",
+          "imageUrl": "https://opengraph.githubassets.com/dcf41ec649b018f7ee2b834cc41f5c336c9bb2da21540cb165221fb48f963b6c/Linen-dev/linen.dev"
+        },
+        {
+          "id": "https://twitter.com/hillelogram/status/1534301374166474752",
+          "author": null,
+          "description": "Comments",
+          "link": "https://twitter.com/hillelogram/status/1534301374166474752",
+          "publishedOn": "2022-10-18T15:07:29.000Z",
+          "wordCount": 399,
+          "title": "I am endlessly fascinated with content tagging systems",
+          "imageUrl": null
+        },
+        {
+          "id": "https://e360.yale.edu/features/phantom-forests-tree-planting-climate-change",
+          "author": null,
+          "description": "Comments",
+          "link": "https://e360.yale.edu/features/phantom-forests-tree-planting-climate-change",
+          "publishedOn": "2022-10-18T14:38:43.000Z",
+          "wordCount": 2908,
+          "title": "Phantom forests: Ambitious tree planting projects are failing",
+          "imageUrl": "https://e360.yale.edu/assets/site/Leh-Tree-Planting_Wikipedia-Small-2.jpg"
+        },
+        {
+          "id": "https://cs.lmu.edu/~ray/notes/syntaxdesign/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://cs.lmu.edu/~ray/notes/syntaxdesign/",
+          "publishedOn": "2022-10-18T13:50:53.000Z",
+          "wordCount": 3042,
+          "title": "Syntax Design (2014)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.statnews.com/2022/10/17/boston-university-researchers-testing-of-lab-made-version-of-covid-virus-draws-government-scrutiny/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.statnews.com/2022/10/17/boston-university-researchers-testing-of-lab-made-version-of-covid-virus-draws-government-scrutiny/",
+          "publishedOn": "2022-10-18T12:47:42.000Z",
+          "wordCount": 2848,
+          "title": "Researchers’ tests of lab-made version of Covid virus draw scrutiny",
+          "imageUrl": "https://www.statnews.com/wp-content/uploads/2020/03/49655855721_0ed2931742_o-1024x576.jpg"
+        },
+        {
+          "id": "https://stratechery.com/2022/microsoft-full-circle/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://stratechery.com/2022/microsoft-full-circle/",
+          "publishedOn": "2022-10-18T12:36:41.000Z",
+          "wordCount": 4793,
+          "title": "Microsoft Full Circle",
+          "imageUrl": "https://149384716.v2.pressablecdn.com/wp-content/uploads/2013/07/hierachryneedsdevices.jpg"
+        },
+        {
+          "id": "https://www.quantamagazine.org/mathematicians-surprised-by-hidden-fibonacci-numbers-20221017/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.quantamagazine.org/mathematicians-surprised-by-hidden-fibonacci-numbers-20221017/",
+          "publishedOn": "2022-10-18T11:28:51.000Z",
+          "wordCount": 5218,
+          "title": "Mathematicians Discover the Fibonacci Numbers Hiding in Strange Spaces",
+          "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/10/Infinite-Staircases_1200_Social.webp"
+        },
+        {
+          "id": "https://hakaimagazine.com/features/somethings-jellyfishy-in-the-state-of-italy/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://hakaimagazine.com/features/somethings-jellyfishy-in-the-state-of-italy/",
+          "publishedOn": "2022-10-18T02:24:56.000Z",
+          "wordCount": 3521,
+          "title": "Something’s jellyfishy in the state of Italy",
+          "imageUrl": "https://hakaimagazine.com/wp-content/uploads/facebook-jellyfish-future.jpg"
+        },
+        {
           "id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3882214",
           "author": null,
           "description": "Comments",
@@ -17404,6 +18384,26 @@
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb21b031a-a699-4854-a412-a1b47cba1972_1286x756.png"
         },
         {
+          "id": "https://www.thestar.com/news/canada/2022/10/16/james-webb-telescope-pictures-didnt-begin-as-stunning-images-heres-how-they-started-out-and-how-researchers-brought-them-to-life.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.thestar.com/news/canada/2022/10/16/james-webb-telescope-pictures-didnt-begin-as-stunning-images-heres-how-they-started-out-and-how-researchers-brought-them-to-life.html",
+          "publishedOn": "2022-10-17T08:36:16.000Z",
+          "wordCount": 6369,
+          "title": "James Webb Telescope pictures didn’t begin as images",
+          "imageUrl": "https://images.thestar.com/2cs1Qa2m1kKTFKfdhIw8CA6d62U=/1200x695/smart/filters:cb(1666005476375):format(webp)/https://www.thestar.com/content/dam/thestar/news/canada/2022/10/16/james-webb-telescope-pictures-didnt-begin-as-stunning-images-heres-how-they-started-out-and-how-researchers-brought-them-to-life/_1main_carina.jpg"
+        },
+        {
+          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/03-product-v-engineering.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/03-product-v-engineering.html",
+          "publishedOn": "2022-10-17T05:53:35.000Z",
+          "wordCount": 3870,
+          "title": "Product vs. Engineering",
+          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
+        },
+        {
           "id": "https://github.com/richardanaya/wasm-service",
           "author": null,
           "description": "Comments",
@@ -17412,6 +18412,16 @@
           "wordCount": 633,
           "title": "Htmx, WebAssembly, Rust, ServiceWorker Proof of Concept",
           "imageUrl": "https://opengraph.githubassets.com/d1465aaf493beb7aa9ada17b64f6ea3c91fa28bab224472f899692740ac59f32/richardanaya/wasm-service"
+        },
+        {
+          "id": "https://www.aljazeera.com/news/2022/9/8/borneo-skeleton-may-show-31000-year-old-amputation",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.aljazeera.com/news/2022/9/8/borneo-skeleton-may-show-31000-year-old-amputation",
+          "publishedOn": "2022-10-17T01:00:30.000Z",
+          "wordCount": 1168,
+          "title": "Borneo skeleton may show 31,000 year old amputation",
+          "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2022/09/AP22250229697673.jpg?resize=1920%2C1440"
         },
         {
           "id": "https://terikanefield.com/can-rule-of-law-survive-in-america/",
@@ -17462,6 +18472,16 @@
           "wordCount": 3298,
           "title": "Streaming data in Postgres to 1M clients with GraphQL",
           "imageUrl": "https://repository-images.githubusercontent.com/137724480/601f6f00-936a-11e9-8f46-263945af47dc"
+        },
+        {
+          "id": "https://www.saveur.com/sugar-history-of-the-world/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.saveur.com/sugar-history-of-the-world/",
+          "publishedOn": "2022-10-16T22:38:29.000Z",
+          "wordCount": 9588,
+          "title": "The Illustrated History of How Sugar Conquered the World (2017)",
+          "imageUrl": "https://www.saveur.com/uploads/2019/03/18/IDU6YQWQHNYY5EUXVP6XO56SQA.jpg?auto=webp&width=2000&height=1500"
         },
         {
           "id": "https://www.archives.gov/preservation/digital-preservation/risk",
