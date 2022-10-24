@@ -2,10 +2,1169 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zpuckeridge.github.io/rss/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-23T02:36:53.002Z</updated>
+    <updated>2022-10-24T02:49:16.262Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://zpuckeridge.github.io/rss/index.html"/>
     <link rel="self" href="https://zpuckeridge.github.io/rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Finally upgraded from my wooden sustainable rack to fit for purpose server rack.]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/yc025n/finally_upgraded_from_my_wooden_sustainable_rack/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/yc025n/finally_upgraded_from_my_wooden_sustainable_rack/"/>
+        <updated>2022-10-24T02:41:53.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/menganeez  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ELI5 - how will setting up a VPN to access my home network play nicely with using a VPN like Mullvad or ProtonVPN?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybzv4s/eli5_how_will_setting_up_a_vpn_to_access_my_home/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybzv4s/eli5_how_will_setting_up_a_vpn_to_access_my_home/"/>
+        <updated>2022-10-24T02:31:29.000Z</updated>
+        <summary type="html"><![CDATA[Ive been hesitant to set this up for the simple fact that I often use a VPN when on my laptop away from home. Not all the time because it breaks some sites, but sometimes.
+ Do I have to choose between home network vpn and paid vpn? Can I be connected to both at once?
+ Lets say I want to vpn almost all the time to my home network to access shares on my network - is that a good idea? Would i have to disconnect for the times when I want to use Mullvad?
+    submitted by    /u/bringo24  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s next for my new addiction?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybznxr/whats_next_for_my_new_addiction/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybznxr/whats_next_for_my_new_addiction/"/>
+        <updated>2022-10-24T02:21:25.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/steemax  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typical CO2 Levels at Home Test]]></title>
+        <id>https://www.co2meter.com/blogs/news/co2-levels-at-home</id>
+        <link href="https://www.co2meter.com/blogs/news/co2-levels-at-home"/>
+        <updated>2022-10-24T02:15:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Viewing logs in a web browser with gotty and lnav]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybzf46/viewing_logs_in_a_web_browser_with_gotty_and_lnav/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybzf46/viewing_logs_in_a_web_browser_with_gotty_and_lnav/"/>
+        <updated>2022-10-24T02:09:03.000Z</updated>
+        <summary type="html"><![CDATA[I created a custom image from https://github.com/sorenisanerd/gotty with lnav in order to view application logs in a browser. The Dockerfile and docker compose I used are below. I created symbolic links to the apps I am interested in into a single directory and mounted it to /docker/logs in the container. Thought I would share if someone else is looking for a lightweight solution to consolidate and view logs in a browser.
+ Dockerfile
+ FROM golang:1.16 WORKDIR /gotty COPY . /gotty RUN apt-get update && apt-get install -y nodejs npm RUN CGO_ENABLED=0 make FROM alpine:latest RUN apk update && \ apk upgrade && \ apk --no-cache add ca-certificates && \ apk add bash && \ apk add lnav WORKDIR /root COPY --from=0 /gotty/gotty /usr/bin/ CMD ["gotty", "-w", "-p", "6383", "lnav", "/docker/logs/*.txt"] EXPOSE 6383 
+ docker compose
+  gotty_lnav: hostname: gotty_lnav image: gotty:latest container_name: gotty_lnav restart: always volumes: - ${docker}:/docker ports: - '6383:6383' 
+ Quick setup instructions
+  
+git clone https://github.com/sorenisanerd/gotty
+ cd gotty
+ nano Dockerfile, paste contents above, save, and exit
+ docker built -t gotty:latest .
+ Add the docker compose above to your docker compose file
+ ls -s /path/to/app1.log /docker/logs/app1.txt (do for all apps you are interested in)
+ docker compose up -d
+ Launch browser and go to http://localhost:6383
+ lnav hotkeys - https://docs.lnav.org/en/latest/hotkeys.html
+  
+   submitted by    /u/osuhickeys  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Just finished some cable management.]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybzdvm/just_finished_some_cable_management/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybzdvm/just_finished_some_cable_management/"/>
+        <updated>2022-10-24T02:07:17.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/stratiuss  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Selfhosted iPhone backup?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybz526/selfhosted_iphone_backup/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybz526/selfhosted_iphone_backup/"/>
+        <updated>2022-10-24T01:55:24.000Z</updated>
+        <summary type="html"><![CDATA[Ever since I got an iPhone, I wanted to know how I could back it up to my server, as I didn’t want to pay for iCloud storage, and not just sync all of my photos to my server using apps like PhotoSync. But an entire iTunes backup to my server. I know that macs can sync with an iPhone over wifi and back them up without being connected via a cable. So I was wondering if there was a way where as soon as my phone connects to my home network, it triggers my Mac to backup my iPhone over the network and have it store the backup files on my server. Is then even possible? Is there a docker container that can emulate a networked Mac with iTunes for me? Sorry if this seems like a dumb question but I couldn’t find anything on google.
+    submitted by    /u/intel-gma-950  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eaton IPP gmail config tips]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybz1z7/eaton_ipp_gmail_config_tips/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybz1z7/eaton_ipp_gmail_config_tips/"/>
+        <updated>2022-10-24T01:50:58.000Z</updated>
+        <summary type="html"><![CDATA[Just a tip for those wanting to forward email notification using eaton IPP and gmail smtp,
+ You need to change the default smtp port value in config.js to 587, from 25 IIRC. 
+ Save, then restart service. 
+ Otherwise, as of now version 1.69.167 it wont work and throw error in the logs.
+ In windows it's located in C:\Program Files (x86)\Eaton\IntelligentPowerProtector\configs or wherever you installed it.
+ In linux (debian for me) : usr/local/eaton/IntelligentPowerProtector/configs/
+ Then need to restart the service,
+ windows : eaton intelligent power protector
+ debian (as root) : sudo systemctl restart Eaton-IPP
+ ​
+ Thought i'd put it here as well in case I get stuck again someday.
+    submitted by    /u/denywinarto  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debugging C with Cosmopolitan Libc]]></title>
+        <id>https://ahgamut.github.io/2022/10/23/debugging-c-with-cosmo/</id>
+        <link href="https://ahgamut.github.io/2022/10/23/debugging-c-with-cosmo/"/>
+        <updated>2022-10-24T01:24:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using pre existing coaxial cable w/ moca converter to Ethernet, questions.]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/yby3p6/using_pre_existing_coaxial_cable_w_moca_converter/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/yby3p6/using_pre_existing_coaxial_cable_w_moca_converter/"/>
+        <updated>2022-10-24T01:03:03.000Z</updated>
+        <summary type="html"><![CDATA[Greetings,
+ The house I’m in has pre-ran coax cable in the walls to jacks in about every room, I’m wanting to using a device called a moca converter to turn these jacks into Ethernet out puts, effectively wiring my whole house for Ethernet connectivity.
+ Anyone have experience with this? Things to look out for or suggestions?
+ As it stands my ISP (Spectrum) will only allows for one modem inlet on one jack, so I am thinking I’ll then tap an Ethernet cable off a switch, run it to the attic where I’ll convert from Ethernet to coax. 
+ I’ll then use a coax splitter to wire into the loose cables that go to the rest of the jacks in the house.
+ At each one of these jacks I’ll place another moca to get back to Ethernet and do the deeds from there.
+ Anyone poke some holes in my plan?
+    submitted by    /u/Piecefillpath247  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's encrypt certificates. Everyone wants to give you one, but whose should you take?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybxsec/lets_encrypt_certificates_everyone_wants_to_give/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybxsec/lets_encrypt_certificates_everyone_wants_to_give/"/>
+        <updated>2022-10-24T00:47:53.000Z</updated>
+        <summary type="html"><![CDATA[On my servers I've had the following offers to hook me up with let's encrypt certificates:
+ Nextcloud - either as part of the Snap setup, or through the proxmox turnkey Linux container.
+ nginx proxy manager - they'll hook me up too.
+ CloudFlare - they offer one if I proxy my traffic through them
+ PfSense - I can set up let's encrypt certificates on the firewall coming into my network. 
+ There could be another one too.. but that's all I remember for sure.
+ What's the best practice on setting up the SSL certificates and who should you take yours from when being offered them up by everyone? I forget which one I actually chose... I think Nginx since they let me do wildcards and that way I'd only need the one certificate... But was that the best choice? 
+ Two related but other issues I'm having trouble with and would appreciate any advice on are:
+ I know I have HSTS turned off on my Nextcloud/Nginx proxy manager but half the time when I connect via the fqdn from inside my LAN I'll get the HSTS error. A few minutes before or after and it'll seem to be working fine. If I connect from outside the LAN it's usually no issue.. 
+ When setting up the new nextcloud server, I made a test certificate. Now the production server is no longer named test, so the certificate name doesn't match the certified server. How do I go about revoking a certificate in Nginx proxy manager to issue a new one with the correct name on it?
+ Thanks
+    submitted by    /u/PuzzleheadedMode7386  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is it normal for Kopia to use at least 5 hours to back up 260 GB of data from external HDD to external HDD?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybxk0y/is_it_normal_for_kopia_to_use_at_least_5_hours_to/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybxk0y/is_it_normal_for_kopia_to_use_at_least_5_hours_to/"/>
+        <updated>2022-10-24T00:36:28.000Z</updated>
+        <summary type="html"><![CDATA[Hi, I'm using a laptop with 2 external HDDs. 1 of them is a casing for 2.5" HDD while the other is a Seagate external HDD. I have the 2.5" HDD because I changed my laptop and all my data was stored in this 2.5" HDD. So I took it out of the old laptop and bought a casing for it. The connection is USB 3.0.
+ I tried to backup the 2.5" HDD to the Seagate external HDD with Kopia and it took more than 5 hours to backup 260GB of data. Is this considered normal speed for Kopia or any backup software for Windows?
+    submitted by    /u/Wulunzun  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[what does these "seatools" reports tell about a supposedley brand new segate hdd ?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybxbzx/what_does_these_seatools_reports_tell_about_a/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybxbzx/what_does_these_seatools_reports_tell_about_a/"/>
+        <updated>2022-10-24T00:25:21.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/VladamirLem9781  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is a quiet rack-based homelab even achievable?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybx4fk/is_a_quiet_rackbased_homelab_even_achievable/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybx4fk/is_a_quiet_rackbased_homelab_even_achievable/"/>
+        <updated>2022-10-24T00:15:17.000Z</updated>
+        <summary type="html"><![CDATA[I lust after a rack mounted homelab. However, living in a small apartment without basement or spare room, am I kidding myself to think that a quiet rack based homelab is possible? While there are ways to avoid noisy disk shelves and servers, what worries me are the teeny tiny turbo screaming banshee fans of 10GB networking products. 
+ In dreaming of homelab nirvana, am I deluding myself?
+    submitted by    /u/LostGoatOnHill  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenLDAP - Rebuild from scratch, can't remember how I ever had this working!]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybx3bi/openldap_rebuild_from_scratch_cant_remember_how_i/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybx3bi/openldap_rebuild_from_scratch_cant_remember_how_i/"/>
+        <updated>2022-10-24T00:13:50.000Z</updated>
+        <summary type="html"><![CDATA[I posted this in r/sysadmin but was told to post here.
+ I'm trying to set up OpenLDAP to mimic what is set up at work. Since I'm mirroring work, I can't use any alternatives like FreeIPA or others.
+ At one point, I had an OpenLDAP server running in my homelab on a Raspberry Pi as I was trying to learn OpenLDAP setup and configuration. I had it working and could even use it to authenticate 802.1x connection attempts.
+ Unfortunately, disaster struck and now I'm trying to recreate it from scratch and I'm having a hell of a time trying to get even the most basic stuff working. I've managed to set the 'admin' password and can query the root DSE from Apache DirectoryStudio using 'cn=admin,cn=config', but that's about it. I can't change, create, or delete anything.
+ I made a post on something similar two years ago, but I was trying to create a RO user for RADIUS to search the LDAP database for user authentication. I just don't remember encountering this specific issue before, the last I recalled, I had to create a RO user but it appears I can't even do that as the admin user itself is RO.
+ What's even more frustrating is that all the howtos and docs I've been reading over the last four days all assume that admin can write! My admin account can't write anything except its own password apparently.
+ How do I get the admin user access to everything (like a proper admin account) so I can get this project off the ground? 
+ Thank you for your help!
+    submitted by    /u/firestorm_v1  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dotfile madness (2019)]]></title>
+        <id>https://0x46.net/thoughts/2019/02/01/dotfile-madness/</id>
+        <link href="https://0x46.net/thoughts/2019/02/01/dotfile-madness/"/>
+        <updated>2022-10-23T22:55:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do you know of any self hosted business proposal software ?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybv2nm/do_you_know_of_any_self_hosted_business_proposal/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybv2nm/do_you_know_of_any_self_hosted_business_proposal/"/>
+        <updated>2022-10-23T22:38:02.000Z</updated>
+        <summary type="html"><![CDATA[Hi,
+ I've been looking for a proposal software for a startup i'm working on launching and I see all sorts of SAAS options but nothing active and self hosted. Anyone has a recommendation ?
+ The only open source "options" I found seams dead like Bupros Procurement  and version 4 of invoice ninja but they removed the feature in v5.
+ From what I understand the top SAAS are PandaDoc, Proposify and Prospero but I'd rather self host everything from open-source projects.
+ Does anyone know of a procurement software open source project that's still running ?
+ Edit: Found LibreSign since, ill try to install it and give feedback but I'm still open to suggestions.
+ Thanks
+    submitted by    /u/human8264829264  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self-hosted countdown timer(? Is this a thing?)]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybuzd6/selfhosted_countdown_timer_is_this_a_thing/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybuzd6/selfhosted_countdown_timer_is_this_a_thing/"/>
+        <updated>2022-10-23T22:33:51.000Z</updated>
+        <summary type="html"><![CDATA[This is a pretty specific, out-there request, so it's okay if no one has any idea on this sort of thing, but
+ I'm looking for a self-hosted timer. Something where I can be like, "hey, in 32 hours, I should check on the thing". Preferably in the form of a docker server that can be checked from a browser? Though I guess I'd be interested to hear other alternatives even if they aren't that. Kinda like those "it's xx days until Christmas" deals, except that it doesnt have to be Christmas
+ I know I can technically just download any standard ol' timer app, but
+  
+That's on a per-device system. If I ran the timer on my computer, I wouldn't be able to, say, check on the timers from my phone
+ I'd have to keep it open. :( (first world problems, I know. admittedly, if I need to restart my computer for whatever reason, that does throw things out of wack)
+  
+Anyone have any ideas on what this might be?
+    submitted by    /u/Brancliff  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[will a m2 to sata slow down the connection of individual drives or has it enough bandwidth?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybuxed/will_a_m2_to_sata_slow_down_the_connection_of/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybuxed/will_a_m2_to_sata_slow_down_the_connection_of/"/>
+        <updated>2022-10-23T22:31:26.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/TheManni1000  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Old servers I'm thinking about turning into furniture]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybuszz/old_servers_im_thinking_about_turning_into/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybuszz/old_servers_im_thinking_about_turning_into/"/>
+        <updated>2022-10-23T22:26:00.000Z</updated>
+        <summary type="html"><![CDATA[I've a couple of really old rackmount servers that have no practical use anymore.
+ I mean proliant Gen1 - Athlon generation CPU.
+ Was thinking of taking the tops off them, fitting a bit of clear perspex instead so you can see the internals and attaching a couple of legs to them to make "Steam punkish" type coffee tables.
+ (Thought I might use scaffolding poles for the legs).
+ Waste electronic folks want to charge me an unreasonable amount of money to take them away - figured I might as well do something interesting with them.
+ Wondering if anyone has done something similar and if so would ya be up for sharing pictures to give me a bit of inspiration?
+    submitted by    /u/nezbla  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coming Home to Vim (2010)]]></title>
+        <id>https://stevelosh.com/blog/2010/09/coming-home-to-vim/</id>
+        <link href="https://stevelosh.com/blog/2010/09/coming-home-to-vim/"/>
+        <updated>2022-10-23T22:01:55.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hey guys, I’d like some opinions]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybu2dr/hey_guys_id_like_some_opinions/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybu2dr/hey_guys_id_like_some_opinions/"/>
+        <updated>2022-10-23T21:53:38.000Z</updated>
+        <summary type="html"><![CDATA[So, this is sort of a side topic, but since folks here know a lot about storage… I recently got my NAS all setup. Now I have my main PC I want to do some stuff with. 
+ My PC has RAID on-board, and my main drive is two SSDs running RAID0. They perform extremely well. 
+ So, I now also have TWO WD 12TB drives which I want to setup. I had one in there but I removed it and now I decided to put them both in. My dilemma is: do I stripe them or mirror them. 
+ They will be used for a few things: downloading all kinds of stuff that I will keep some of, and trash some of. I’ll also be running a few virtual machines as well, and those will go on there. 
+ I really know the pros and cons for each option, which is all the more reason why I’m asking here, because I’m finding it hard to decide which I’ll be happier with in the long run. I’m inclined to go mirror just in case of a failure, but the overhead is heavy for what certainly is not mission critical stuff. 
+ Anyway, what would y’all do?
+    submitted by    /u/AndrewZabar  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[98.css – design system for building faithful recreations of Windows 98 UIs]]></title>
+        <id>https://jdan.github.io/98.css/</id>
+        <link href="https://jdan.github.io/98.css/"/>
+        <updated>2022-10-23T21:41:56.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trying to create and self-host a website]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybtnyb/trying_to_create_and_selfhost_a_website/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybtnyb/trying_to_create_and_selfhost_a_website/"/>
+        <updated>2022-10-23T21:36:07.000Z</updated>
+        <summary type="html"><![CDATA[I started with wordpress and that is just drag and drop
+ But with the high fees, I am looking to self host (even if it means to recreate my wordpress from scratch). But the more I researched, the more I am confused....
+ I heard that Netify was a good option for self hosting, and I created a Github account and cloned a repository, but now I have no idea how to edit the cloned website
+ Does anyone have any good tutorials that are in line with this?
+    submitted by    /u/SaltyPlans  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Homelab UPS caught fire yesterday]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybt9an/homelab_ups_caught_fire_yesterday/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybt9an/homelab_ups_caught_fire_yesterday/"/>
+        <updated>2022-10-23T21:18:47.000Z</updated>
+        <summary type="html"><![CDATA[Just a heads up to listen to your UPS when it complains.
+ I bought 3 UPS from a homelabber (no idea if they are on here) several years ago.
+ Replaced the batteries and all seemed well.
+ A week ago the one I had under my home theatre (TV, Receiver, Xbox, etc) started randomly beeping when it had a load, but only occasionally.
+ It still worked though so I just ignored it.
+ Yesterday came home and my wife and daughter said they smelled burning plastic but couldn't locate source. I flipped on the TV and about 5 minutes later the UPS started popping and my shooting flames out the side.
+ She went for the Fire Extinguisher and I just unplugged it from the wall and it stopped.
+ So just a friendly reminder when your UPS complains, LISTEN. Can't imagine how bad this would have been if it decided to go sparky when we were not home.
+    submitted by    /u/Casper042  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self host website through mullvad VPN]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybt6m9/self_host_website_through_mullvad_vpn/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybt6m9/self_host_website_through_mullvad_vpn/"/>
+        <updated>2022-10-23T21:15:36.000Z</updated>
+        <summary type="html"><![CDATA[For various reasons I want to host my site through a VPN. I'm not sure my ISP would give me a static address anyway. Won't be anything fancy at all, mainly will just be links to other sites. Shouldn't I be able to reserve an IP address and port through Mullvad, then run my site on a local machine through that? The domain is through gandi if that matters. Many thanks
+    submitted by    /u/erik530195  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Login recursion omv]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybt18y/login_recursion_omv/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybt18y/login_recursion_omv/"/>
+        <updated>2022-10-23T21:09:14.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/winston161984  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Guide to Hosting CommaFeed RSS Reader with Docker]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybsu66/a_guide_to_hosting_commafeed_rss_reader_with/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybsu66/a_guide_to_hosting_commafeed_rss_reader_with/"/>
+        <updated>2022-10-23T21:00:54.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/gue-niiiii  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maintaining sufficient free space with ZFS]]></title>
+        <id>https://taras.glek.net/post/curious-case-of-maintaining-sufficient-free-space-with-zfs/</id>
+        <link href="https://taras.glek.net/post/curious-case-of-maintaining-sufficient-free-space-with-zfs/"/>
+        <updated>2022-10-23T20:59:16.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Study: Electroshock therapy more successful for depression than ketamine]]></title>
+        <id>https://today.uconn.edu/2022/10/electroshock-therapy-more-successful-for-depression-than-ketamine/</id>
+        <link href="https://today.uconn.edu/2022/10/electroshock-therapy-more-successful-for-depression-than-ketamine/"/>
+        <updated>2022-10-23T20:42:53.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best google drive encrypted backup solution?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybscaa/best_google_drive_encrypted_backup_solution/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybscaa/best_google_drive_encrypted_backup_solution/"/>
+        <updated>2022-10-23T20:39:45.000Z</updated>
+        <summary type="html"><![CDATA[I know this has been asked a million times but I'm having some trouble figuring out the best way to do this. I remember trying rlclone at some point but I remember having to get a new token pretty much every few hours. Plus the rclone documentation doesn't seem to cover whether the uploads will be browsable, or if they are just a backup that can be restored from, or something else. (I tried all this about a year ago, I was not able to use anything I uploaded.) My ubuntu server has about 10-12tb of data in a zpool. I only have about 10/mbit upload speed, so it seems like prioritizing important directories would be the way to go. 
+ I would have no problem picking a few directories for an encrypted upload monthly or bi weekly, that I could restore from if something went haywire. It does not need to be browsable, but I do need some way of identifying directory names since they will be encrypted as well to my understanding.
+    submitted by    /u/erik530195  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel ssdpf2kx076tz]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybs91a/intel_ssdpf2kx076tz/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybs91a/intel_ssdpf2kx076tz/"/>
+        <updated>2022-10-23T20:35:51.000Z</updated>
+        <summary type="html"><![CDATA[Anyone know anything about these? We use them at my work all the time, and everything says they're nvme drives, however the interface looks almost like it's copied from SATA.
+ I work for an autonomous vehicle company. Doing the rough math says when the vehicle is autonomously driving, it creates up approximately 15GB of data every minute (we go through an 8TB drive in an 8 hour shift
+    submitted by    /u/jdcnosse1988  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SSO and OMV?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybs78e/sso_and_omv/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybs78e/sso_and_omv/"/>
+        <updated>2022-10-23T20:33:43.000Z</updated>
+        <summary type="html"><![CDATA[Is there a documented way on how to put openmediavault behind SSO? I am using Authentik, and I am looking forward to using my already existing SSO solution. The official Authentik integration documentation doesn't mention OMV, but I am sure something like LDAP should work just fine.
+    submitted by    /u/ButINeedThatUsername  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gamification affects software developers: Cautionary evidence from GitHub]]></title>
+        <id>https://arxiv.org/abs/2006.02371</id>
+        <link href="https://arxiv.org/abs/2006.02371"/>
+        <updated>2022-10-23T20:27:23.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help with Cloudberry backup permissions]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybrv4h/help_with_cloudberry_backup_permissions/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybrv4h/help_with_cloudberry_backup_permissions/"/>
+        <updated>2022-10-23T20:19:46.000Z</updated>
+        <summary type="html"><![CDATA[Hello, I'm attempting to backup my important rocky linux home server data with clouberry and backblaze b2, and I'm running into issues trying to give cloudberry root permissions so that it can read my entire filesystem. I'm new to this and can't help but feel like this is a novice issue, but I can't find any answers online. The cloudberry website itself addresses the issue by saying I should change the permissions on the files I want to backup, but this is my entire filesystem, I don't think that'll work without stepping on toes.
+ ​
+ My error (The amount of denied folders changes per run and gets much higher):
+ "Dear [FirstName] [LastName],your backup plan BulkBackup COMPLETED WITH WARNINGS, please see below for more details. 
+ ERROR
+  
+Access was denied to 103 files/folders (code: 1610)Access is denied to 103 local files/folders set for backup
+  
+INFORMATION
+  
+Files and folders were skipped: 81 (code: 1603)Skip folder: Count: 78 System and hidden files skipped: 3"
+  
+​
+ What I've already tried:
+ I've, of course, tried running the command as root "sudo cbb plan -r BulkBackup"
+ I've also changed the to daemons that cloudberry uses (cloudberry-backup and cloudberry-backupWA) to use the root with the addition of this in their respective .service files:
+ "[Service]
+ User=root
+ Group=root"
+ and I've since restarted the server and all the daemons and that didn't work either.
+ ​
+ Thank you and sorry if this is easy and I'm just stupid!
+    submitted by    /u/spamduraning1  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Social Recession: By the Numbers]]></title>
+        <id>https://novum.substack.com/p/social-recession-by-the-numbers</id>
+        <link href="https://novum.substack.com/p/social-recession-by-the-numbers"/>
+        <updated>2022-10-23T19:59:01.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What are good self-hosted WebRTC video solutions today?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybqzl8/what_are_good_selfhosted_webrtc_video_solutions/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybqzl8/what_are_good_selfhosted_webrtc_video_solutions/"/>
+        <updated>2022-10-23T19:43:35.000Z</updated>
+        <summary type="html"><![CDATA[Let's say I have teachers and students, and want them to get video-connected through a website they're using without using Zoom?
+ Or maybe create a video conference up to 50 people right in your browser. 
+ I used proprietary software for that in the past, they were pretty good. But open-source sucked ~5-7 years ago. I'm wondering if open source is now more stable, and there are reliable platforms.
+    submitted by    /u/zhuravl  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Watashiato]]></title>
+        <id>https://www.dictionaryofobscuresorrows.com/post/668222500424007680/watashiato</id>
+        <link href="https://www.dictionaryofobscuresorrows.com/post/668222500424007680/watashiato"/>
+        <updated>2022-10-23T19:38:14.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self hosted GUI for ncdu or similar]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybqozi/self_hosted_gui_for_ncdu_or_similar/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybqozi/self_hosted_gui_for_ncdu_or_similar/"/>
+        <updated>2022-10-23T19:30:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi, is there a self hosted solution basically for ncdu, which lets me see folder size recursively, file size, and has some light management like rename or delete? Ib use filebrowser, but that's more about the consumption, I'm looking for metrics and management. Thanks in advance
+    submitted by    /u/fouraivi  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What are the downsides of Tailscale over publicly hosting?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybqjv2/what_are_the_downsides_of_tailscale_over_publicly/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybqjv2/what_are_the_downsides_of_tailscale_over_publicly/"/>
+        <updated>2022-10-23T19:25:13.000Z</updated>
+        <summary type="html"><![CDATA[I have an old pc that’s currently acting as a personal home server (just have a few programs running on it that I access from my main devices). 
+ I now want to access my home server from outside my home network and just got tailscale up and running and it works fine.
+ My question is, is there any downsides to staying with this approach forever? I did a little bit of digging into how the other approach would work and got a little scared of the port forwarding stuff and if I would be exposing a vulnerability publicly. 
+ What are the security differences between the two approaches? Am I right in thinking tailscale would be safer for me if I’m not too confident about network and security related things?
+    submitted by    /u/niplcff  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When is short tenure a red flag?]]></title>
+        <id>https://jacobian.org/2022/oct/14/when-is-short-tenure-a-red-flag/</id>
+        <link href="https://jacobian.org/2022/oct/14/when-is-short-tenure-a-red-flag/"/>
+        <updated>2022-10-23T19:08:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Simple Lab]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybpp83/my_simple_lab/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybpp83/my_simple_lab/"/>
+        <updated>2022-10-23T18:51:15.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/sailingtoescape  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[is the ST4000DM004 a good drive for a normal pc?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybploe/is_the_st4000dm004_a_good_drive_for_a_normal_pc/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybploe/is_the_st4000dm004_a_good_drive_for_a_normal_pc/"/>
+        <updated>2022-10-23T18:47:17.000Z</updated>
+        <summary type="html"><![CDATA[I'm not building a nas or anything, just want more storage on my pc, it doesn't need to be crazy fast, just an acceptable speed to big files and sometimes some games, is this a good purchase? it's on sale and at a very good price. I saw some things saying that smr is horrible and some saying it's completely fine, so I'm quite confused.
+    submitted by    /u/danielsvdas  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What about you?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybp8y3/what_about_you/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybp8y3/what_about_you/"/>
+        <updated>2022-10-23T18:33:22.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Ashtonian  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anyone using starlink as a backup or primary?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybp63w/anyone_using_starlink_as_a_backup_or_primary/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybp63w/anyone_using_starlink_as_a_backup_or_primary/"/>
+        <updated>2022-10-23T18:30:15.000Z</updated>
+        <summary type="html"><![CDATA[Any limitations you have run into? Can you port forward? Is IPV6 available?
+    submitted by    /u/BreakingNewsDontCare  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Question about Mikrotik routers.]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybom50/question_about_mikrotik_routers/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybom50/question_about_mikrotik_routers/"/>
+        <updated>2022-10-23T18:07:50.000Z</updated>
+        <summary type="html"><![CDATA[I'm looking to by a dedicated router for my home network and I'm having trouble deciding between a pfsense home built router and a Mikrotik router. My question mostly concerns the Mikrotik. Right now I have a home server that serves a samba share for a few kodi boxes, but it also is setup to do reverse proxy with subdomains so I can access my photoprism and jellyfin programs from the internet. Basically instead of typing <ipaddress>:<port> i can type <sitename>.duckdns.org/photoprism Is this something I can accomplish with a Mikrotik router? Or would a dedicated pfsense pc be better? The only reason I haven't decided to go pfsense is because I really don't want a second pc running all day. I guess I could build a new home server that supports virtualization and just run pfsense and my other network apps that way so it would only be one pc running, but I don't really know what kinda hardware I would need to accomplish all that.
+    submitted by    /u/JackBHandy  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[External enclosure recommendation?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybo08d/external_enclosure_recommendation/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybo08d/external_enclosure_recommendation/"/>
+        <updated>2022-10-23T17:43:21.000Z</updated>
+        <summary type="html"><![CDATA[Looking for an external drive enclosure but apparently not all of them allow SMART to be passed through to the OS? 
+ Anyone have any recommendations on ones that do?
+ Looking for something that has: 
+  
+USB
+ 3 or more bays
+ Supports JBOD (backing up an internal 22TB with spare 14+4+4 drives I have laying around)
+ Properly supports/passes through SMART 
+  
+Came across these two (Syba SY-ENC50104 and QNAP TR-004) and going by reviews they seem to fit the bill, but if just looking if anyone has anything else to recommend.
+    submitted by    /u/ashberic  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anyone selfhosting Beeper? - Universal chat client (iMessage support!)]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybnvdq/anyone_selfhosting_beeper_universal_chat_client/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybnvdq/anyone_selfhosting_beeper_universal_chat_client/"/>
+        <updated>2022-10-23T17:38:07.000Z</updated>
+        <summary type="html"><![CDATA[https://www.beeper.com
+ They say it can be selfhosted and link to https://github.com/spantaleev/matrix-docker-ansible-deploy on the front page of their website but instructions are thin. Curious if anyone has this up and running with imessage?
+    submitted by    /u/bleomycin  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Low-code/no-code platforms]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybn3j4/lowcodenocode_platforms/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybn3j4/lowcodenocode_platforms/"/>
+        <updated>2022-10-23T17:08:49.000Z</updated>
+        <summary type="html"><![CDATA[Have you used them or are you using them currently? What are your thoughts? What do you think they lack, they do well, etc.
+ Full disclosure, making a hybrid one with the key feature being that you can fully export your code and do with it what you want, no strings attached.
+    submitted by    /u/thorawayman234234  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mealie - Server Error]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybmxrm/mealie_server_error/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybmxrm/mealie_server_error/"/>
+        <updated>2022-10-23T17:02:35.000Z</updated>
+        <summary type="html"><![CDATA[I've been using Mealie for a while now, started with the older version and migrated to v1 (?) when it looked stable.
+ Enviroment is Docker in Ubuntu 22.04. Docker is up to date as is Ubuntu.
+ Today when I went to log in, i received an error instead. 
+  
+An error occurred in the application and your page could not be served. If you are the application owner, check your logs for details. 
+  
+I've checked where I could. one thing that's odd is the log file in my config directory hasn't been touched since yesterday.
+ I do see the following in my docker logs for this container:
+  
+Listening on: http://172.30.0.2:3001/ ERROR getaddrinfo ENOTFOUND mealie-api at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+  
+This repeats several times.
+ Now that i check the container logs for the api, I see that it is likely the issue. it shows as unhealthy and it's container logs are full of errors.
+ https://pastebin.com/H6VXkR3X
+ i've removed and recreated it but i still get these errors. 
+ i'm aware that I'm probably missing some info needed to help so please just let me know what else i need to provide.
+    submitted by    /u/ludwigmeyer  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Gig Network Cards preventing POST?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybmppn/10_gig_network_cards_preventing_post/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybmppn/10_gig_network_cards_preventing_post/"/>
+        <updated>2022-10-23T16:53:56.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Emotional-Pear-9949  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can anyone explain to me what this is?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybmpj3/can_anyone_explain_to_me_what_this_is/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybmpj3/can_anyone_explain_to_me_what_this_is/"/>
+        <updated>2022-10-23T16:53:43.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Cephalon_Zeash  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The mainframe in your pocket running minicomputer software]]></title>
+        <id>https://thechipletter.substack.com/p/the-mainframe-in-your-pocket</id>
+        <link href="https://thechipletter.substack.com/p/the-mainframe-in-your-pocket"/>
+        <updated>2022-10-23T16:31:45.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Product Market Fit]]></title>
+        <id>https://www.kevinslin.com/notes/htchyy536bb169mzu47ksb6/</id>
+        <link href="https://www.kevinslin.com/notes/htchyy536bb169mzu47ksb6/"/>
+        <updated>2022-10-23T16:28:18.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I archive miniDV tapes - a short guide]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/yblzv9/how_i_archive_minidv_tapes_a_short_guide/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/yblzv9/how_i_archive_minidv_tapes_a_short_guide/"/>
+        <updated>2022-10-23T16:25:32.000Z</updated>
+        <summary type="html"><![CDATA[My family recorded many videos of me and my brother throughout our childhood on miniDV. In this post, I would like to explain my process of archiving the footage from tape to files on my NAS. While capturing the video from the camera to my PC was relatively easy, I had to invest a bit of time searching here on reddit and other places on how to process it efficiently and with minimal quality loss. Hopefully, others find this helpful, avoid problems and mistakes that I made and also discover new techniques like I did.
+ ​
+ A bit of background: Although miniDV is digital, it is stored in an interlaced format, opposed to the progressive format which is used for almost everything nowadays. When playing interlaced video on a normal monitor, you will experience a combing effect on moving objects. …]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Didn't checked my stats for a while on my little rpi seedbox. So proud of its results]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/yblwg3/didnt_checked_my_stats_for_a_while_on_my_little/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/yblwg3/didnt_checked_my_stats_for_a_while_on_my_little/"/>
+        <updated>2022-10-23T16:21:43.000Z</updated>
+        <summary type="html"><![CDATA[​
+ https://preview.redd.it/1fmkabwlzkv91.png?width=419&format=png&auto=webp&s=91751074139dcd1798738149dc99b76ddcbcf413
+    submitted by    /u/Small_Light_9964  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FaCT: Constant Time Programming Language]]></title>
+        <id>https://github.com/PLSysSec/FaCT</id>
+        <link href="https://github.com/PLSysSec/FaCT"/>
+        <updated>2022-10-23T16:15:25.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare Pages: Best server tech since CGI-bin?]]></title>
+        <id>https://taras.glek.net/post/cloudflare-pages-kind-of-amazing/</id>
+        <link href="https://taras.glek.net/post/cloudflare-pages-kind-of-amazing/"/>
+        <updated>2022-10-23T16:03:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five origami books by Shuzo Fujimoto are now public domain]]></title>
+        <id>https://origami.kosmulski.org/blog/2022-10-23-fujimoto-books-public-domain</id>
+        <link href="https://origami.kosmulski.org/blog/2022-10-23-fujimoto-books-public-domain"/>
+        <updated>2022-10-23T15:50:51.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1U Raspberry Pi with SSD 2.5" rack mount (3 raspberry pi modules and 3 SSD) for 10" rack]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybkqnb/1u_raspberry_pi_with_ssd_25_rack_mount_3/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybkqnb/1u_raspberry_pi_with_ssd_25_rack_mount_3/"/>
+        <updated>2022-10-23T15:35:08.000Z</updated>
+        <summary type="html"><![CDATA[I designed a 10inch 1U Raspberry Pi with SSD 2.5" rack mount (3 raspberry pi modules and 3 SSD). You can access the 3d printable files from here:
+ https://www.printables.com/model/301275-10inch-1u-raspberry-pi-with-ssd-25-rack-mount-3-ra
+    submitted by    /u/Captain_Alchemist  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WD 6TB Red drives failing without SMART errors]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybk31w/wd_6tb_red_drives_failing_without_smart_errors/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybk31w/wd_6tb_red_drives_failing_without_smart_errors/"/>
+        <updated>2022-10-23T15:08:11.000Z</updated>
+        <summary type="html"><![CDATA[I have a 4-drive RAID5 setup with 6TB WDC WD60EFRX-68MYMN1 drives. No errors but it would stall for 5-10 seconds doing a write which I have seen before when a drive is failing. Passed a long test on all drives and no errors in SMART (no relocated sectors, no current pending, etc).
+ I zero-wiped the drives then wrote a program to do a write test timing every operation - finally caught one of the drives miss-behaving. A not-aligned write of 128k took 7 seconds! (average is 27ms)
+ dmesg logged:  ata4.00: exception Emask 0x0 SAct 0x0 SErr 0x0 action 0x0 ata4.00: BMDMA stat 0x25 ata4.00: failed command: READ DMA EXT ata4.00: cmd 25/00:00:b8:56:3e/00:01:7b:02:00/e0 tag 0 dma 131072 in res 51/40:00:b8:56:3e/40:01:7b:02:00/e0 Emask 0x9 (media error) ata4.00: status: { DRDY ERR } ata4.00: error: { …]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wanting to setup homelab and need some advice!]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybk0di/wanting_to_setup_homelab_and_need_some_advice/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybk0di/wanting_to_setup_homelab_and_need_some_advice/"/>
+        <updated>2022-10-23T15:05:16.000Z</updated>
+        <summary type="html"><![CDATA[So, I recently wanted to get started with a homelab. I don't want anything super fancy, just something that has around a 128gigs of ram and is able to run different decently heavy stuff without having a lot of trouble running. My budget is around $400 - $500 but is still flexible. 
+ So to my main question what is a good starting point and like how can I decide on the things I need to buy?
+    submitted by    /u/Riffle_X  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Which the best hard drive power switch module for 3.5 inch SATA HDD?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybjz2u/which_the_best_hard_drive_power_switch_module_for/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybjz2u/which_the_best_hard_drive_power_switch_module_for/"/>
+        <updated>2022-10-23T15:03:51.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/c0de854-T  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My secondary HDD has been failing all the smart tests, and I've gotten a handful of notifications about broken sectors on it, should I bring it into a repair service? It's still spinning up and doesn't make any noise, and all the error codes read the same]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybjtyj/my_secondary_hdd_has_been_failing_all_the_smart/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybjtyj/my_secondary_hdd_has_been_failing_all_the_smart/"/>
+        <updated>2022-10-23T14:58:25.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/TeamEdward2020  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clone 1 windows xp drive and 1 windows 10 drive to a hdd. Can I do this if I partition my main drive 3 ways?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybjpw5/clone_1_windows_xp_drive_and_1_windows_10_drive/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybjpw5/clone_1_windows_xp_drive_and_1_windows_10_drive/"/>
+        <updated>2022-10-23T14:53:32.000Z</updated>
+        <summary type="html"><![CDATA[So yeah, is that possible? I want to backup both drives and boot them up aswell. The windows xp drive (ide) is filled up to around 110gb/120gb, it is like 17 years old and the windows 10 drive (ssd) is what I'm using now.
+ I already have an adapter to plug them in at the same time.
+ Is it as simple as using macrium/clonezilla in a partition? 
+ I was also thinking of using those programs to create a disc image file and perhaps loading it onto vmware? I haven't tried that before.
+ Will update as time progresses.
+ Thanks.
+    submitted by    /u/Fibro225  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help me stop under-utilizing this machine]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybiyll/help_me_stop_underutilizing_this_machine/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybiyll/help_me_stop_underutilizing_this_machine/"/>
+        <updated>2022-10-23T14:21:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey all, coming for advice. A while back I had a Ryzen 5950x more or less fall into my lap, so I decided to put a machine around it. It's on an X chipset with 64GB DDR4 and has 2x 1TB PCIe 3x4 M.2 drives. Elsewhere in the case are 6 3.5" spinners and the whole thing runs on unraid. I'm using it for two things right now: a Plex server (along with the rr's) and Minecraft server which is outward facing via reverse proxy.
+ Perhaps you'd disagree, but this seems akin to a sledgehammer driving brad nails into trim wood. Given the above use case, what machine specs would you all build to? Should I just slam a GPU into this machine for use as a gaming rig, and build something new for the PLEX/Minecraft rig?
+ All thoughts welcome - cheers!
+    submitted by    /u/Pleaseclap4  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programming language comparison by reimplementing the same transit data app]]></title>
+        <id>https://github.com/losvedir/transit-lang-cmp</id>
+        <link href="https://github.com/losvedir/transit-lang-cmp"/>
+        <updated>2022-10-23T13:58:27.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Used HDD purchase - Seagate Exos locked at bios?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybicay/used_hdd_purchase_seagate_exos_locked_at_bios/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybicay/used_hdd_purchase_seagate_exos_locked_at_bios/"/>
+        <updated>2022-10-23T13:55:26.000Z</updated>
+        <summary type="html"><![CDATA[Pinching some pennies and decided to get a used Exos X16 internal HDD ST12000NM001G
+ Popped in my system and was presented with a password request from the drive before entering windows. After hitting enter a few times, it says "disk locked". I got into windows where I found I couldn't initialize the drive. I tried a dos promt diskpart and it fails with an I/O error.
+ After hours researching self encryption and other such stuff I'm still stuck with a useless slab of spinning rust. Seller is willing to help me but made it clear if it does not read in his synology NAS he's not going to refund me. I'm worried that because I guessed password wrong 3 times.
+ Things tried:Seagate toolkit (does not see the drive)
+ PSID as password: does not work.
+ Swapping cables
+ Updates: Apparently this is a ST12000NM001G model which is not self encrypting according to https://www.seagate.com/www-content/product-content/enterprise-hdd-fam/exos-x-16/en-us/docs/100845789f.pdf Is this good or bad for me? I'm more confused now than ever.Also he tells me the drive is shucked and he no longer has the enclosure - no warranty I guess
+ https://preview.redd.it/lpwia2eo9kv91.jpg?width=934&format=pjpg&auto=webp&s=7ad47d8c361638e4d2c22bedff75e05b977d56ce
+ https://preview.redd.it/aplo23eo9kv91.jpg?width=934&format=pjpg&auto=webp&s=f2c027d4e437bce1c115c7bf10d62d04fb3fc446
+ Also want to be clear I don't want this guy's data I just want to format the drive and use it!
+    submitted by    /u/uno999  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do we have any nextcloud alternatives yet besides syncthing or seafile?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybi5a7/do_we_have_any_nextcloud_alternatives_yet_besides/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybi5a7/do_we_have_any_nextcloud_alternatives_yet_besides/"/>
+        <updated>2022-10-23T13:46:56.000Z</updated>
+        <summary type="html"><![CDATA[I always have problems upgrading nextcloud. Something breaks and I either have to rollback or spend hours fixing it. 2 days ago I spent like 4 hours doing manual upgrades from cli because the web updater kept giving errors and wouldnt get out of maintenance mode. Then after like 5 upgrades in, I kept getting a different error about my db not being connected even though it was running and listening so I just ended up rolling back to before I started doing upgrades. Great waste of time. 
+ I dont care for all the apps. I dont need a cms. Im the only one who uses the instance so a chat feature doesnt do too much for me.
+ The only functionality I care about is cloud storage for my photos and videos and privileged account access. I like how theres an android app. I like how the android app has auto upload. I like having a web UI. I like having a trash can in case I want to restore something I deleted. 
+ The last ~4 days I've been having issues with the android app crashing and I tried to upgrade my NC since Im on V22 but got all kinds of errors and had to rollback. 
+ The other day I downloaded a different app called fireshare. I love the UI there and I love how snappy and responsive and quick it is. I uploaded an 80mb video to it while I was testign it out and the video buffered instantly. No stuttering. The same video on NC would play for 10 seconds then pause and buffer and the whole app will freeze up when I try to click play. 
+ If someone took whatever engine is running that and repurposed it for cloud photo and video storage + android auto syncing then it would be perfect.
+ I see a lot of people complain about nextcloud on this subreddit all the time. Im surprised someone hasnt made anything yet to replace it knowing a competitor would be well received around here.
+    submitted by    /u/asensitivebastard  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ESXi vs Proxmox]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybi4lz/esxi_vs_proxmox/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybi4lz/esxi_vs_proxmox/"/>
+        <updated>2022-10-23T13:46:06.000Z</updated>
+        <summary type="html"><![CDATA[Hi all, I've recently purchased a HP DL360 G9, and my intention is to run various VMs on it. I have some experience with the free version ESXi and I'm wondering if anyone here thinks it's worth sticking with it for this server, or if it makes more sense to move over to Proxmox for increased features.
+    submitted by    /u/avrovulcanxh607  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Textual TUI framework for Python adds CSS renderer]]></title>
+        <id>https://www.textualize.io/blog/posts/textual-0-point-2-point-0</id>
+        <link href="https://www.textualize.io/blog/posts/textual-0-point-2-point-0"/>
+        <updated>2022-10-23T13:35:24.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Effectiveness of using ZFS for my backups, even though the main server isn't?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybhu23/effectiveness_of_using_zfs_for_my_backups_even/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybhu23/effectiveness_of_using_zfs_for_my_backups_even/"/>
+        <updated>2022-10-23T13:32:59.000Z</updated>
+        <summary type="html"><![CDATA[My data server has a 7*4TB MD RAID 6 array, which I'm perfectly content with, and I have no plans to change. It's 90% static files, and those that do change, I'm not concerned with snapshots too much
+ However, for backing up, I've previously just rsynced to a bunch of USB drives, which is not practical, so I'm setting up a new solution. At the moment, I have still got USB drives, grouped into one big LVM, on a VM server, with a 20TB LVM-thin drive pointed at a backups VM. Little complicated, but will be very easy to expand (though I am fully aware that one dead drive will kill the backup and I will need to start again - I'll have a 3-2-1 in place soon too though)
+ Anyway, looking at the backup solutions on here, there's loads of options, such as Borg and rdiff, as well as simply rsync, but I am aware that ZFS has two very useful features (I'm not well versed in ZFS though sadly!):
+  
+Snapshots, in case I completely bork something and don't notice until 3 backups later
+ 
+Deduplication. I have a "staging" area for ripped Blu-ray content, and sometimes it's too much effort to rename them straight away, and it's likely they'll get caught in a backup and duplicated, which could waste lots of backup storage
+ 
+ If I'm right, ZFS should be a solid file system choice for the backups server. My concern though is I could dedicate about 8GB of RAM to it, which is well below the suggestions I hear
+ Failing all this, I guess I'll just try one of the mentioned softwares
+    submitted by    /u/KoolKarmaKollector  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[27 years ago, Hoover offered free international flights with any £100 purchase]]></title>
+        <id>https://thehustle.co/the-worst-sales-promotion-in-history/</id>
+        <link href="https://thehustle.co/the-worst-sales-promotion-in-history/"/>
+        <updated>2022-10-23T13:23:56.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Vim Tutorial]]></title>
+        <id>https://www.openvim.com/</id>
+        <link href="https://www.openvim.com/"/>
+        <updated>2022-10-23T13:21:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seeing my friends enjoy my self hosted apps makes every hard part worth it.]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybh4sw/seeing_my_friends_enjoy_my_self_hosted_apps_makes/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybh4sw/seeing_my_friends_enjoy_my_self_hosted_apps_makes/"/>
+        <updated>2022-10-23T13:01:04.000Z</updated>
+        <summary type="html"><![CDATA[Bit of a rant here, but it feels so great to have people genuinely use your server outside of testing. It’s one thing to have friends access and stream for a quick test, and then another to have them genuinely use the services and recommend them to others. Makes all the work worth it imo, and it helps me learn the best ways to streamline the experience.
+    submitted by    /u/TenseRestaurant  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My internet pi server]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybgwpm/my_internet_pi_server/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybgwpm/my_internet_pi_server/"/>
+        <updated>2022-10-23T12:50:19.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/reddit_avinash  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So, I was trying to download a twitter artist's portifolio (Twitter Media Downloader question)]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybfjkw/so_i_was_trying_to_download_a_twitter_artists/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybfjkw/so_i_was_trying_to_download_a_twitter_artists/"/>
+        <updated>2022-10-23T11:41:40.000Z</updated>
+        <summary type="html"><![CDATA[Basically, I'm trying to download all the posts by a specific artist, however, he got over 3k posts on his media tab, including lots of memes and image reply, in any case, I tested 2 different applications for it.
+ Scrawler works, but, like the Dev himself told me, it is limited by Twitter's own structure, so it can only download the images from the last 1000 posts. 
+ The other program I used was Twitter Media Downloader on Chrome, it worked kind well, despite some limitations in the ammount of images it can download. However, I noticed something. 
+ It straight up refuses to download the posts from a specific time frame, November and December 2020, giving the message "No applicable tweets found" Other dates in the year can be downloaded without a problem, but not those 2 months. Is there any way to solve it, or recomment alternatives?
+    submitted by    /u/Marvynwillames  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to pick up an external data storage to store data safely, possibly for years?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/ybfh0k/how_to_pick_up_an_external_data_storage_to_store/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/ybfh0k/how_to_pick_up_an_external_data_storage_to_store/"/>
+        <updated>2022-10-23T11:37:42.000Z</updated>
+        <summary type="html"><![CDATA[I expirienced a sudden data lost recently and I'm looking into solutions how to store data backups. What I expect from the storage (I plan to buy 1tb storage, when I have around 250gb at best to store, with possibility to grow) is to "lay in the corner" with data backup possibly for years and be sure that it won't die out of nowhere. It would be used let's say once in a month to do a back up.
+    submitted by    /u/thesunset679  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[my entry into labgore]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybeffu/my_entry_into_labgore/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybeffu/my_entry_into_labgore/"/>
+        <updated>2022-10-23T10:39:57.000Z</updated>
+        <summary type="html"><![CDATA[Old HDDs, new SSDs, and cable management isn't a thing. I keep RGB off so I can ignore the cable mess' existence
+    submitted by    /u/devforlife404  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Today's score for 5€. Works perfectly needs needs new battery.]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybdoal/todays_score_for_5_works_perfectly_needs_needs/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybdoal/todays_score_for_5_works_perfectly_needs_needs/"/>
+        <updated>2022-10-23T09:57:13.000Z</updated>
+        <summary type="html"><![CDATA[Do you think I can hook up car batteries?
+    submitted by    /u/daninet  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where The ?!? - A simple Python Flask web application which helps keep track of your stored items.]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybd79c/where_the_a_simple_python_flask_web_application/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybd79c/where_the_a_simple_python_flask_web_application/"/>
+        <updated>2022-10-23T09:28:55.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/dan_richo  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do you let your idle hard drives spin down?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybd09y/do_you_let_your_idle_hard_drives_spin_down/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybd09y/do_you_let_your_idle_hard_drives_spin_down/"/>
+        <updated>2022-10-23T09:17:07.000Z</updated>
+        <summary type="html"><![CDATA[Some more context: I have an external USB hard drive connected to my home server (an old laptop). On most days, the drive is only active for short bursts (either media consumption or nightly borg backups). I assume this kind of usage pattern is very common in the community.
+ I've noticed that the drive never spins down by default and makes quite a bit of noise, which prompted me to look into hard drive spin down with utilities such as hdparm (https://wiki.archlinux.org/title/hdparm). In my case, I changed the APM (Advanced Power Management) setting from its default value of 128 to 64 which reliably spins the drive down shortly after the burst of activity (as verified by ear and smartctl -i -n standby /dev/sdX). Great – less noise, heat, and (hopefully) power consumption! Now my question is the following:
+ Do you let your idle hard drives spin down? Does spin down actually increase the longevity of the drive (with a similar usage pattern)?
+ I'd be super happy to hear what other self-hosters do and if you could point me to a reliable resource for further reading. Thanks a lot in advance!
+ Edit: the drive in question is a consumer WD Elements Portable (https://www.westerndigital.com/products/portable-drives/wd-elements-portable-usb-3-0-hdd#WDBU6Y0050BBK-WESN)
+    submitted by    /u/thefabsta  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the purpose of this in a server case?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/ybcd00/what_is_the_purpose_of_this_in_a_server_case/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/ybcd00/what_is_the_purpose_of_this_in_a_server_case/"/>
+        <updated>2022-10-23T08:38:05.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/ljutabrlja  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where The ?!? - A simple Python Flask web application which helps keep track of your stored items.]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/ybavb6/where_the_a_simple_python_flask_web_application/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/ybavb6/where_the_a_simple_python_flask_web_application/"/>
+        <updated>2022-10-23T07:08:10.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/dan_richo  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Left Over Space In ZFS]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/yba3gi/using_left_over_space_in_zfs/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/yba3gi/using_left_over_space_in_zfs/"/>
+        <updated>2022-10-23T06:23:18.000Z</updated>
+        <summary type="html"><![CDATA[Hi All!
+ I'm in the process of recreating my home server because I ran out of space. I'm taking the chance to move from my 8 disk RAID 5 array of 8TB drives to a 10 disk ZFS-Based RAIDz2 setup
+ I've been planning to use 16TB drives for my new array, but then happened to catch a sale on WD 18 TB drives - so now I've got two of those. So my main array will be using 16 TB from each of those, and ignoring the left over space
+ Is it possible to set up a second RAIDz1 array with the left over 2tb of each (or RAIDz2 if I can find an extra 2TB drive somewhere)? Or do I really just lose it?
+ Thanks!
+    submitted by    /u/ThatFireGuy0  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Currently project...]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/yb9byn/currently_project/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/yb9byn/currently_project/"/>
+        <updated>2022-10-23T05:40:06.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/GameDev_Alchemist  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What are your workloads/apps that you’re self hosting in the cloud?]]></title>
         <id>https://www.reddit.com/r/selfhosted/comments/yb5suf/what_are_your_workloadsapps_that_youre_self/</id>
@@ -2600,6 +3759,16 @@ Fancy Image Decorations: Masks and Advanced Hover Effects originally published o
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Things I did before app launch and what I wish I had done]]></title>
+        <id>https://www.sagiodev.com/blog/lessons_learned_app_launch/</id>
+        <link href="https://www.sagiodev.com/blog/lessons_learned_app_launch/"/>
+        <updated>2022-10-21T04:15:24.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why is my speed so bad]]></title>
         <id>https://www.reddit.com/r/homelab/comments/y9ii91/why_is_my_speed_so_bad/</id>
         <link href="https://www.reddit.com/r/homelab/comments/y9ii91/why_is_my_speed_so_bad/"/>
@@ -3422,6 +4591,16 @@ Instant Articles, Proprietary Syndication, and a Web Built on User Fidelity Pref
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[3M Glass Cloth Tape 361]]></title>
+        <id>https://www.3m.com/3M/en_US/p/d/b40068300/</id>
+        <link href="https://www.3m.com/3M/en_US/p/d/b40068300/"/>
+        <updated>2022-10-20T18:43:51.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Copying from Seagate Personal Cloud to Synology efficiently?]]></title>
         <id>https://www.reddit.com/r/DataHoarder/comments/y96bn2/copying_from_seagate_personal_cloud_to_synology/</id>
         <link href="https://www.reddit.com/r/DataHoarder/comments/y96bn2/copying_from_seagate_personal_cloud_to_synology/"/>
@@ -3475,6 +4654,16 @@ Instant Articles, Proprietary Syndication, and a Web Built on User Fidelity Pref
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Mechanical Neural Network Learns to Respond to Its Environment]]></title>
+        <id>https://www.hackster.io/news/this-novel-mechanical-neural-network-architected-material-learns-to-respond-to-its-environment-ad68bdcf2d7b</id>
+        <link href="https://www.hackster.io/news/this-novel-mechanical-neural-network-architected-material-learns-to-respond-to-its-environment-ad68bdcf2d7b"/>
+        <updated>2022-10-20T17:56:51.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Tableau VS Power BI – What's the Difference?]]></title>
         <id>https://www.freecodecamp.org/news/tableau-vs-power-bi-whats-the-difference/</id>
         <link href="https://www.freecodecamp.org/news/tableau-vs-power-bi-whats-the-difference/"/>
@@ -3489,6 +4678,26 @@ Instant Articles, Proprietary Syndication, and a Web Built on User Fidelity Pref
         <id>https://news.rice.edu/news/2022/new-motorcycle-lighting-design-could-save-lives</id>
         <link href="https://news.rice.edu/news/2022/new-motorcycle-lighting-design-could-save-lives"/>
         <updated>2022-10-20T17:40:08.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI translates Hokkien, an unwritten language, for the first time]]></title>
+        <id>https://tech.fb.com/artificial-intelligence/2022/10/ai-translation-unwritten-language/</id>
+        <link href="https://tech.fb.com/artificial-intelligence/2022/10/ai-translation-unwritten-language/"/>
+        <updated>2022-10-20T17:34:01.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eglot has landed on master: Emacs now has a built-in LSP client]]></title>
+        <id>https://lists.gnu.org/archive/html/emacs-devel/2022-10/msg01609.html</id>
+        <link href="https://lists.gnu.org/archive/html/emacs-devel/2022-10/msg01609.html"/>
+        <updated>2022-10-20T17:33:34.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -3689,6 +4898,16 @@ What apps / technical requirements/knowledge do you recommand to get such system
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Building Transformers from Neurons and Astrocytes]]></title>
+        <id>https://www.biorxiv.org/content/10.1101/2022.10.12.511910v1</id>
+        <link href="https://www.biorxiv.org/content/10.1101/2022.10.12.511910v1"/>
+        <updated>2022-10-20T14:28:03.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Code Google Docs with Flutter]]></title>
         <id>https://www.freecodecamp.org/news/code-google-docs-with-flutter/</id>
         <link href="https://www.freecodecamp.org/news/code-google-docs-with-flutter/"/>
@@ -3751,10 +4970,30 @@ Please and thank you for your time.
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Century of Controversy over the Foundations of Mathematics (2000)]]></title>
+        <id>https://arxiv.org/html/nlin/0004007</id>
+        <link href="https://arxiv.org/html/nlin/0004007"/>
+        <updated>2022-10-20T13:14:40.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Overflow Offline project]]></title>
         <id>https://stackoverflow.blog/2022/10/20/introducing-the-overflow-offline-project/</id>
         <link href="https://stackoverflow.blog/2022/10/20/introducing-the-overflow-offline-project/"/>
         <updated>2022-10-20T13:13:48.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tuna use sharks as back scratchers despite risk of being eaten]]></title>
+        <id>https://www.newscientist.com/article/2343044-tuna-use-sharks-as-back-scratchers-despite-risk-of-being-eaten/</id>
+        <link href="https://www.newscientist.com/article/2343044-tuna-use-sharks-as-back-scratchers-despite-risk-of-being-eaten/"/>
+        <updated>2022-10-20T12:47:08.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -3855,6 +5094,16 @@ Responsive Animations for Every Screen Size and Device originally published on C
  [link]   [comments]]]></summary>
         <author>
             <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TigYog]]></title>
+        <id>https://tigyog.app/</id>
+        <link href="https://tigyog.app/"/>
+        <updated>2022-10-20T10:27:27.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -37635,102 +38884,6 @@ https://github.com/AAndyProgram/SCrawler
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My first 19 inch's rack]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/xmtkw0/my_first_19_inchs_rack/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/xmtkw0/my_first_19_inchs_rack/"/>
-        <updated>2022-09-24T13:58:15.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/emmebi14  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lessons from a Professional Password Cracker]]></title>
-        <id>https://themarkup.org/newsletter/hello-world/lessons-from-a-professional-password-cracker</id>
-        <link href="https://themarkup.org/newsletter/hello-world/lessons-from-a-professional-password-cracker"/>
-        <updated>2022-09-24T12:17:53.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What to read to become a better writer]]></title>
-        <id>https://www.economist.com/the-economist-reads/2022/09/09/what-to-read-to-become-a-better-writer</id>
-        <link href="https://www.economist.com/the-economist-reads/2022/09/09/what-to-read-to-become-a-better-writer"/>
-        <updated>2022-09-24T11:30:02.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Does it have to digital to count?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/xmmk0l/does_it_have_to_digital_to_count/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/xmmk0l/does_it_have_to_digital_to_count/"/>
-        <updated>2022-09-24T07:50:59.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/BlueEther_NZ  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What to do when Gmail marks all the mails from your server as spam]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/xmlmcq/what_to_do_when_gmail_marks_all_the_mails_from/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/xmlmcq/what_to_do_when_gmail_marks_all_the_mails_from/"/>
-        <updated>2022-09-24T06:56:28.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/ashegoulding  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stopped at a different Costco than normal and I may have found the holy grail. St Louis Park MN.]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/xmacbt/stopped_at_a_different_costco_than_normal_and_i/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/xmacbt/stopped_at_a_different_costco_than_normal_and_i/"/>
-        <updated>2022-09-23T21:49:59.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/twonuh  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML Background Image – How to Add Wallpaper Images to Your Website]]></title>
-        <id>https://www.freecodecamp.org/news/html-background-image-how-to-add-wallpaper-images-to-your-website/</id>
-        <link href="https://www.freecodecamp.org/news/html-background-image-how-to-add-wallpaper-images-to-your-website/"/>
-        <updated>2022-09-23T19:18:19.000Z</updated>
-        <summary type="html"><![CDATA[Background images can help beautify websites and make them more attractive to users.  In this article, you'll learn:   * How to add a background image to your website using the CSS background-image     property.   * Other CSS background properties for images. How]]></summary>
-        <author>
-            <name>Ihechikara Vincent Abba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use SurrealDb with the Fresh Framework and Deno]]></title>
-        <id>https://www.freecodecamp.org/news/how-to-use-surrealdb-with-fresh-framework/</id>
-        <link href="https://www.freecodecamp.org/news/how-to-use-surrealdb-with-fresh-framework/"/>
-        <updated>2022-09-23T17:51:53.000Z</updated>
-        <summary type="html"><![CDATA[SurrealDB is a newly launched database that has recently started gaining popularity in the programming world. SurrealDB was built with the Rust language and was created by Tobie Morgan Hitchcock [https://www.linkedin.com/in/tobiemorganhitchcock/] and Jaime Morgan Hitchcock [https://www.linkedin.com/in/jaimemorganhitchcock/]. SurrealDB's new database comes with many features, but I'm most interested in the Deno]]></summary>
-        <author>
-            <name>Rajdeep Singh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Customize WordPress Block Theme Cover Templates with Dynamic Post Feature Images]]></title>
-        <id>https://css-tricks.com/?p=373057</id>
-        <link href="https://css-tricks.com/how-to-customize-wordpress-block-theme-cover-templates-with-dynamic-post-feature-images/"/>
-        <updated>2022-09-23T16:15:19.000Z</updated>
-        <summary type="html"><![CDATA[If we browse the WordPress theme directory, a majority of themes showcase cover images. It is a feature in popular demand. The cover page trend is true even in the block theme directory screenshots as well.
-Let’s consider the …
-How To Customize WordPress Block Theme Cover Templates with Dynamic Post Feature Images originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Ganesh Dahal</name>
         </author>
     </entry>
 </feed>
