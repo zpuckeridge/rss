@@ -2,10 +2,1336 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zpuckeridge.github.io/rss/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-15T01:43:45.229Z</updated>
+    <updated>2022-12-16T01:33:48.021Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://zpuckeridge.github.io/rss/index.html"/>
     <link rel="self" href="https://zpuckeridge.github.io/rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AMD opteron 6234 not showing correct core count]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn29f4/amd_opteron_6234_not_showing_correct_core_count/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn29f4/amd_opteron_6234_not_showing_correct_core_count/"/>
+        <updated>2022-12-16T01:16:25.000Z</updated>
+        <summary type="html"><![CDATA[As the title states, I recently purchased an old HP DL585 G7 to use as a game server. It is posting saying only 8 active cores per chip when it should be 12. Is this something similar to the bulldozer cpu debacle with amd, (Claimed 8 core on a 4 core chip) or is there a bios setting I might be able to access to utilize all cores on all 4 chips?
+ Also, is there a way to set the fan speed? It's a bit loud sitting on my desk.
+    submitted by    /u/jwvan82  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Move to BookStack from WikiJS?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zn2327/move_to_bookstack_from_wikijs/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zn2327/move_to_bookstack_from_wikijs/"/>
+        <updated>2022-12-16T01:07:44.000Z</updated>
+        <summary type="html"><![CDATA[I am currently using WikiJS for my documentation and such.
+ Things I like about WikiJS:
+ - Plenty of customization/administration
+ - Syncs plain text to S3 storage (using Cloudflare R2)
+ Things I don't like about it:
+ - Clunky UI, interface, and editor
+ - Pages are slow to render
+ - Half of the features are "coming soon"
+ - Directory structure/hierarchy/navigation is difficult to use properly (at least for me)
+ ​
+ I was thinking of moving to Bookstack. I already have this installed from when I was testing a few other solutions.
+ I've heard issues with Bookstack breaking URL's, is that still an issue I should be worried about?
+ I've also heard that if the Bookstack docker/OS dies/corrupts, the data is useless because it uses a database and not plain text. If I sync my docs to S3 storage, are they stored in plain text there or will I need the database? My goal is to be able to have access to all of my documentation if my entire environment collapses. Having plain text files in Cloudflare R2 achieves that goal.
+ ​
+ *Please do not suggest Obsidian, Joplin, Trilium, etc. as I've tried them all. The only one I still want to try is Outline Wiki, but the setup is too complex just to set up for testing purposes.
+    submitted by    /u/cjchico  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Refurbed Seagate drive errors, question.]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zn1ukh/refurbed_seagate_drive_errors_question/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zn1ukh/refurbed_seagate_drive_errors_question/"/>
+        <updated>2022-12-16T00:56:30.000Z</updated>
+        <summary type="html"><![CDATA[Recently purchased a refurbed Exos 16TB drive. I cleared the drive, ran stress tests on it, then threw it in my array. SMART data was fine etc.
+ 2 Days later, while trying to add another drive to my array, this drive starts throwing out errors every second. I reached out to the vendor who said they'd replace it no problem. Trouble is, the drive has highly sensitive data, and DBAN fails when trying to scrub. How comfortable would you be at that point sending the drive back?
+    submitted by    /u/sIlverbulette  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mass Loaded Vinyl Rack]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn1hi3/mass_loaded_vinyl_rack/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn1hi3/mass_loaded_vinyl_rack/"/>
+        <updated>2022-12-16T00:39:10.000Z</updated>
+        <summary type="html"><![CDATA[I just got my first rack and after some blunders got everything together. It's not obnoxiously loud most of the time, but its noticeable in the background. Got a Dell R620 with dual E5-2643 V2 chips. I read someone had mentioned Mass Loaded Vinyl as an option and I wanted to know if anyone had experience creating a "wall" out of one for the sides of the rack, and if that actually dampened the volume. I thought about using the insert holes on the sides of the rack to affix a panel to the side.
+ ​
+ Secondly, I grabbed a static rack kit from dell not quite realizing what static really implied, which wouldn't be a huge deal but when I attempted to remove the server, I can pull it out about 6 inches and then it almost seems to catch on something and won't come out further. Anyone experience that, is that normal? I pretty much have to remove the rails and make sure there is lots of clearance around the rack if I ever want to take it out all the way (and I'm dreading the thought).
+ https://preview.redd.it/50227k60p56a1.jpg?width=1195&format=pjpg&auto=webp&s=87c1e972d8e9902aa89651d3a2f2f0a2ed9d730d
+    submitted by    /u/breadcrumb1977  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Refactored my proxmox terraform code]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn1aym/refactored_my_proxmox_terraform_code/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn1aym/refactored_my_proxmox_terraform_code/"/>
+        <updated>2022-12-16T00:30:46.000Z</updated>
+        <summary type="html"><![CDATA[Hey y'all,
+ A while back I got started using terraform to create/manage VMs on my proxmox homelab (thank you to those of you who have shared blog posts about this). 
+ One thing that bothered me was how I was essentially copy/pasting the resource definitions when I wanted to create a new VM, so I recently went through a big refactor to reduce the amount of configuration required to create a new vm and wanted to share with this community in case others find it useful. With this setup I can now define a new VM with three lines of yaml, push my changes and have them deployed by the gitlab ci/cd pipeline. 
+ https://github.com/nohbdy1745/proxmox-terraform 
+ I have this deployed on a gitlab instance running in a proxmox VM, with gitlab managing my terraform state, and have the gitlab ci/cd pipeline setup so I can push changes to my terraform configuration and have them deployed from there. I set it up so that you don't need to have gitlab managed terraform state, you would just have to change the backend in main.tf and you can use the make commands to run everything. 
+ Hope this is useful to someone else. I'm also not an expert with terraform so if you happen to take a look and have feedback please let me know! 
+    submitted by    /u/nbdy1745  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building first NAS]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn13p6/building_first_nas/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn13p6/building_first_nas/"/>
+        <updated>2022-12-16T00:21:19.000Z</updated>
+        <summary type="html"><![CDATA[Im going to build my first NAS will this be good?
+ ​
+ CPU: AMD Ryzen 3 3100 Motherboard: ASUS ROG Strix B550-I Cooling: Stock cooler GPU: GTX 1660 Super Overclocked 6GB PSU: Corsair RMX Series (2021), RM650x, 650 Watt, Gold, Fully Modular Power Supply Drives: Crucial MX500 500GB 3D NAND SATA 2.5 Inch Internal SSD and Western Digital 6TB WD Red Plus NAS Internal Hard Drive HDD Ram: 16gb 3600 Case: Fractal Design Node 804 OS: Will be using unraid
+ ​
+ Going to use this for storing media, streaming movies/shows, hosting csgo or minecraft servers and seeding torrents
+    submitted by    /u/Mr_TuxCat  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Homelab Desktop Choices ..]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zn0z56/homelab_desktop_choices/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zn0z56/homelab_desktop_choices/"/>
+        <updated>2022-12-16T00:15:37.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/MrJwan  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Homelab Desktop Choices ..]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zn0yii/homelab_desktop_choices/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zn0yii/homelab_desktop_choices/"/>
+        <updated>2022-12-16T00:14:59.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/MrJwan  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tool for incremental backups]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zn0wws/tool_for_incremental_backups/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zn0wws/tool_for_incremental_backups/"/>
+        <updated>2022-12-16T00:13:05.000Z</updated>
+        <summary type="html"><![CDATA[Which tool, cli or non-cli, do you all suggest for doing incremental backups? Data is about 500gb, and backup will go to an external. deleting and transferring the whole thing doesnt seem a good idea as the size increases lol. Also it should run periodically (every 14 days I'd say?) whenever the external is connected, how can I make sure of that?
+ Edit: I'm on Macos
+    submitted by    /u/TetheredToHeaven_  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Homelab Desktop Choices ..]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn0whm/homelab_desktop_choices/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn0whm/homelab_desktop_choices/"/>
+        <updated>2022-12-16T00:12:30.000Z</updated>
+        <summary type="html"><![CDATA[Hi guys 
+ Help me choose one of these :
+ 1.from Local 2nd hand store : 
+ Dell OptiPlex 3050 MT Core i7 7th Gen 32 GB ddr4 2400t 16x2 Nvidia gt 730 2gb gddr5
+ 330$ 
+ Or 
+ 2.From Alibaba : 
+ x99+2690v4+4*16g DDR4 ECC RAM (64G)+ CPu fan + Power Supply 600w + 512G m.2 = 300$
+ The 2nd offer gives Xeon 2690 V4 with 14 cores and 28 threads The first gives 4 cores ...8 threads . .... My build is for : 
+ 1.media server and I have 4×6TB and I am thinking of running Proxmox with VMs .then Dockers on VMs . 
+ 2.nextcloud for family . 
+ 3.NVR sys for house .
+    submitted by    /u/MrJwan  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is there any way I could expose some docker containers for my friend safely and live?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zn0sg6/is_there_any_way_i_could_expose_some_docker/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zn0sg6/is_there_any_way_i_could_expose_some_docker/"/>
+        <updated>2022-12-16T00:07:29.000Z</updated>
+        <summary type="html"><![CDATA[I need him to be able to connect to GitLab CE, and PostgreSQL, but I dont want him to be able to access other containers.
+    submitted by    /u/FredericoDev  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vintage Apple Advertisements]]></title>
+        <id>https://www.printmag.com/advertising/making-the-mac-20-vintage-apple-ads/</id>
+        <link href="https://www.printmag.com/advertising/making-the-mac-20-vintage-apple-ads/"/>
+        <updated>2022-12-16T00:04:53.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Secret scanning is now available for free on public repositories]]></title>
+        <id>https://github.blog/changelog/2022-12-15-secret-scanning-is-now-available-for-free-on-public-repositories/</id>
+        <link href="https://github.blog/changelog/2022-12-15-secret-scanning-is-now-available-for-free-on-public-repositories/"/>
+        <updated>2022-12-16T00:03:02.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do SATA power switches work well? Power on/off drives]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn0ees/do_sata_power_switches_work_well_power_onoff/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn0ees/do_sata_power_switches_work_well_power_onoff/"/>
+        <updated>2022-12-15T23:50:29.000Z</updated>
+        <summary type="html"><![CDATA[Do SATA power switches such as these work well or is the feature considered hacky? They don't seem to be popular--does SATA not support this? I would think SATA being hot swappable means this is also a supported feature.
+ Basically I have a couple of external drives for cold storage that take up space and I want to chuck them into my case. I was going to shuck them but leave the USB to SATA logic board intact and route the USB and AC power cable through PCIe slot into the case. Unfortunately the logic board prevents the drives from being mounted properly in my Node 304 case (also, somehow my WD Reds and another Seagate drive only support 3 screw mounts? Did Fractal mess up?).
+    submitted by    /u/rofic  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self hosted CRM options apart from vtiger?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zn0dhx/self_hosted_crm_options_apart_from_vtiger/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zn0dhx/self_hosted_crm_options_apart_from_vtiger/"/>
+        <updated>2022-12-15T23:49:26.000Z</updated>
+        <summary type="html"><![CDATA[I've been using vTiger for almost 20 years now but I have to say that I've never liked it too much, but since it was the well known I've never been prone to switch 
+ I remember back in 2014 I was using one cloud CRM called Highrise from the guys from Basecamp, and it was utterly awesome: very simple CRM with the basic functions, all I needed for my use, but this project end closed (and also the project I was conducting and using this CRM with)
+ And now I have the opportunity to see new options and I was wondering if you could recommending me anything but vTiger.
+    submitted by    /u/SirLouen  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10GB or 25GB?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zn0bxi/10gb_or_25gb/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zn0bxi/10gb_or_25gb/"/>
+        <updated>2022-12-15T23:47:27.000Z</updated>
+        <summary type="html"><![CDATA[Hello, I have a Supermicro Unraid server that I would like to connect to my Windows PC. I’ve been researching 10GB over SFP+ and 25GB over SFP28 SFP+. Do you know if the NAS could take full advantage of 25GB or would it be bottlenecked by the hard drive read/write speed of 160MB/s? What speeds could I realistically expect when transferring files between the server and PC? Thank you for any help!
+    submitted by    /u/BlueGalaxy1000  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best SMTP/Mailserver option for beginners]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zn04jp/best_smtpmailserver_option_for_beginners/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zn04jp/best_smtpmailserver_option_for_beginners/"/>
+        <updated>2022-12-15T23:38:25.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone,
+ selfhost/docker Beginner here. I already got some applications running, yay!
+ But I´m currently stuck with hosting a mail/smtp application. I already tried the docker-mailserver, mailcow and as webinterfaces rainloop and sogo. But to be quite honest I am a little bit stunned by the complexity (a lot of services, ports,...) and amount of errors I am getting. I got not a single option to run correctly. I don´t know where to start.
+ For me the topic selfhosted mail is the next logical step, because a lot of applications require an smtp server.
+ So, had anyone a similar experience? Can someone recommend a proper, simple image or guide? What would you do?
+    submitted by    /u/Inevitable_Flight_48  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IvorySQL: Open-source Oracle-compatible PostgreSQL]]></title>
+        <id>https://github.com/IvorySQL/IvorySQL</id>
+        <link href="https://github.com/IvorySQL/IvorySQL"/>
+        <updated>2022-12-15T23:37:42.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking for a good quality USB VHS transfer device, any suggestions?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zn02i3/looking_for_a_good_quality_usb_vhs_transfer/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zn02i3/looking_for_a_good_quality_usb_vhs_transfer/"/>
+        <updated>2022-12-15T23:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey all, I’ve been looking for a new analog transfer device for a while to transfer hi-8 and VHS tapes. I bought a cheap easy-cap like device, and it sucked. It was causing a lot of artifacting, frame drops, highlight blowout and just something I wouldn’t trust to transfer several hours worth of important footage.
+ With Christmas around the corner, I’ve decided to treat myself with a good quality transfer device. Only problem is, I can’t find the right one. Most of the suggestions I’ve found online and on Reddit are extremely dated or way too advanced for my current setup.
+ I’ve heard good things about the Hauppage HD PVR, elgato analog capture, and black magic intensity shuttle cards, but so many people have suggested different approaches that I don’t know which one to try. Everything from TBCs, scalers, passthroughs, to PCIs, I don’t even know if I’m getting the right thing.
+ I want to get a good quality device that I can use with my laptop and camcorder without having to drop hundreds of bucks and uproot my entire setup. My main goal is to save these videos to a digital format while losing as little of the picture quality as possible. I’d greatly appreciate any suggestions for what I should invest in.
+    submitted by    /u/urnotmydad23  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dell T330 without a service tag]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmzske/dell_t330_without_a_service_tag/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmzske/dell_t330_without_a_service_tag/"/>
+        <updated>2022-12-15T23:26:14.000Z</updated>
+        <summary type="html"><![CDATA[Hi, i recently bought on ebay a used Dell T330 with idrac8 board already installed, but i notice the enterprise license are not present, so i go to check the service tag trough the idrac base menu, i found out this: Service tag: XXXXXXX , i start thinking is not normal. What I can do now?
+    submitted by    /u/Virtual_Surround  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS display:none and visibility:hidden – What's the Difference?]]></title>
+        <id>https://www.freecodecamp.org/news/css-display-none-and-visibility-hidden-the-difference/</id>
+        <link href="https://www.freecodecamp.org/news/css-display-none-and-visibility-hidden-the-difference/"/>
+        <updated>2022-12-15T23:13:53.000Z</updated>
+        <summary type="html"><![CDATA[display:none and visibility:hidden are two style declarations you can use to hide elements on the screen with CSS. But what are the differences between them? When building applications, there are times that you want to hide elements visually (not deleting them from the DOM, just the screen). You can do]]></summary>
+        <author>
+            <name>Dillion Megida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dell PowerEdge r240 supporting Intel Quick Sync using a E-2144G?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmz508/dell_poweredge_r240_supporting_intel_quick_sync/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmz508/dell_poweredge_r240_supporting_intel_quick_sync/"/>
+        <updated>2022-12-15T23:00:53.000Z</updated>
+        <summary type="html"><![CDATA[I see the E-2XXXG processors all support it but wondering if anyone tried?
+ I'm looking for low powered 1U machines that support QSV.
+    submitted by    /u/keithah  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proxmox VE on a server OR Proxmox VE on an Intel® NUC Mini PCs with nas]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmz3ib/proxmox_ve_on_a_server_or_proxmox_ve_on_an_intel/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmz3ib/proxmox_ve_on_a_server_or_proxmox_ve_on_an_intel/"/>
+        <updated>2022-12-15T22:59:41.000Z</updated>
+        <summary type="html"><![CDATA[I want a homelab for virtual pentesting and a NAS. I'm 16 years old so I still live with my parents, and they take care of the electricity bill. I also have a budget of under 1000.
+    submitted by    /u/MKzlol  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare Tunnel - GitHub Authentication - limit users?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmywy8/cloudflare_tunnel_github_authentication_limit/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmywy8/cloudflare_tunnel_github_authentication_limit/"/>
+        <updated>2022-12-15T22:52:33.000Z</updated>
+        <summary type="html"><![CDATA[Hi Folks,
+ I appreciate this isn't really a self hosted product, but if any sub on reddit knows the answer to my question, it's going to be you guys!
+ I've managed to fumble my way through cloudflare zero tier to add GitHub as an identity provider, but how do I restrict which github accounts can access my tunnel - at the minute every account can log in. Is this even possible?
+ Edit: Solution in the comments
+    submitted by    /u/valkyre09  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Workstation mainboard for Ryzen 5 5600X?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmym21/workstation_mainboard_for_ryzen_5_5600x/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmym21/workstation_mainboard_for_ryzen_5_5600x/"/>
+        <updated>2022-12-15T22:42:15.000Z</updated>
+        <summary type="html"><![CDATA[My current homeserver is getting too small.
+ I currently have a board that barely holds my GPU and ssd extension card. For future plans I need a mainboard that has more slots but I wonder if there is any workstation focused mainboard out there. Or are the gaming mainboards already the best to get when it comes to connectivity?
+ ​
+ The scenario:
+ I have a server that runs Proxmox. I then have a bunch VMs/containers for my workload. All pretty basic except the gaming VM. I passthroguh my GPU, mouse and keyboard and connect to a screen.
+ I might need more connectivity for that vm. E.g. to handle sound easily. I was thinking to buy a Thunderbolt extension card, also give that to the VM and then simply connect a docking station to it and be good. But for that I need at least one more card in the system... which does not fit currently.
+    submitted by    /u/soupdiver23  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best way to increase my data hoarding?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmy0sy/best_way_to_increase_my_data_hoarding/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmy0sy/best_way_to_increase_my_data_hoarding/"/>
+        <updated>2022-12-15T22:21:31.000Z</updated>
+        <summary type="html"><![CDATA[I recently decided to up my game and build a NAS. It took a decent amount of convincing, but the biggest thing I used to get my SO on board was that there would be less downtime for our media server. To acquire new material, I need to be connected to a VPN. Is there a way to have my server on a VPN while leaving it accessible to the world outside my network? If not, is it possible to have a directory auto backup to the server, and would this be easier accomplished on windows or Linux?
+    submitted by    /u/Alucard2051  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help choose the syntax for CSS Nesting]]></title>
+        <id>https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/</id>
+        <link href="https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/"/>
+        <updated>2022-12-15T22:19:18.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How have you "racked" your Raspberry Pis?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmxr81/how_have_you_racked_your_raspberry_pis/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmxr81/how_have_you_racked_your_raspberry_pis/"/>
+        <updated>2022-12-15T22:12:20.000Z</updated>
+        <summary type="html"><![CDATA[I am currently running two R Pis, and I dont see myself getting anymore (atleast not wired in this rack). Im trying to figure how would I "rack" them. Should I just leave them on a rack shelf, or have you people tried these different 3D printed/ metal Pi rack holders?
+ ​
+ Would love to hear any experiences!
+    submitted by    /u/gilfslayer666  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Safe place to store Pirate Library]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmxo7l/safe_place_to_store_pirate_library/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmxo7l/safe_place_to_store_pirate_library/"/>
+        <updated>2022-12-15T22:09:36.000Z</updated>
+        <summary type="html"><![CDATA[Hey there ! I guess this request is kind of strange but I've been thinking about downloading the whole pirate library (most books from Zlib and Libgen) mirror to have a local copy of almost every books I can think of (around 30TB). I have a safe where I put HDDs with some accounting records and for that matter it has work for years. I know that it isn't the best way to store data that I don't need to access often so what would the alternative be ? Can I put data on Hard Drives and let them unused for years ? Thanks !
+    submitted by    /u/AnyInsurance2  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SFTPGo recycle bin using the Event Manager]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmxo4o/sftpgo_recycle_bin_using_the_event_manager/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmxo4o/sftpgo_recycle_bin_using_the_event_manager/"/>
+        <updated>2022-12-15T22:09:30.000Z</updated>
+        <summary type="html"><![CDATA[Hi together. In my search for a self-hosted file server I stumbled across SFTPGo. From the documentation I see that there is an Event Manager which should make it possible to realize a recycle bin. Does anyone have experience with this and can help me out? Thanks!
+    submitted by    /u/_patrickap  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Things I want from Devs as SRE/DevOps]]></title>
+        <id>https://oschvr.com/posts/what-id-like-as-sre/</id>
+        <link href="https://oschvr.com/posts/what-id-like-as-sre/"/>
+        <updated>2022-12-15T22:04:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Bitter Lesson (2019)]]></title>
+        <id>http://incompleteideas.net/IncIdeas/BitterLesson.html</id>
+        <link href="http://incompleteideas.net/IncIdeas/BitterLesson.html"/>
+        <updated>2022-12-15T21:57:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle Cloud / Cloudflare / Nginx Proxy Manager issues]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmx8ru/oracle_cloud_cloudflare_nginx_proxy_manager_issues/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmx8ru/oracle_cloud_cloudflare_nginx_proxy_manager_issues/"/>
+        <updated>2022-12-15T21:53:41.000Z</updated>
+        <summary type="html"><![CDATA[I have a very basic server with Oracle Cloud free tier, and I managed to use Cloudflare and Nginx Proxy Manager to reroute my subdomains with the certifications and everything. However, the only way I get it to work is to expose each container port in my ingress rules on the Oracle server. 
+ To my understanding (noob here), the idea of using Nginx is to be able just to expose the usual ports (80, 443) and let the rerouting to go behind that, without the need to expose rest of ther ports. Am I correct?
+ I'm not sure what additional information I could give to help solve the issue, let me know if there is anything I can add.
+ Thanks in advance for the support.
+    submitted by    /u/carlossgv  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ok, so not all modern 7200 RPM HDDs got similar speeds, questions below.]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmx7wj/ok_so_not_all_modern_7200_rpm_hdds_got_similar/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmx7wj/ok_so_not_all_modern_7200_rpm_hdds_got_similar/"/>
+        <updated>2022-12-15T21:52:39.000Z</updated>
+        <summary type="html"><![CDATA[Trying to understand my HDD Read Speeds and why the middle drive is so much slower and the last one so much faster when they are all 7200 RPM. Thank you for input.
+ ​
+ WDC WD121KRYZ-01W0RB0 12000.1 GB 7200 RPM (Internal SATA)
+ Aproximately: 237(MB/s)
+ ST18000NM000J-2TV103 18000.2 GB 7200 RPM (Internal SATA))
+ Aproximately: 183(MB/s)
+ WDC WD201KFGX-68BKJN0 20000.5 GB 7200 RPM (External DAS)
+ Aproximately: 276(MB/s)
+    submitted by    /u/nando1969  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Free CRM for small business]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmx0op/free_crm_for_small_business/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmx0op/free_crm_for_small_business/"/>
+        <updated>2022-12-15T21:44:20.000Z</updated>
+        <summary type="html"><![CDATA[Hi all. Pretty much as per the title. Need a CRM to handle VERY simple tasks for software tech support. Basically need to be able to create some customers, associate them to incoming email addresses from our support address (simple SMTP/IMAP), create support items specific to them (usually stemming from said emails), assign to a team member, flag them as complete, etc, etc. Nothing too crazy, small 3-5 person team. Played with self-hosted Oodo but looks like way overkill and only one "app" for free version so that looks to end that scheme. PLayed with SuiteCRM but I seemed to be getting random errors, lag, etc (this was on a Windows install with XAMPP).
+ Any thoughts, even if cloud based but free (if that exists) I suppose would work. Thanks in advance.
+    submitted by    /u/spg01  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Readwise Reader, an all-in-one reading app]]></title>
+        <id>https://readwise.io/read</id>
+        <link href="https://readwise.io/read"/>
+        <updated>2022-12-15T21:44:03.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Powervault TL2000 LTO Library Buying Advice]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmx019/powervault_tl2000_lto_library_buying_advice/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmx019/powervault_tl2000_lto_library_buying_advice/"/>
+        <updated>2022-12-15T21:43:34.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/31899  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Common Lisp (1986)]]></title>
+        <id>https://groups.google.com/g/net.lang.lisp/c/P7W_1ISJ-sU/m/GAo6w-0B7oQJ</id>
+        <link href="https://groups.google.com/g/net.lang.lisp/c/P7W_1ISJ-sU/m/GAo6w-0B7oQJ"/>
+        <updated>2022-12-15T21:19:18.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apollo Layoffs]]></title>
+        <id>https://www.apollographql.com/blog/announcement/ceo-geoff-schmidts-message-to-apollo-employees/</id>
+        <link href="https://www.apollographql.com/blog/announcement/ceo-geoff-schmidts-message-to-apollo-employees/"/>
+        <updated>2022-12-15T21:16:54.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finding JIT Optimizer Bugs Using SMT Solvers and Fuzzing – PyPy]]></title>
+        <id>https://www.pypy.org/posts/2022/12/jit-bug-finding-smt-fuzzing.html</id>
+        <link href="https://www.pypy.org/posts/2022/12/jit-bug-finding-smt-fuzzing.html"/>
+        <updated>2022-12-15T21:07:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s the most reliable SSD?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmw281/whats_the_most_reliable_ssd/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmw281/whats_the_most_reliable_ssd/"/>
+        <updated>2022-12-15T21:04:57.000Z</updated>
+        <summary type="html"><![CDATA[I spent all afternoon trying to get stuff off my old WD drive which is an HDD. I managed to get it spinning and open. But if I’m trying to get everything to a sizable SSD, what should I get?
+    submitted by    /u/quantumcatreflex  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backup for 20tb of video footage]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmw0yi/backup_for_20tb_of_video_footage/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmw0yi/backup_for_20tb_of_video_footage/"/>
+        <updated>2022-12-15T21:03:30.000Z</updated>
+        <summary type="html"><![CDATA[Hey guys, New at this. I have an archive or video interviews from Holocaust survivors that I need to better secure. Currently, I have them on a few drives but looking for another place to store long term. We don't need to edit or view the footage often it's just a worse-case backup. 
+ ​
+ Any ideas? 
+ Not looking to spend much. 
+ Does AWS or some cloud site make sense?
+    submitted by    /u/movingfowards  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WD Easystore Bricked? :(]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmvskq/wd_easystore_bricked/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmvskq/wd_easystore_bricked/"/>
+        <updated>2022-12-15T20:54:07.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone, not sure if this is the right place to ask but I'm going to try.
+ I have a 14TB WD easystore that's been working for just over a year now. Yesterday, I noticed it was mounting and unmounting rapidly, so I ejected it and restarted the computer. 
+ When I turned the computer back on it would no longer mount, the discs aren't spinning and there was a slow, white flashing from the LED indicator. I immediately looked up all the troubleshooting guides and did the following. 
+  
+Switched USB cables (used my other easystore's usb)
+ plugged into a dedicated wall outlet
+ checked windows device manager and un-checked "allow the computer to turn off this device to save power" - restarted pc
+ opened disc management, where it is not visible and there is no drive letter for it at all
+ updated drivers 
+ allowed hidden items in serial bus drivers
+  
+After frustration I stopped everything all together. This morning I plugged it in and there is still no disc spinning activity, and now the LED blinks rapidly. Is this thing bricked? I have 13.9 TBs on it and would really hate to lose it all. I had it propped up on fans and it was well maintained, and of course there is no power or reset button on these things.
+ Any suggestions? It's still warrantied for another year. Thanks in advance.
+    submitted by    /u/ryPods  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help improve/expand my current backup setup - please]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmvovg/help_improveexpand_my_current_backup_setup_please/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmvovg/help_improveexpand_my_current_backup_setup_please/"/>
+        <updated>2022-12-15T20:49:59.000Z</updated>
+        <summary type="html"><![CDATA[Hi,
+ I have personal data (general, plus DSLR and GoPro photos/videos for Lightroom/Final Cut Pro), business data (including lots of big image files, say 1GB per file, 200GB currently), and my computer setup to back up. I don't generally save images/videos on my internal SSD.
+ My current setup looks like this:
+  
+2TB external HD for photo/video storage 2.5"
+ 5TB external HD for business data storage 2.5"
+ I also have a 2TB external SSD for temporary photo/video storage for faster editing. This only ever contains duplicates from the 2TB HD
+ 4TB external HD for backing up both the 2TB and the 5TB external HDs (yeah, the 4TB was here first, when I had 2x 2TB, but my business 2TB failed so I upgraded that to a 5TB... thus the stupid size relations)
+ 1TB time machine external HD for backing up my Mac setup/internal SSD
+ iDrive Cloud for backing up my Time Machine, 2TB photo and 5TB business HD.
+  
+​
+ Problem: My photo/video 2TB external HD is getting really full, only 10% space left... I started taking more videos, which take up a huge amount of space.
+ Now I'm really torn as to how to smartly upgrade my backup setup.
+  
+Should I get a big external HD, maybe 6TB, to replace the current stupid 4TB backup HD, and use the 4TB backup HD for photos and videos instead?(I could even use the 4TB just for videos, leave my photos on the current 2TB photo/video HD). If so, should I get a 2.5" or 3.5" for the 6TB? I don't really need to move it, it should stay on my desk, but is there still an advantage to 3.5" these days at all?
+ Or should I rather get a second smallish (2TB) external HD to put the videos on, so that the current photo/video HD only contains photos, and leave the backup 4TB as is for now?
+  
+​
+ Trying to save money atm, but also want a sustainable solution...
+ Which option do you suggest and why?
+ Feel free to also add other sensible options that I'm missing here!
+ ​
+ Thanks so much!
+ ​
+ View Poll
+    submitted by    /u/4symmetry  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Done'. Famous last words haha]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmv771/done_famous_last_words_haha/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmv771/done_famous_last_words_haha/"/>
+        <updated>2022-12-15T20:29:47.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/williamd002  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is there a Calibre or Stash like Program i can use for videos?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmv2yg/is_there_a_calibre_or_stash_like_program_i_can/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmv2yg/is_there_a_calibre_or_stash_like_program_i_can/"/>
+        <updated>2022-12-15T20:24:46.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone.
+ Does anyone know if there are any programs like stash that i can use to acess my downloaded youtube videos from my web browser on my lan in an aesthetically pleasing way?
+ I do not want to use plex as while i have that setup and it is good on the tv i would love something a bit more browser focussed for accessing in web browsers on my computers to go along with stash, calibre, kiwix, sonarr, radarr etc.
+    submitted by    /u/therealbabyshell  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is there a yt-dlp service that prompts the user to download and save the video/playlist instead of downloading in a pre-defined DIR?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmuw21/is_there_a_ytdlp_service_that_prompts_the_user_to/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmuw21/is_there_a_ytdlp_service_that_prompts_the_user_to/"/>
+        <updated>2022-12-15T20:16:36.000Z</updated>
+        <summary type="html"><![CDATA[Essentially, don't want to define a volume for videos to download, but would rather have the program prompt the user with the save-dialog. This is basically going to serve as a frontend for family for example to download videos.
+ I couldn't find anything after a cursory search, but maybe I missed something. Most seem to have the feature of defining a docker volume where the vids get downloaded to.
+    submitted by    /u/lannistersstark  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Id like to share my selfmade dashboard]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmut5p/id_like_to_share_my_selfmade_dashboard/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmut5p/id_like_to_share_my_selfmade_dashboard/"/>
+        <updated>2022-12-15T20:13:23.000Z</updated>
+        <summary type="html"><![CDATA[Python and Django, running in docker container on my nas.
+ Anime episodes are tracked daily.
+ Whats the opinion on coding stuff like this?
+ I know its basic as hell. But its mine :)
+ ​
+ https://preview.redd.it/neggy56hd46a1.png?width=925&format=png&auto=webp&s=812e1074364f35ce684bf41c2f5ba5268f7651f1
+    submitted by    /u/kidz94  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vintage-Style Map of the Mandelbrot Set]]></title>
+        <id>https://kottke.org/22/12/vintage-map-mandelbrot-set</id>
+        <link href="https://kottke.org/22/12/vintage-map-mandelbrot-set"/>
+        <updated>2022-12-15T20:06:58.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nextcloud All In One updated for v25 [not mine]]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmu59u/nextcloud_all_in_one_updated_for_v25_not_mine/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmu59u/nextcloud_all_in_one_updated_for_v25_not_mine/"/>
+        <updated>2022-12-15T19:46:15.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/jogai-san  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[HP Prodesk 400 G4] I can install Linux but I can't boot it]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmu17e/hp_prodesk_400_g4_i_can_install_linux_but_i_cant/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmu17e/hp_prodesk_400_g4_i_can_install_linux_but_i_cant/"/>
+        <updated>2022-12-15T19:41:34.000Z</updated>
+        <summary type="html"><![CDATA[Hi everyone, I just bought an HP Prodesk 400 G4 to start a home lab, but no matter what I do I can't seem to boot Linux.
+ I installed both Proxmox and Ubuntu without any problem, but when I try to boot I just can't.
+ I disabled secure boot from the BIOS settings and enabled Legacy mode, I downgraded BIOS firmware, but nothing worked.
+ The computer previously had a 1TB hard disk, I installed Ubuntu on it and it won't boot either.
+ Before I formatted the hard disk had Windows on it and it worked. My thoughts are that maybe the computer has some Linux block, so it can't boot Linux.
+ Is there someone who maybe had the same issue and can help me?
+ Thanks!
+    submitted by    /u/templare25  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security scanning]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmtxs6/security_scanning/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmtxs6/security_scanning/"/>
+        <updated>2022-12-15T19:37:51.000Z</updated>
+        <summary type="html"><![CDATA[Looking for recommendations, either free or cheap to do an external scan for vulnerabilities. Can't seem to find anything that does much more than a basic port scan.
+    submitted by    /u/TechDiverRich  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Photo Deduplication with heic support?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmtpnr/photo_deduplication_with_heic_support/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmtpnr/photo_deduplication_with_heic_support/"/>
+        <updated>2022-12-15T19:28:29.000Z</updated>
+        <summary type="html"><![CDATA[I'm looking for a photo deduplication app that looks at heic photos also. Platform doesn't really matter as I can work with any. Doing searching for one they seem to be older apps that doesn't support heic. Any suggestions?
+    submitted by    /u/Ryanrk  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ntfy Android app v1.16.0 🥳 - per-subscription sounds/DND, insistent alert-style notifications, adaptive launcher icons]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmtkh1/ntfy_android_app_v1160_persubscription_soundsdnd/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmtkh1/ntfy_android_app_v1160_persubscription_soundsdnd/"/>
+        <updated>2022-12-15T19:22:32.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/binwiederhier  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Home NAS Issues]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmtagk/home_nas_issues/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmtagk/home_nas_issues/"/>
+        <updated>2022-12-15T19:11:03.000Z</updated>
+        <summary type="html"><![CDATA[Hey all.
+ TLDR: What do you use for your home NAS (OS or Appliance)? Do you have a separate computer/server to run apps and use your NAS for storage?
+ A few months ago, I switched from OMV to TrueNAS SCALE. I wanted stability and ease of use for my NAS because my family also relies on my NAS. I found OMV to be buggy, and not intuitive. In my opinion, I could not trust OMV. Now I am considering going back to OMV.
+ TrueNAS SCALE has been great for me, at least if I used the very basic features of having a ZFS pool with a few SMB/NFS shares, but I wanted to run apps as well, such as Plex, Nextcloud, etc..., but that has been the biggest hassle for me, and I miss being able to use Docker Compose and apps just working.
+ I added TrueCharts to my NAS to get all the apps I would want to run but li…]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First home lab build]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmt9a4/first_home_lab_build/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmt9a4/first_home_lab_build/"/>
+        <updated>2022-12-15T19:09:54.000Z</updated>
+        <summary type="html"><![CDATA[I am building my first homelab, with spare pc part from a previous pc build of mine. Specs:
+ Processor: i5 7500k Mobo: ASRock H270M-ITX Cooler: Noctua LH9i RAM:16gb 3200 Storage: WD blue 500gb | Segate 2tb GPU: NVIDIA 1060 3gb PSU: HDPLEX 400w w/ jhax 24pin mod connector Case: S4mini NFC OS: Ubuntu Server
+ This would be used for a few thing hosting a Minecraft server for a few friends, hosting some local games emulators for my partner and I, media( tv movies, etc), and finally home assistant. Would the specs as is be able to handle this? And do you have any tips or recourses for set up? I am honestly pretty new when it come to trying to set up the cloud end of the gaming portion.
+    submitted by    /u/trevDaRev_ts  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Select the Right EC2 Instance – A Guide to EC2 Instances and Their Capabilities]]></title>
+        <id>https://www.freecodecamp.org/news/how-to-select-the-right-ec2-instance/</id>
+        <link href="https://www.freecodecamp.org/news/how-to-select-the-right-ec2-instance/"/>
+        <updated>2022-12-15T19:08:27.000Z</updated>
+        <summary type="html"><![CDATA[EC2 (Elastic Compute Cloud) is the most widely-used compute service from AWS. It's also one of the oldest services launched by AWS, as it was started in 2006.  In this article, I will go through some things you should consider when selecting an EC2 instance.  You can think]]></summary>
+        <author>
+            <name>Daniel Adetunji</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Get Request – How to Make an HTTP Request in JS]]></title>
+        <id>https://www.freecodecamp.org/news/javascript-get-request-tutorial/</id>
+        <link href="https://www.freecodecamp.org/news/javascript-get-request-tutorial/"/>
+        <updated>2022-12-15T19:05:24.000Z</updated>
+        <summary type="html"><![CDATA[When building applications, you will have to interact between the backend and frontend to get, store, and manipulate data. This interaction between your frontend application and the backend server is possible through HTTP requests. There are five popular HTTP methods you can use to make requests and interact with your]]></summary>
+        <author>
+            <name>Joel Olawanle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update - Meshlicious 9x Bay unRAID NAS Finally Filled!]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmsg10/update_meshlicious_9x_bay_unraid_nas_finally/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmsg10/update_meshlicious_9x_bay_unraid_nas_finally/"/>
+        <updated>2022-12-15T18:36:12.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/stoph007  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nginx Proxy Manager - Timezone incorrect; how to change?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmscje/nginx_proxy_manager_timezone_incorrect_how_to/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmscje/nginx_proxy_manager_timezone_incorrect_how_to/"/>
+        <updated>2022-12-15T18:32:06.000Z</updated>
+        <summary type="html"><![CDATA[I've setup NPM in Docker and the creation time (for SSL certs, hosts etc) is not the correct time.
+ How can I change this? Any one have a clue?
+    submitted by    /u/Panja0  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build an AI for Two-Player Turn-based Games]]></title>
+        <id>https://www.freecodecamp.org/news/build-an-ai-for-two-player-turn-based-games/</id>
+        <link href="https://www.freecodecamp.org/news/build-an-ai-for-two-player-turn-based-games/"/>
+        <updated>2022-12-15T18:24:15.000Z</updated>
+        <summary type="html"><![CDATA[Two-player turn-based games are games where two players play against each other, turn after turn, until one of them wins. Examples of these types of games are Tic-Tac-Toe, Backgammon, Mancala, Chess, and Connect 4. In this tutorial we will learn about the Minimax algorithm. It is a backtracking algorithm that]]></summary>
+        <author>
+            <name>Houssein Badra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New and Improved Embedding Model for OpenAI]]></title>
+        <id>https://openai.com/blog/new-and-improved-embedding-model/</id>
+        <link href="https://openai.com/blog/new-and-improved-embedding-model/"/>
+        <updated>2022-12-15T18:13:06.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Medusa, the OS Shopify alternative, just made a 250x performance improvement]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmr54x/medusa_the_os_shopify_alternative_just_made_a/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmr54x/medusa_the_os_shopify_alternative_just_made_a/"/>
+        <updated>2022-12-15T17:42:49.000Z</updated>
+        <summary type="html"><![CDATA[I am one of the co-founders behind Medusa, a composable commerce platform built in TS/JS with a headless architecture.
+ It is built out of frustration with current proprietary platforms that always forced us to build hacky workarounds whenever we tried to customize our setup.
+ As devs frequently use this Selfhosted sub at Medusa, we wanted to start making our larger releases a bit more public here. Today, we'll make the first of such updates - happy to hear feedback if there are more things you'd like to hear more / less about.
+ ​
+ THE UPDATES
+  
+250x performance improvement: With our latest release of Medusa, we just made a huge breakthrough with a >250x performance improvement. This is obviously significant, and we will publish a comprehensive deep-dive on it soon. For now, you can enjoy…]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Solve Math Equations in the Linux Terminal]]></title>
+        <id>https://www.freecodecamp.org/news/solve-your-math-equation-on-terminal/</id>
+        <link href="https://www.freecodecamp.org/news/solve-your-math-equation-on-terminal/"/>
+        <updated>2022-12-15T17:40:54.000Z</updated>
+        <summary type="html"><![CDATA[Can you solve the below math expression on your own without using any device? Take as much time as you need – but no tools allowed: ( ( 11 + 97 ) + ( 2 * 63 ) - ( 7 / 93 ) * ( 8 - 25 )]]></summary>
+        <author>
+            <name>Arunachalam B</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the Difference Between an Independent Variable and a Dependent Variable?]]></title>
+        <id>https://www.freecodecamp.org/news/independent-variable-vs-dependent-variable/</id>
+        <link href="https://www.freecodecamp.org/news/independent-variable-vs-dependent-variable/"/>
+        <updated>2022-12-15T17:32:36.000Z</updated>
+        <summary type="html"><![CDATA[The meaning of the word "variable" depends on the field where it's being used. In programming, a variable is a particular piece of data that holds a value. Depending on the configuration, that value can change or remain fixed. For instance, in JavaScript, you can implement a variable to change]]></summary>
+        <author>
+            <name>Kolade Chris</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help a newbie to set up domain with Tailscale]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmqr79/help_a_newbie_to_set_up_domain_with_tailscale/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmqr79/help_a_newbie_to_set_up_domain_with_tailscale/"/>
+        <updated>2022-12-15T17:26:42.000Z</updated>
+        <summary type="html"><![CDATA[I went through Tailscale's documentation, but they needed to be more precise about setting up the domain and mapping it to the device.
+ Here is a brief about my condition - 
+  
+I have hosted my services on a raspberry pi.
+ 
+I got a static IP with tailscale.
+ 
+I am using Nginx-proxy-manager to manage domains and mapping.
+ 
+Goal is to map my domain (purchased off go daddy) to be mapped with my tailscale account/device so that I can set up multiple sub-domains for my different services.
+ 
+ I apologise if this question sounds a bit noob. I am fairly new to the Selfhosting side of the world!
+    submitted by    /u/shubhank1912  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[it's offsite backup day!]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmqqyo/its_offsite_backup_day/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmqqyo/its_offsite_backup_day/"/>
+        <updated>2022-12-15T17:26:25.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/pizzatreeisland  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best way to measure hdd vibrations in a server?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmqmnz/best_way_to_measure_hdd_vibrations_in_a_server/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmqmnz/best_way_to_measure_hdd_vibrations_in_a_server/"/>
+        <updated>2022-12-15T17:21:46.000Z</updated>
+        <summary type="html"><![CDATA[Whats the easiest way to measure the vibration level of hdds in different servers?
+ I am currently building multiple diy jbods and want to test which design works best.
+    submitted by    /u/Pommes254  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minecraft offline.]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmqkm9/minecraft_offline/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmqkm9/minecraft_offline/"/>
+        <updated>2022-12-15T17:19:30.000Z</updated>
+        <summary type="html"><![CDATA[Not sure if anyone here archives games, or has experience with Minecraft, but is there any way to have a Minecraft launcher, such as the titan launcher, for offline use? What I mean is, if you use the titan launcher you still have to download any version you might want to play. What I'm looking for is a launcher that already has ALL Minecraft versions built in so I can just play it wherever and whenever and require no internet connection whatsoever. I want this for purposes of archiving the game on an external HDD, since I'm a big data hoarder.
+    submitted by    /u/Voldy256  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lichess gets a big upgrade. It doesn't go as planned]]></title>
+        <id>https://lichess.org/@/thibault/blog/lichess--scala-3/y1sbYzJX</id>
+        <link href="https://lichess.org/@/thibault/blog/lichess--scala-3/y1sbYzJX"/>
+        <updated>2022-12-15T17:07:58.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Request for Startups: Climate Tech]]></title>
+        <id>https://www.ycombinator.com/blog/rfs-climatetech</id>
+        <link href="https://www.ycombinator.com/blog/rfs-climatetech"/>
+        <updated>2022-12-15T17:07:32.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Loving Frigate NVR]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmq7x8/loving_frigate_nvr/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmq7x8/loving_frigate_nvr/"/>
+        <updated>2022-12-15T17:05:04.000Z</updated>
+        <summary type="html"><![CDATA[Just wanted to take some time and rave about Frigate NVR. I just installed it a couple days ago on home assistant and wow. For my personal use, It blows Agent DVR (Which I had been using for several months) out of the water. Here are some of my favorite points:
+  
+Accuracy is phenomenal for AI detections. This was always an issue with Agent DVR for me. It would detect my oil tank and christmas lights as people with up to 80% confidence level. Even sunset shadows it would be up to 70% confident it was people. By the time I masked these out almost 1/2 of the screen was gone. Zero false positives so far with Frigate and no masks.
+ Clips are so smooth.
+ CPU (Not using Coral) usage is extremely low and getting 15 to 19ms inference times on Snapdragon 8cx Gen 3 (Running HAOS Arm64 as a Hyper-V VM on Windows Dev Kit 2023). This is something I could not have said when I was running Agent DVR. AI detection with CodeProject.AI was usually hitting 40-60% CPU utilization on a 12 core i5 1240p. Agent DVR always idled at around 12% CPU utilization.
+  
+​
+ https://preview.redd.it/f5yt4y35w26a1.png?width=965&format=png&auto=webp&s=0aaaa5dbca2383c6fff63f3774b7e7ceba9e4059
+ https://preview.redd.it/vscbalu2436a1.png?width=1097&format=png&auto=webp&s=9f8b63a1d47e8d3d2f76675998cfc4ead9782246
+    submitted by    /u/dro159  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doors of McMurdo]]></title>
+        <id>https://brr.fyi/posts/doors-of-mcmurdo</id>
+        <link href="https://brr.fyi/posts/doors-of-mcmurdo"/>
+        <updated>2022-12-15T17:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authentik + NPM: how to disable authentication for local network?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmpp74/authentik_npm_how_to_disable_authentication_for/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmpp74/authentik_npm_how_to_disable_authentication_for/"/>
+        <updated>2022-12-15T16:44:21.000Z</updated>
+        <summary type="html"><![CDATA[I have Nginx Proxy Manager + authentik set up, authentication works great but I cannot find how to disable authentication for my own local network. I watched Cooptonioan's video but that only covers disabling MFA for the local network whereas my goal would be to trust anyone that connects from the local network (thus disabling authentication) which is absolutely needed for the wife acceptance factor. How can this be achieved?
+ PS setup was done based on GeeksCircuit guide.
+ Edit: typo
+    submitted by    /u/gogglesmurf  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Screen recorder software or stream downloader?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmpo9h/screen_recorder_software_or_stream_downloader/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmpo9h/screen_recorder_software_or_stream_downloader/"/>
+        <updated>2022-12-15T16:43:17.000Z</updated>
+        <summary type="html"><![CDATA[I'm wondering, for the people that have experience with it, whether you prefer to use screen recorder software or something else to save the video stream directly when archiving video from websites? 
+ I'm specifically looking to archive video from the History channel's website because I can't find it anywhere else and don't want it to just disappear one day.
+    submitted by    /u/PiMan3141592653  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Native Reflection in Rust]]></title>
+        <id>https://jack.wrenn.fyi/blog/deflect/</id>
+        <link href="https://jack.wrenn.fyi/blog/deflect/"/>
+        <updated>2022-12-15T15:54:48.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self-Hosted SEO Tools? Ahrefs Free Alternative.]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmodzb/selfhosted_seo_tools_ahrefs_free_alternative/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmodzb/selfhosted_seo_tools_ahrefs_free_alternative/"/>
+        <updated>2022-12-15T15:50:45.000Z</updated>
+        <summary type="html"><![CDATA[The free version of Ahrefs is very, very limited. Are any Self-Hosted Alternative SEO Tools like that?
+    submitted by    /u/intelligent-idiot-2  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NIST is announcing that SHA-1 should be phased out by Dec. 31, 2030]]></title>
+        <id>https://www.nist.gov/news-events/news/2022/12/nist-retires-sha-1-cryptographic-algorithm</id>
+        <link href="https://www.nist.gov/news-events/news/2022/12/nist-retires-sha-1-cryptographic-algorithm"/>
+        <updated>2022-12-15T15:49:12.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[picking an os for storage array]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmo9nm/picking_an_os_for_storage_array/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmo9nm/picking_an_os_for_storage_array/"/>
+        <updated>2022-12-15T15:45:57.000Z</updated>
+        <summary type="html"><![CDATA[I have an old phenom II based system that I intend to fill up with drives and leave in a corner. 
+ I have a few os options, originally i was going to install proxmox ve, truenas, home assistant, ubuntu for docker containers, windows ect. I would like to just run windows server as a host os because if there is an issue in windows there is a much higher chance of me being able to fix it on my own without hours of googleing. I would like to have a standard smb share for my files, raid 10 6 hdd probably, but i would also like some sort of web interface that i can upload or download files from if i can't use smb for whatever reason. I have been told by people that storage spaces in windows is a nightmare though.
+ Any advice will be greatly appreciated.
+    submitted by    /u/Peewee_Doggi  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So, you’d like to animate the display property]]></title>
+        <id>https://css-tricks.com/?p=375714</id>
+        <link href="https://css-tricks.com/so-youd-like-to-animate-the-display-property/"/>
+        <updated>2022-12-15T15:41:06.000Z</updated>
+        <summary type="html"><![CDATA[The CSS Working Group gave that a thumbs-up a couple weeks ago. The super-duper conceptual proposal being that we can animate or transition from, say, display: block to display: none.
+It’s a bit of a brain-twister to reason …
+So, you’d like to animate the display property originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I've started down the path of Data Hoarding 😇 Downloaded my data from services, backing up photos and vids from my phone, and archiving my YouTube playlists!]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmo078/ive_started_down_the_path_of_data_hoarding/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmo078/ive_started_down_the_path_of_data_hoarding/"/>
+        <updated>2022-12-15T15:35:37.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/NessDan  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advice on 50+ sealed 500GB HDDs]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmnw7d/advice_on_50_sealed_500gb_hdds/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmnw7d/advice_on_50_sealed_500gb_hdds/"/>
+        <updated>2022-12-15T15:31:18.000Z</updated>
+        <summary type="html"><![CDATA[I have the opportunity to buy around 50 500GB HDDs still sealed in their original packaging (about USD 4.50 per drive), and was wondering if it would be worth getting any. 
+ Based on this thread, it seems that the best use would be to just (re)sell the drives or offer upgrade services; and that building something with them would be quite inefficient due to high power requirements relative to the storage space available. Any other ideas on what else could be done with these drives? Or would those two suggestions still be the best advice today? 
+ Also, these drives are somewhat old (manufactured 2015, ~7 years ago). If the HDDs have been factory sealed all this time, would they still be very likely to work, or would there be some form of degradation?
+    submitted by    /u/drowsy_kitten  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backblaze Adds US East Region]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmniue/backblaze_adds_us_east_region/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmniue/backblaze_adds_us_east_region/"/>
+        <updated>2022-12-15T15:16:03.000Z</updated>
+        <summary type="html"><![CDATA[https://www.backblaze.com/blog/backblaze-adds-us-east-region-expanding-location-choices-and-cloud-replication-options/
+ Also a nice read about behind-the-scenes of the new DC. https://www.backblaze.com/blog/a-behind-the-scenes-look-at-our-us-east-data-center/
+    submitted by    /u/newcbomb  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best ecommerce UX practices from mcmaster.com]]></title>
+        <id>https://medusajs.com/blog/9-best-ecommerce-ux-practices-with-examples</id>
+        <link href="https://medusajs.com/blog/9-best-ecommerce-ux-practices-with-examples"/>
+        <updated>2022-12-15T14:59:37.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding WebRTC support to OBS using Rust]]></title>
+        <id>https://github.com/obsproject/obs-studio/pull/7926</id>
+        <link href="https://github.com/obsproject/obs-studio/pull/7926"/>
+        <updated>2022-12-15T14:49:52.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deepmind’s alphacode conquers coding, performing as well as humans]]></title>
+        <id>https://singularityhub.com/2022/12/13/deepminds-alphacode-conquers-coding-performing-as-well-as-humans/</id>
+        <link href="https://singularityhub.com/2022/12/13/deepminds-alphacode-conquers-coding-performing-as-well-as-humans/"/>
+        <updated>2022-12-15T14:43:12.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Autopsy-based characterization of myocarditis after anti-SARS-CoV-2-vaccination]]></title>
+        <id>https://link.springer.com/article/10.1007/s00392-022-02129-5</id>
+        <link href="https://link.springer.com/article/10.1007/s00392-022-02129-5"/>
+        <updated>2022-12-15T14:38:52.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Suppressed Electrodynamics of Ampère-Gauss-Weber (2001)]]></title>
+        <id>https://21sci-tech.com/articles/spring01/Electrodynamics.html</id>
+        <link href="https://21sci-tech.com/articles/spring01/Electrodynamics.html"/>
+        <updated>2022-12-15T14:29:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jankiest setup ever]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmmb81/jankiest_setup_ever/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmmb81/jankiest_setup_ever/"/>
+        <updated>2022-12-15T14:24:59.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/NUCL3ARN30N  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How might HN build a social network together?]]></title>
+        <id>https://news.ycombinator.com/item?id=33999296</id>
+        <link href="https://news.ycombinator.com/item?id=33999296"/>
+        <updated>2022-12-15T13:37:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Prioritize User Security When Collecting Offline Data]]></title>
+        <id>https://smashingmagazine.com/2022/12/prioritize-user-security-collecting-offline-data/</id>
+        <link href="https://smashingmagazine.com/2022/12/prioritize-user-security-collecting-offline-data/"/>
+        <updated>2022-12-15T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Concerns over online privacy and security are nothing new. In this article, Suzanne Scacca explores how the right CSV importer can help businesses better prioritize user security.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Suzanne Scacca)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Riffusion – Stable Diffusion fine-tuned to generate Music]]></title>
+        <id>https://www.riffusion.com/about</id>
+        <link href="https://www.riffusion.com/about"/>
+        <updated>2022-12-15T13:26:04.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Na-S Battery: Low-cost with four times the capacity of lithium]]></title>
+        <id>https://www.sydney.edu.au/news-opinion/news/2022/12/07/low-cost-battery-built-with-four-times-the-capacity-of-lithium.html</id>
+        <link href="https://www.sydney.edu.au/news-opinion/news/2022/12/07/low-cost-battery-built-with-four-times-the-capacity-of-lithium.html"/>
+        <updated>2022-12-15T12:07:57.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who knew the first AI battles would be fought by artists?]]></title>
+        <id>https://vmst.io/@selzero/109512557990367884</id>
+        <link href="https://vmst.io/@selzero/109512557990367884"/>
+        <updated>2022-12-15T11:49:31.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What kind of storage bay are you using ?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmi1kf/what_kind_of_storage_bay_are_you_using/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmi1kf/what_kind_of_storage_bay_are_you_using/"/>
+        <updated>2022-12-15T10:36:48.000Z</updated>
+        <summary type="html"><![CDATA[Hi, 
+ I am selfhosting a lot of services like plex, nextcloud, adguard, ... and I would like to have good perf for R/W for the services.
+ Specs: - I have multiple proxmox host for HA (like Dell optiplex) - I use the ZFS features (so this storage will be on ZFS). - Storage should be on 10Gb 
+ I think all the virtual disks would be on this new storage but there is a problem because I need : - SSD (good perf) for virtual disks of VMs - HDD for data (like movies, doc, pic, ...)
+ --> So I think I would go with 2 zfs pools
+ My questions are : - Which bay storage (with ECC Ram) should I use for my case ? SAN, NAS, DAS ? - What's the size of your pool and what kind of disk? - Where are your virtual disk, host side or dedicated storage reachable via NFS ? 
+ Thanks
+    submitted by    /u/hafx_  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use my Public IP( Dynamic ) as a Proxy in second PC ?]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmhalb/use_my_public_ip_dynamic_as_a_proxy_in_second_pc/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmhalb/use_my_public_ip_dynamic_as_a_proxy_in_second_pc/"/>
+        <updated>2022-12-15T09:47:49.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/amannarula77  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What does copyright say about generative models?]]></title>
+        <id>https://www.oreilly.com/radar/what-does-copyright-say-about-generative-models/</id>
+        <link href="https://www.oreilly.com/radar/what-does-copyright-say-about-generative-models/"/>
+        <updated>2022-12-15T09:00:19.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Home Server]]></title>
+        <id>https://www.reddit.com/r/homelab/comments/zmg3kj/my_home_server/</id>
+        <link href="https://www.reddit.com/r/homelab/comments/zmg3kj/my_home_server/"/>
+        <updated>2022-12-15T08:27:53.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Outrageous-Painter  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A newspaper vanished from the internet. Did someone pay to kill it? | *digs into link rot and the loss of digital archives*]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmf0cu/a_newspaper_vanished_from_the_internet_did/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmf0cu/a_newspaper_vanished_from_the_internet_did/"/>
+        <updated>2022-12-15T07:16:08.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/ChasingTheRush  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Downloading all saved reddit media from specific subreddit]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zmedz1/downloading_all_saved_reddit_media_from_specific/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zmedz1/downloading_all_saved_reddit_media_from_specific/"/>
+        <updated>2022-12-15T06:38:57.000Z</updated>
+        <summary type="html"><![CDATA[GitHub - shadowmoose/RedditDownloader: Scrapes Reddit to download media of your choice. 
+ can anyone tell me how to use the rmd shadowmoose tool? im looking at the ui, How do I make it download every post i saved from a specific reddit? How do I make it all save in a folder in a specific download location?
+    submitted by    /u/I-am-ocean  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drop-in replacement for xBrowserSync API that is a single binary and supports SQLite3, PostgreSQL and MySQL]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zmdc1c/dropin_replacement_for_xbrowsersync_api_that_is_a/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zmdc1c/dropin_replacement_for_xbrowsersync_api_that_is_a/"/>
+        <updated>2022-12-15T05:38:25.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/mrusme  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My drive is making weird grinding noises and 50% of the clusters show bad sectors. It’s ok to keep using it though, right?]]></title>
+        <id>https://www.reddit.com/r/DataHoarder/comments/zma47m/my_drive_is_making_weird_grinding_noises_and_50/</id>
+        <link href="https://www.reddit.com/r/DataHoarder/comments/zma47m/my_drive_is_making_weird_grinding_noises_and_50/"/>
+        <updated>2022-12-15T02:49:32.000Z</updated>
+        <summary type="html"><![CDATA[NO, NO IT'S NOT. 
+ If you care about your data, trash or RMA any drives with ANY errors no matter how small. It will only get worse.
+    submitted by    /u/Royal-Ad-2088  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>It's A Digital Disease!</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Favorite web based apps that are not plex or emby?]]></title>
+        <id>https://www.reddit.com/r/selfhosted/comments/zm9725/favorite_web_based_apps_that_are_not_plex_or_emby/</id>
+        <link href="https://www.reddit.com/r/selfhosted/comments/zm9725/favorite_web_based_apps_that_are_not_plex_or_emby/"/>
+        <updated>2022-12-15T02:05:15.000Z</updated>
+        <summary type="html"><![CDATA[What’s your favorite self hosted web browser based apps that are not media related? Like notes, productivity… ect…
+    submitted by    /u/Fission455  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Any app (on Linux) for recording sensor data (wave plot) sent from TCP ? (like oscilloscope)]]></title>
         <id>https://www.reddit.com/r/homelab/comments/zm8mmp/any_app_on_linux_for_recording_sensor_data_wave/</id>
@@ -38,6 +1364,16 @@ Example 1
  [link]   [comments]]]></summary>
         <author>
             <name>Self-Hosted Alternatives to Popular Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the brain distinguishes memories from perceptions]]></title>
+        <id>https://www.quantamagazine.org/how-the-brain-distinguishes-memories-from-perceptions-20221214/</id>
+        <link href="https://www.quantamagazine.org/how-the-brain-distinguishes-memories-from-perceptions-20221214/"/>
+        <updated>2022-12-15T01:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -1305,6 +2641,16 @@ Unchain My Inaccessibly-Labelled Heart originally published on CSS-Tricks, which
  [link]   [comments]]]></summary>
         <author>
             <name>homelabbity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wendy Carlos: The brilliant but lonely life of an electronic music pioneer]]></title>
+        <id>https://english.elpais.com/culture/2022-12-12/wendy-carlos-the-brilliant-but-lonely-life-of-an-electronic-music-pioneer.html</id>
+        <link href="https://english.elpais.com/culture/2022-12-12/wendy-carlos-the-brilliant-but-lonely-life-of-an-electronic-music-pioneer.html"/>
+        <updated>2022-12-14T10:20:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -38250,1412 +39596,6 @@ Finding Front-End Development Scholarships originally published on CSS-Tricks, w
         <summary type="html"><![CDATA[In this article, Noah Mashni and Mark Steadman share their approach to how to leverage the automated test results from the accessibility checks to drive change and reach sustainable digital accessibility transformation.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Noah Mashni and Mark Steadman)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Idio by Example]]></title>
-        <id>https://idio-lang.org/docs/idio-by-example/</id>
-        <link href="https://idio-lang.org/docs/idio-by-example/"/>
-        <updated>2022-11-16T13:17:37.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Anyone go through Montessori education until age 12 (end of grade 6)?]]></title>
-        <id>https://news.ycombinator.com/item?id=33622295</id>
-        <link href="https://news.ycombinator.com/item?id=33622295"/>
-        <updated>2022-11-16T13:03:16.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embedder, A very easy to use image host to quickly upload files to link to]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywsi8k/embedder_a_very_easy_to_use_image_host_to_quickly/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywsi8k/embedder_a_very_easy_to_use_image_host_to_quickly/"/>
-        <updated>2022-11-16T12:50:42.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/Anarch33  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asami: A flexible graph store in Clojure]]></title>
-        <id>https://github.com/quoll/asami</id>
-        <link href="https://github.com/quoll/asami"/>
-        <updated>2022-11-16T12:19:58.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web 1.61803 or Web Golden]]></title>
-        <id>https://susam.net/maze/web-golden.html</id>
-        <link href="https://susam.net/maze/web-golden.html"/>
-        <updated>2022-11-16T12:09:48.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overhyping hydrogen as a fuel]]></title>
-        <id>https://www.nature.com/articles/d41586-022-03693-6</id>
-        <link href="https://www.nature.com/articles/d41586-022-03693-6"/>
-        <updated>2022-11-16T11:36:43.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a private LoRa network (2017)]]></title>
-        <id>https://os.mbed.com/docs/mbed-os/v6.15/apis/LoRa-tutorial.html</id>
-        <link href="https://os.mbed.com/docs/mbed-os/v6.15/apis/LoRa-tutorial.html"/>
-        <updated>2022-11-16T11:34:07.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Docker containers seem to share a Postgres database even if I didn't set them up that way]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywqpi7/my_docker_containers_seem_to_share_a_postgres/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywqpi7/my_docker_containers_seem_to_share_a_postgres/"/>
-        <updated>2022-11-16T11:15:05.000Z</updated>
-        <summary type="html"><![CDATA[Hey there!
- I have some services I host with WSL2 Docker. It looks like paperless-ngx and expanse for example share the same Postgres database somehow? Both are exposed publically and both have database issues somehow.
- I use Caddy Docker Proxy to expose services on my website. Both services are part of the same caddy Docker network.
- I can see in the logs for expanse that Paperless is trying to access expanse's database.
- These are my separate docker-compose.yml files:
- # ~/lab/expanse/docker-compose.yml version: "3.8" volumes: db: backups: networks: net: attachable: false caddy: external: true services: db: image: docker.io/postgres:latest volumes: - db:/var/lib/postgresql/ networks: - net - caddy env_file: - ./backend/.env_prod restart: on-failure app: depends_on: - db image: ghcr.io/jc…]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Legoland bond crisis threatens South Korea's economy]]></title>
-        <id>https://foreignpolicy.com/2022/11/10/legoland-south-korea-bond-market-crisis/</id>
-        <link href="https://foreignpolicy.com/2022/11/10/legoland-south-korea-bond-market-crisis/"/>
-        <updated>2022-11-16T11:15:04.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[€95/5TB Does it get any better for Europe?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywqnac/955tb_does_it_get_any_better_for_europe/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywqnac/955tb_does_it_get_any_better_for_europe/"/>
-        <updated>2022-11-16T11:11:09.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/Sypermarket3  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What are your Most Used Self Hosted Applications?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywq4ai/what_are_your_most_used_self_hosted_applications/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywq4ai/what_are_your_most_used_self_hosted_applications/"/>
-        <updated>2022-11-16T10:39:23.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/PatienceNo4063  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An undersea art gallery that ensnares illegal trawlers]]></title>
-        <id>https://www.wired.co.uk/article/underwater-sculptures-stopping-trawling</id>
-        <link href="https://www.wired.co.uk/article/underwater-sculptures-stopping-trawling"/>
-        <updated>2022-11-16T08:37:22.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More evidence for problems in VM warmup]]></title>
-        <id>https://tratt.net/laurie/blog/2022/more_evidence_for_problems_in_vm_warmup.html</id>
-        <link href="https://tratt.net/laurie/blog/2022/more_evidence_for_problems_in_vm_warmup.html"/>
-        <updated>2022-11-16T08:06:11.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How our development team shares one giant bare metal machine]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywn8ua/how_our_development_team_shares_one_giant_bare/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywn8ua/how_our_development_team_shares_one_giant_bare/"/>
-        <updated>2022-11-16T07:41:23.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/geoffreyhuntley  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update: Mastodon v4.0.2 was released today.]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywlhv1/update_mastodon_v402_was_released_today/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywlhv1/update_mastodon_v402_was_released_today/"/>
-        <updated>2022-11-16T06:01:37.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/testus_maximus  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[R720 upgrade/ sidegrade.]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywg9hk/r720_upgrade_sidegrade/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywg9hk/r720_upgrade_sidegrade/"/>
-        <updated>2022-11-16T01:50:28.000Z</updated>
-        <summary type="html"><![CDATA[Hey there. Looking for a bit of a sanity check. I currently have a R720 with two 2695 V2 and 128G of Ram. Currently this is pretty overkill for what I need and I am looking at downsizing to a regular tower. I am stuck between buying a motherboard to house one of the 2695 and half the ram and then try sell the rest. The other option I am considering is moving to a epyc 7302, and then I can sell the R720 as a whole, which I think I would have more luck. I am not 100% sure if the move from a 2695 to a 7302 is really worth the $1200 CAD it will cost me or if I'm better to just use what I have.
-    submitted by    /u/Nagairius  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First time making a server. For what I'm about to do all signs point to using Proxmox and TrueNAS. Please guide me in the right direction.]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywg8kf/first_time_making_a_server_for_what_im_about_to/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywg8kf/first_time_making_a_server_for_what_im_about_to/"/>
-        <updated>2022-11-16T01:49:28.000Z</updated>
-        <summary type="html"><![CDATA[Tl;Dr: Is virtualizing FreeNAS/TrueNAS in Proxmox alongside having other VMs for other functions a good idea?
- I have a vague idea of what I'm doing but at the end of the day I'm learning still.
- Purpose of this project: Half of it is to take some functionality off my main gaming rig and put it into a server that can run 24/7, and the other half is to experiment and learn some neat things. Right now, my server of choice is an Optiplex 5060 w/ i7-8700 and 32gb of ECC RAM.
- Things I want my server to run: NAS with Plex Minecraft Server Opnsense (this is something I'm not gonna touch for a while but it's a project I want to tackle once I get the ball rolling)
- This is it at the moment but there could be more things I want to do.
- For the NAS, unlike alot of people here, while I like the idea of having a NAS for storing media, I don't see myself needing to hoard alot of data. At most, maybe about 2tb for some TV shows, movies, and other things I want to save. So I was thinking of picking up 2 2tb drives of the Seagate IronWolf drives new and put them in a RAID 1 for redundancy. Of course, they will also be backed up in a cloud solution.
- After doing a lot of research it seems like Proxmox is the way to go for virtualization. I also seen that virtualizing your NAS is doable but it requires an HBA card for stability and performance. I seen this video that seems pretty reliable on how to virtualize your NAS. Think this video is good enough?
- And then I can just simply create a VM of Windows 10 for my Minecraft server.
-    submitted by    /u/xRoguestatus  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Invoice program to replace crater?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywg829/invoice_program_to_replace_crater/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywg829/invoice_program_to_replace_crater/"/>
-        <updated>2022-11-16T01:48:50.000Z</updated>
-        <summary type="html"><![CDATA[a bit over a year ago, I posed in this sub, a query to get into self hosted invoice program for a side hustle. Moved into Crater, and honestly, I like it. 
- But it looks pretty abandon these days, and a discussion on discord with others feel the same way. So I am looking to maybe make a change for the new year. 
- Whats everyone using these days?
-    submitted by    /u/jdlnewborn  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Unraid solid and trustworthy over the years?]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywg2ge/is_unraid_solid_and_trustworthy_over_the_years/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywg2ge/is_unraid_solid_and_trustworthy_over_the_years/"/>
-        <updated>2022-11-16T01:41:28.000Z</updated>
-        <summary type="html"><![CDATA[What if my motherboard break and that I need to reformat Unraid OS. Will my raid still function and be recognized?
- If I want to add different brand and sizes of HDD over time, will it work?
- How stable is it compared to SoftRaid on Mac (which I'm currently using)
-  
-Thank you!
-    submitted by    /u/igmyeongui  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My new job was throwing this guy away...instead, they gave it to me.]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywfpgc/my_new_job_was_throwing_this_guy_awayinstead_they/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywfpgc/my_new_job_was_throwing_this_guy_awayinstead_they/"/>
-        <updated>2022-11-16T01:25:04.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/jotafett  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best way, in the technical sense, to backup iCloud Drive to MS OneDrive]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywfp5m/best_way_in_the_technical_sense_to_backup_icloud/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywfp5m/best_way_in_the_technical_sense_to_backup_icloud/"/>
-        <updated>2022-11-16T01:24:41.000Z</updated>
-        <summary type="html"><![CDATA[I'm interested in the best way to sync files from OneDrive to Apple's iCloud Drive. I've read multiple articles on the issue but most deal with cost, which in my scenario is a non-issue because I'm already paying for OneDrive (professional reasons) and the family is on the icloud 2TB plan. I'm looking at about 100-300 GB of data. I have apple, windows and linux laptops, also proxmox servers. What I don't have, is a clear-cut solution to syncing OneDrive to iCloud Drive. Two-way sync would be nice, but it's not a must.
- My preferred Apple laptop for this application is an old retina MacBook Pro 2013 that doesn't run Monterey, but I'm willing to buy some SH Mac Mini for this situation. Currently the solution is more important than the cost TBH bceasue I'm looking for a set and forget scenario.
- I'm hoping others can describe solutions if in a similar situation. I was thinking of the following:
- Option 1: Setup a macOS system to do the syncing. Setup OneDrive and iCloud Drive to "keep all files locally" and then rsync between the two folders. 
- Pros:
-  
-native syncing of iDrive
-  
-Cons:
-  
-my macOS laptop for this "application" is a bit old (2013 rMBP) which is currently unsupported. I don't want to run unsupported OSes for security reasons and I don't want workarounds, especially when settings this up for the next few years;
- dedicated Apple Hardware to do the task, whereas Windows VMs might do the trick;
- Unable to check if iCloud Drive and OneDrive are signed in and healthy. When OneDrive might fail, it could desync, but worst case scenario I think it could completely wipeout 
-  
-Option 2 Run a Windows VM, signed in to iCloud Drive and OneDrive, both setup to keep all files on device.
- Pros:
-  
-cheapest and most portable
-  
-Issues:
-  
-as above, unable to automcatically check and resolve if iCloud Drive and OneDrive are signed in and sync is healthy.
-  
-   submitted by    /u/blucafee80  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MC server hosting]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywfo6x/mc_server_hosting/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywfo6x/mc_server_hosting/"/>
-        <updated>2022-11-16T01:23:24.000Z</updated>
-        <summary type="html"><![CDATA[I was thinking about hosting my own MC server and renting it out. Kinda like Apex hosting. I'm trying to tap into the knowledge here and ask if its a decent idea or not. I'm a comp sci student that has kinda always played a ton of mc so I thought about it as a way to make some money and put it on my resume. Is it a profitable or viable venture?
-    submitted by    /u/Buddyman57  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elk Stack Alternative for log analytics?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywf5wd/elk_stack_alternative_for_log_analytics/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywf5wd/elk_stack_alternative_for_log_analytics/"/>
-        <updated>2022-11-16T01:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Is there anything better or worth considering for doing some light log analytics? Initially I just want to do some analytics on my router logs.
- I read in a few threads that Elk is resource heavy, but there didn't seem to be a better alternative but these threads are a few years old.
- Anything changed, worth having a look at instead of Elk?
-    submitted by    /u/netmind604  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quick hard drive question!]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywf16f/quick_hard_drive_question/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywf16f/quick_hard_drive_question/"/>
-        <updated>2022-11-16T00:54:30.000Z</updated>
-        <summary type="html"><![CDATA[TLDR: If I plug in a laptop hard drive to my PC will my windows 11 on my SSD automatically format the drive or allow me to access the data?
- I have a laptop hard drive I want to plug into my PC right now to copy a back up of it. My pc is already running 2 hard drives and my SSD with windows 11 on it. I want to confirm that it is safe to plug in the laptop hard drive to sata and it won't automatically format it or anything. It has data that is important on it that we don't want to lose so I thought it would be easiest to plug into my pc and extract a copy. It also has a copy of windows on the laptop HDD. I am just asking to make sure. I've done it before with another laptop hard drive, but I just am making sure again.
-    submitted by    /u/5-19pm  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A year of incoming traffic, mapped.]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yweyma/a_year_of_incoming_traffic_mapped/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yweyma/a_year_of_incoming_traffic_mapped/"/>
-        <updated>2022-11-16T00:51:04.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/nik282000  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why isn’t every domian/link crawled and saved on the web archive?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yweudl/why_isnt_every_domianlink_crawled_and_saved_on/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yweudl/why_isnt_every_domianlink_crawled_and_saved_on/"/>
-        <updated>2022-11-16T00:45:38.000Z</updated>
-        <summary type="html"><![CDATA[I don’t understand why a web-crawler doesn’t go through every single domain and site in existence and crawl everything. How can there be URL’s that aren’t archived on the web archive?
-    submitted by    /u/Original_Ad_1103  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Americans to Provide Biometrics and Pay Fee Traveling to the U.K. From 2023]]></title>
-        <id>https://www.traveloffpath.com/americans-will-have-to-provide-biometrics-and-pay-fee-traveling-to-the-u-k-from-2023/</id>
-        <link href="https://www.traveloffpath.com/americans-will-have-to-provide-biometrics-and-pay-fee-traveling-to-the-u-k-from-2023/"/>
-        <updated>2022-11-16T00:39:29.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cudy X6 Router Wireguard]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywekzc/cudy_x6_router_wireguard/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywekzc/cudy_x6_router_wireguard/"/>
-        <updated>2022-11-16T00:32:34.000Z</updated>
-        <summary type="html"><![CDATA[I'm completely missing the basics of how Wireguard should work on a router... I'm using a Cudy X6 router. Love it, and it has Wireguard built in as both a client and server, but I can't seem to wrap my head around how to actually set it up!
- Here's what I'm working with.
- ​
- https://preview.redd.it/jsjpzkguj70a1.png?width=952&format=png&auto=webp&s=090fa475379a92cf812c33505dd0ff6da628977b
- I thought, from my limited understanding, that the IP Address is what I would use when connected to access devices that are on Wireguard. Under Clients, I have this set up... is this just my router IP address as the Hostname and what IP address I'd like to use to connect to it over Wireguard?
- ​
- https://preview.redd.it/jsyist13k70a1.png?width=1194&format=png&auto=webp&s=318cf521cff46b2adfd3a17e033018f6e0c92a63
- Thank you. I feel like I'm missing something fundamental, but there's little to no help on this specific server, and generic Wireguard tutorials haven't gotten me there.
- Ultimately, I'm trying to access ANY device on my network when connected via Wireguard.
-    submitted by    /u/joke-complainer  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rauversion: the self-hosted platform for music communities has released version 0.5.0]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yweh20/rauversion_the_selfhosted_platform_for_music/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yweh20/rauversion_the_selfhosted_platform_for_music/"/>
-        <updated>2022-11-16T00:27:14.000Z</updated>
-        <summary type="html"><![CDATA[​
- AI track covers
- ​
- Hi, we have released Rauversion 0.5.0. It comes with the following:
-  
-Events platform with a ticketing system that lets the community publish Free and Paid Events.
- Stripe integration that allows the community to link their stripe accounts to sell Paid events.
- Streaming event services integration with MUX, TWITCH, STREAM YARD, and ZOOM that allows the community to publish virtual events too!
- Track cover image generated by AI.
-  
-https://github.com/rauversion/rauversion-phx
- https://rauversion.com
-    submitted by    /u/Day_Hour  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Laptop Is Faster Than Your Cloud: Announcing MotherDuck]]></title>
-        <id>https://tomtunguz.com/motherduck-seed-a/</id>
-        <link href="https://tomtunguz.com/motherduck-seed-a/"/>
-        <updated>2022-11-16T00:16:52.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Running a Self hosted AD server to redirect ads instead of blocking them.]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywe5xy/running_a_self_hosted_ad_server_to_redirect_ads/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywe5xy/running_a_self_hosted_ad_server_to_redirect_ads/"/>
-        <updated>2022-11-16T00:13:56.000Z</updated>
-        <summary type="html"><![CDATA[So basically I'm running pfblocker-ng right now and it works great, and I highly recommend it or pihole. What I have noticed though is that on mobile games some of the perks from ads are broken (no surprise there, that's why I'm blocking them). 
- What I was wondering, is if I could run a local ad service with no actual ads that would allow me to not really have ads but allow mobile games to "think" there was an ad. So basically redirecting my DNS to spoof the real ad server and tell the game that the ad was successful and give me the perk.
- There may be some questionable morals here but they started it by giving more ad time than actual game play.
-    submitted by    /u/innerlight2111  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link Omada ER605 handing out odd IPs]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywdzig/tplink_omada_er605_handing_out_odd_ips/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywdzig/tplink_omada_er605_handing_out_odd_ips/"/>
-        <updated>2022-11-16T00:06:03.000Z</updated>
-        <summary type="html"><![CDATA[I just got a ER605 set it up and connected everything and after 3 hours the router started handing out weird IPs. I checked after everything stopped working and it was handing out 169.128.0.0/24 instead of 10.0.1.0/24. Has anyone had this happen before?
-    submitted by    /u/ItchyBake7905  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(Idle) Power consumption: Intel NUC vs Tower (Desktop)]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywd0zk/idle_power_consumption_intel_nuc_vs_tower_desktop/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywd0zk/idle_power_consumption_intel_nuc_vs_tower_desktop/"/>
-        <updated>2022-11-15T23:25:36.000Z</updated>
-        <summary type="html"><![CDATA[My current home server (a Gigabyte Brix with 16GB of memory) is becoming too small for my needs. Therefore I am looking for a new home server. There are two options I can't decide between are:
- Option 1: Desktop PC as a server
- As my needs often change, I am considering building a desktop PC as my server (Example CPU: Intel Pentium Gold G7400T (TDP 35W), obviously no graphics card and an efficient Power Supply). Since this would allow me to, later on, add more parts (e.g. more drives, upgrade to 2.5GBase LAN, etc...). 
- Option 2: Intel NUC
- Or go with an Intel NUC (with an Intel Core i5-1135G7), as it is a very nice all-in-one solution with just a 12W TDP. 
- To my Question:
- How high is the power consumption for such a Desktop PC as I have described above, especially in comparison to an Intel NUC? What are your recommendations?
-    submitted by    /u/Allanon47  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digital books wear out faster than physical books]]></title>
-        <id>http://blog.archive.org/2022/11/15/digital-books-wear-out-faster-than-physical-books/</id>
-        <link href="http://blog.archive.org/2022/11/15/digital-books-wear-out-faster-than-physical-books/"/>
-        <updated>2022-11-15T23:18:16.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LTO Drive question, regarding connectivity]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywcloj/lto_drive_question_regarding_connectivity/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywcloj/lto_drive_question_regarding_connectivity/"/>
-        <updated>2022-11-15T23:08:00.000Z</updated>
-        <summary type="html"><![CDATA[If a LTO drive has a SAS connector on the back, does that mean it can be used with a normal SAS cable and card or does something else need to be done or is it a "depends on the make and model of the drive" thing?
- It is supposedly from an old auto loader.
-    submitted by    /u/TheGleanerBaldwin  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is there a free or FOSS x86 firewall with a Cisco-like CLI?]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywchdn/is_there_a_free_or_foss_x86_firewall_with_a/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywchdn/is_there_a_free_or_foss_x86_firewall_with_a/"/>
-        <updated>2022-11-15T23:02:57.000Z</updated>
-        <summary type="html"><![CDATA[I come from an enterprise & SMB MSP IT background. Which means I'm comfortable with Cisco CLI and I'm looking for enterprise-grade features. As much as I believe that a good web UI is superior to a clunky and obscure CLI, I have yet to see any firewalls with a good web UI. (Consumer wifi routers sometimes have decent web UIs, but are notoriously feature-poor.)
- So is there a free/FOSS firewall solution out there that has ripped off Cisco's CLI?
- ________________________________________________________________________
- Some background on why I care:
- I'm working on a big project to consolidate my collection of hardware, virtualizing old machines I've repurposed and reducing my overall footprint while (hopefully) adding longevity and functionality to my home network. The current phase of thi…]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Problem with Deluge VPN]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/ywc1e4/problem_with_deluge_vpn/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/ywc1e4/problem_with_deluge_vpn/"/>
-        <updated>2022-11-15T22:45:04.000Z</updated>
-        <summary type="html"><![CDATA[So I've been a part of this community for awhile and I've learned so much. So first off, thank you to everyone for all the information that is here and all the help you have all given.
- On that note, I have a problem where I can't access the webui of deluge when it's connected to the VPN I use, celo.net.
- It was working fine but all of a sudden, 2 days ago, it stopped working.
- If I take the VPN out and just run deluge it all works fine. I verified that the VPN is connecting and getting an IP address.
- Here is my docker compose file that I use.
- version: "3.8" networks: mcvlan: driver: macvlan driver_opts: parent: enp0s18 ipam: driver: default config: - subnet: 192.168.77.0/24 gateway: 192.168.77.1 services: #---------------------------------------------------------------------# # Portaine…]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free 4u Server Boxes - Cincinnati OH area]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywbp8y/free_4u_server_boxes_cincinnati_oh_area/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywbp8y/free_4u_server_boxes_cincinnati_oh_area/"/>
-        <updated>2022-11-15T22:31:35.000Z</updated>
-        <summary type="html"><![CDATA[Hopefully allowed, but if anyone needs to pack/ship anything - I've got two very nice 4U sized boxes with spray in foam and reinforced corners. Just got 2x 4U supermicros delivered and hate to throw out the boxes, PM me for pickup info if you need them!
-    submitted by    /u/BrokenBehindBluEyez  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seagate 16TB Ironwolf Pro has 52% discount on Amazon. Is this HD good to use as internal storage for my PC?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywbgom/seagate_16tb_ironwolf_pro_has_52_discount_on/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywbgom/seagate_16tb_ironwolf_pro_has_52_discount_on/"/>
-        <updated>2022-11-15T22:22:05.000Z</updated>
-        <summary type="html"><![CDATA[Link to the sale 
- I'm fairly new to high end Hard Drives so I figured people here are much more experts than I. Seems that drive is made to be used as NAS with other drives, but my question is, can I just connect it to my pc even if it isn't made to function that way?
-    submitted by    /u/Chinchillin09  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’m gonna buy SanDisk Portable SSD 480 GB USB 3.2 Gen. 2. I have MacBook and before I send photos should I set something?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywbbo2/im_gonna_buy_sandisk_portable_ssd_480_gb_usb_32/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywbbo2/im_gonna_buy_sandisk_portable_ssd_480_gb_usb_32/"/>
-        <updated>2022-11-15T22:16:31.000Z</updated>
-        <summary type="html"><![CDATA[I’m gonna buy SanDisk Portable SSD 480 GB USB 3.2 Gen. 2. I have MacBook and before I send photos should I set something? Format, types? I ask because what if I send my photos from MacBook to SanDisk and then one day I will want send them to windows laptop? Will windows read them correctly and I will be able to see them? Sorry for english
-    submitted by    /u/Sucxces_93  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What can I do to improve these subnets? I'm somewhat new to networking...]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywb8d2/what_can_i_do_to_improve_these_subnets_im/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywb8d2/what_can_i_do_to_improve_these_subnets_im/"/>
-        <updated>2022-11-15T22:12:59.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/wspnut  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I have to download and physically back up 300,000 iCloud Photos. Is there a easy way?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywb83g/i_have_to_download_and_physically_back_up_300000/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywb83g/i_have_to_download_and_physically_back_up_300000/"/>
-        <updated>2022-11-15T22:12:41.000Z</updated>
-        <summary type="html"><![CDATA[Hi datahoarders,
- I hope this is the right place. Over the years my iPhone photos and videos have numbered 300,000 with a total of 1.8 terabytes of cloud space. 
- I’d like to back these up physically but iCloud Photos on PC has severe limitations. I can’t physically download more than 999 photos at a time. 
- Im currently trying to back up my iCloud to Photo folder to google drive then use google drive to download everything on my eternal hard drive directly. Will this work or have I started a path to futility? 
- I’ve tried multiple phones calls with apple support and they are unable to advise on a clear path except for I need to get a Mac.
- I saw another thread somewhere where an individual had a python script to batch download photos. 
- Just looking for the easiest solution. (I guess if I needed to buy a Mac to aid in downloading them all to a external hard drive and then return it) wouldn’t be the end of the world for me as long as that would work for a fact. 
- All advice is welcome. Thank you
-    submitted by    /u/Xlr8in  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Huawei RH2288H V3 way too fucking loud]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywb5d0/huawei_rh2288h_v3_way_too_fucking_loud/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywb5d0/huawei_rh2288h_v3_way_too_fucking_loud/"/>
-        <updated>2022-11-15T22:09:43.000Z</updated>
-        <summary type="html"><![CDATA[hi
- I recently bought a Huawei RH2288H V3 for a very good price, but it is way too fucking loud for my homelab purposes. Is there a way to make it quieter, or is there a 4u case that is compatible with the motherboard of this loud mf.
-    submitted by    /u/Aggressive_Kiwi2984  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Bucks can’t wear cream uniforms because they interfere with digital ads]]></title>
-        <id>https://paullukas.substack.com/p/exclusive-the-inside-story-of-why</id>
-        <link href="https://paullukas.substack.com/p/exclusive-the-inside-story-of-why"/>
-        <updated>2022-11-15T22:08:29.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Homelab Storage Config, RAID1, and IT Mode]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywaxfq/first_homelab_storage_config_raid1_and_it_mode/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywaxfq/first_homelab_storage_config_raid1_and_it_mode/"/>
-        <updated>2022-11-15T22:00:23.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone, I'm currently working on becoming a Network Admin (for work) and Systems Admin(for fun because why not) and the next couple of months have finally let me get back to a server I bought a couple of months back (R720 8bay with perc 710 mini). I roughly have an idea of what I need to do to get this thing up and running but would love some insight, pointers, or just a double check on the progress I've made so far. (This server is for personal use and training by the way)
- I'm running proxmox 7.1 directly from the 8Bay HDD/SSD drives in a RAID1 configuration. (I'll update to 7.2 once everything here is confirmed) My plan is to run TrueNAS in a VM and run Plex in TrueNAS so I can access all of my personal data /LVM data inside and outside of TrueNAS without duplicating information. I've been told that running Proxmox from a live USB is the way to go and that I should:
- 1.) Clone my Proxmox live USB in case of failure (makes total sense)
- 2.) Flash my PERC 710 mini into IT mode so that Proxmox VMs can have direct access to the drives
- I've found a guide for flashing my raid controller @https://fohdeesha.com/docs/perc.html that I'll be using for the flashing process
- Right now the server is currently running but the OS is install directly onto 1 of 2 internal 2.5 SSDs (in a RAID1) and the RAID controller is handling this directly. I'm going to implement the changes listed above and use the internal drives only for the VMs/Containers and the OS will run from the USB. Does this sound like what I need to do or should I configure my system differently? ( In the future I want to add PCIe NVMe drives for faster storage just as a side note) Any insight is appreciated and thanks everyone
-    submitted by    /u/RealPhoenixUnBound  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CD backup, error, slow progression]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/ywaskg/cd_backup_error_slow_progression/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/ywaskg/cd_backup_error_slow_progression/"/>
-        <updated>2022-11-15T21:54:59.000Z</updated>
-        <summary type="html"><![CDATA[Im taking a copy of several old CD/DVD's. My issue is, several are damaged. When i try to copy them, i get the error "The request could not be performed because of an I/O device error." 
- The error doesnt bother me, i assume its because the disk is damaged. BUT! When i click "ignore" it continues, but it is incredibly slow. 
- A regular CD/DVD might take 10 minutes to save. When this error pops up, 1% progression took 30 minutes. It still works, however it works extremly slow. 
- I tried a couple of diffrent damaged disks, i tried PowerISO and AnyBurn. It produced the same result. The process is incredibly slow after the error. 
- The error came at the beggining of one CD, the other CD produced the error at the end. The latter was at 98% and took an hour after the error. The first i gave up, 1% progression after 30 minutes. 
- Any advice?
-    submitted by    /u/Oxyforthebrain  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Provision a Home Lab with Oracle Cloud and Ansible]]></title>
-        <id>https://www.freecodecamp.org/news/provision-home-lab-with-oracle-cloud-and-ansible/</id>
-        <link href="https://www.freecodecamp.org/news/provision-home-lab-with-oracle-cloud-and-ansible/"/>
-        <updated>2022-11-15T21:52:50.000Z</updated>
-        <summary type="html"><![CDATA[Imagine for a moment that you been working hard to setup a website, protected with SSL, and then your hardware fails. This means that unless you have a perfect backup of your machine, you will need to install all the software and configuration files by hand. What if it's not]]></summary>
-        <author>
-            <name>Jose Vicente Nunez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The day the dinosaurs died (2019)]]></title>
-        <id>https://www.newyorker.com/magazine/2019/04/08/the-day-the-dinosaurs-died</id>
-        <link href="https://www.newyorker.com/magazine/2019/04/08/the-day-the-dinosaurs-died"/>
-        <updated>2022-11-15T21:39:30.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Different Containers With Different Domain Names Behind One IP on Proxmox (Reverse Proxy?)]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/ywa4jt/different_containers_with_different_domain_names/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/ywa4jt/different_containers_with_different_domain_names/"/>
-        <updated>2022-11-15T21:28:25.000Z</updated>
-        <summary type="html"><![CDATA[Hello, I've been attempting this for the last 2 days and it seems that every time I make some progress, I move on to the next step and I get stopped by a new issue or conflict.
- Situation:
-  
-1 domain name
- 
-1 public IP/physical machine (running Proxmox)
- 
-2 containers:
-  
-PiVPN running ddclient for Dynamic DNS and Wireguard (works and can connect to network/Proxmox UI remotely) - port 51830
- Ubuntu 20.04 which will run a Minecraft server - port 55055
- 
-  
-My goal is that I would like to connect to my vpn remotely through Wireguard via the vpn.mydomain.io domain name and also allow a group of 10-15 friends access the Minecraft server via mc.mydomain.io. I attempted to set up a nginx reverse proxy server outside of the VPN and the Minecraft server to switch traffic respectively, but I found out that you cant put MC data behind nginx/HTTP.
- Is there any type of setup that would allow me to achieve this functionality? The MC server should essentially be open to public access and the VPN requires a Wireguard config, but both are accessed via different domain names linked to the same public IP.
- Any input is appreciated!
-    submitted by    /u/seekerofchances  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sister would like me to backup everything on her recently passed husband's PC. I'm tech savvy but lost here...]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw9vna/sister_would_like_me_to_backup_everything_on_her/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw9vna/sister_would_like_me_to_backup_everything_on_her/"/>
-        <updated>2022-11-15T21:18:35.000Z</updated>
-        <summary type="html"><![CDATA[My sister lost her husband during the height of the COVID pandemic. He had just built a new rig. I'm the family "IT call center" so she called and said it was time to organize things and asked if I could get everything off that she could still access from her laptop as needed, things that are on this PC are family paperwork, finances, wills, death certificate, etc.. Important stuff!!. She essentially said she needs the giant computer gone soon, but wants to keep literally everything in case she needs it.
- Now I know I can drag and drop files from here and there onto an ext drive, or run a backup and dump that to a drive. But is this the right way? She doesn't know where all his stuff was stored and doesn't want to miss anything I'm sure there's more than just in the "documents" folder. How can I ensure I get everything that may be on the rig worth saving?
- I've done some googling on backup software and sounds like I can achieve doing that. I guess I just want to be sure that it is the right approach?? And will I be able to give my sister a drive with a file dump? Is something like that achievable?
- Does backup software just grab entire OS? Or can I grab just every file? Sorry for the long winded post. Really not sure how to help her here and just give her an external drive where she can just access everything that may have been important on the PC. 
- Thanks all!
-    submitted by    /u/Nodnarbian  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10+ Mount Drives Past 26?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw9p7a/windows_10_mount_drives_past_26/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw9p7a/windows_10_mount_drives_past_26/"/>
-        <updated>2022-11-15T21:11:38.000Z</updated>
-        <summary type="html"><![CDATA[Hi, for windows 10+, for mounting physical drives after exhausting physical drive letters, is mount point (Mount in physical NTFS folder) still the only way to deal with this? From an end user perspective, how would they access this? (via a network share? I see people mentioning assigning AA, AB, and etc., to the drive, how do they do that?). Thanks.
-    submitted by    /u/cute_polarbear  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some hardware tips for a new build?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw9ot2/some_hardware_tips_for_a_new_build/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw9ot2/some_hardware_tips_for_a_new_build/"/>
-        <updated>2022-11-15T21:11:14.000Z</updated>
-        <summary type="html"><![CDATA[Hi guys, im starting to plan my next file server. It will be replacing a 56TB QNAS that operates as a volume for my Plex video server.
- Originally, I wanted that QNAS to serve the compute for the video server as well, but it just isn’t powerful enough to transcode multiple streams as once. So, for now, my gaming computer is doing that work while pulling data from the QNAS. I’d like my next box to do both.
- So, im thinking of building my own this time. I’d like to have at least a GeForce 1660 in it, since that can transcode five 4K streams at once. (We have four adults living in this house).
- So, I could use some guidance on:
- 1) A motherboard that supports at least 8 RAID drives. 1a) am I better off using a RAID card or finding a motherboard with onboard RAID?
- 2) in terms of case, what do you recommend? I mean, I like the hotswap bays in my QNAS, with the lights on the front showing drive activity and health. Is there any way to achieve that in a consumer build like that?
- 3) I assume a midrange CPU and 8GB ram will do?
- 4) OS/software - what’s the best software solution for this? Once this thing is configured,I want to be able to do remote admin from my main workstation (win10).
- Teach me Sensei! Thanks 🙏
-    submitted by    /u/teejay818  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is there such a thing as a self-hosted Alexa that runs on a server, and has low power devices like an Amazon Alexa subscribe to that service?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw9jit/is_there_such_a_thing_as_a_selfhosted_alexa_that/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw9jit/is_there_such_a_thing_as_a_selfhosted_alexa_that/"/>
-        <updated>2022-11-15T21:05:31.000Z</updated>
-        <summary type="html"><![CDATA[I.E. A central server that does the actual heavy duty processing, and then listen/speak nodes who's only job is to listen for voice activation, send the command to the server, and speak when required?
-    submitted by    /u/GoingOffRoading  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WayBack machine and OF]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw96s5/wayback_machine_and_of/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw96s5/wayback_machine_and_of/"/>
-        <updated>2022-11-15T20:51:58.000Z</updated>
-        <summary type="html"><![CDATA[Can you use Wayback machine on OF if the account is Free (NOT locked for subscription only)?
-    submitted by    /u/Melodic_Cranberry_21  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Twilight of Nietzsche]]></title>
-        <id>https://www.spiked-online.com/2022/11/14/the-twilight-of-nietzsche/</id>
-        <link href="https://www.spiked-online.com/2022/11/14/the-twilight-of-nietzsche/"/>
-        <updated>2022-11-15T20:19:28.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GigaVUE firmware for an HB1?]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yw87gv/gigavue_firmware_for_an_hb1/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yw87gv/gigavue_firmware_for_an_hb1/"/>
-        <updated>2022-11-15T20:13:34.000Z</updated>
-        <summary type="html"><![CDATA[Does anyone have a lead on a way for get firmware for an old Gigamon GigaVUE-HB1 that is no longer under support? I bought one off eBay and it works great overall, but 10+ year old firmware that shipped on it doesn't seem to work with any modern web browser (doesn't support TLS 1.2, etc). I found an old reference to files like that being on a homelab FTP site, but judging from the wiki that seems to be defunct. 
- Anyone have a source or contact at Gigamon I can use? Thanks!
-    submitted by    /u/bearda  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Am I allowed to "share" a VPS with my friend?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw84v7/am_i_allowed_to_share_a_vps_with_my_friend/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw84v7/am_i_allowed_to_share_a_vps_with_my_friend/"/>
-        <updated>2022-11-15T20:10:35.000Z</updated>
-        <summary type="html"><![CDATA[Me and my good friend who moved to a different state are both pretty new to coding/VPS in general. I was wondering if there would be any issues if we split the cost on a VPS and "shared" it, just to kind of mess around with one and explore/experiment with different things (nothing illegal). I guess I'm just curious if they would allow 2 different IP's logging into the VPS at different times. Thank you!
-    submitted by    /u/HealthyCraves  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unbound Over DNSCrypt /w WireGuard & Pi-Hole]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw83i5/unbound_over_dnscrypt_w_wireguard_pihole/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw83i5/unbound_over_dnscrypt_w_wireguard_pihole/"/>
-        <updated>2022-11-15T20:09:12.000Z</updated>
-        <summary type="html"><![CDATA[Should I just set up Unbound over DNSCrypt /w WireGuard & Pi-Hole? I read somewhere that someone is saying Unbound has DNSCrypt, but others mention going strictly with DNSCrypt. Thoughts?
-    submitted by    /u/dsnk1  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LSI vs HPE HBA]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yw7wze/lsi_vs_hpe_hba/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yw7wze/lsi_vs_hpe_hba/"/>
-        <updated>2022-11-15T20:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Hi all, can anyone tell me the difference between the LSI LSI20320IE and HPE 412911-B21? I recently snagged an MSA20, and I’m trying to connect it to a DL360P. Both are marketed as SC11Xe HBAs and look the exact same, however the LSI I now have isn’t showing up in HP’s ACU. Anyone have a similar experience, do I need that 412911-B21, or do I just need to read more docs?
-    submitted by    /u/fuxwmagx  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers thought this was a bug (Borwein integrals) [video]]]></title>
-        <id>https://www.youtube.com/watch?v=851U557j6HE</id>
-        <link href="https://www.youtube.com/watch?v=851U557j6HE"/>
-        <updated>2022-11-15T20:01:40.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can I self host a virtual machine to install programs on, and play in browser on another pc?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw7vkb/can_i_self_host_a_virtual_machine_to_install/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw7vkb/can_i_self_host_a_virtual_machine_to_install/"/>
-        <updated>2022-11-15T20:00:26.000Z</updated>
-        <summary type="html"><![CDATA[Bit of a random question - I have a QNAP and have a few containers for media programs that I run on it, which are accessible via a browser on my other PCs.
- The PCs I use most often are both unable to install things (one is a work PC, the other a chromebook). If I wanted to run something that requires a windows install without using my desktop, could I run a virtual machine on the QNAP, and access it via a browser on the chromebook or work PC?
- I imagine this wouldn't be optimal - particularly for anything requiring a graphics card to do much? But I'd be interested if it was possible.
- Thanks!
-    submitted by    /u/stuaker  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anyone get their hands on a Windows ARM Dev Kit?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw7nk6/anyone_get_their_hands_on_a_windows_arm_dev_kit/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw7nk6/anyone_get_their_hands_on_a_windows_arm_dev_kit/"/>
-        <updated>2022-11-15T19:51:44.000Z</updated>
-        <summary type="html"><![CDATA[https://www.microsoft.com/en-us/d/windows-dev-kit-2023/94k0p67w7581
- These are apparently selling for $600. Not a terrible deal, not a great one, but 32GB ram and a 512 GB M.2 SSD seems like this could be a monster media PC or home server. 
- Wired ethernet, mini display port, and usb-c and a connections. Curious if anyone's tried or thinking about trying this with a good linux install.
-    submitted by    /u/KarlProjektorinsky  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How 'safe' is it to use an old Synology NAS?]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yw7bfv/how_safe_is_it_to_use_an_old_synology_nas/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yw7bfv/how_safe_is_it_to_use_an_old_synology_nas/"/>
-        <updated>2022-11-15T19:38:21.000Z</updated>
-        <summary type="html"><![CDATA[Hey all.
- I'm not super familiar with the Synology platform as a whole, but I have a friend that has an older NAS (DS214) from Synology that they are looking to get rid of. I have been looking for something more power efficient than my dual-Xeon server, so I am going to pick it up later today.
- That being said, how safe is it to use an older NAS? How often do they receive updates, and what sort of lifespan should I expect for this device?
- It very well may be out of support already, but it meets the basic NAS requirements that I have at the moment, so provided I can secure it properly I think it'll be a great choice for my use.
-    submitted by    /u/gts250gamer101  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Good Old Fashioned AI is dead, long live New-Fangled AI]]></title>
-        <id>https://billwadge.com/2022/11/13/gofai-is-dead-long-live-nf-ai/</id>
-        <link href="https://billwadge.com/2022/11/13/gofai-is-dead-long-live-nf-ai/"/>
-        <updated>2022-11-15T19:36:49.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All companies are fucked up]]></title>
-        <id>https://jonpauluritis.com/articles/all-companies-are-fucked-up/</id>
-        <link href="https://jonpauluritis.com/articles/all-companies-are-fucked-up/"/>
-        <updated>2022-11-15T19:34:48.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looking for reasonably priced chassis for a consumer hardware whitebox build]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yw6xhr/looking_for_reasonably_priced_chassis_for_a/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yw6xhr/looking_for_reasonably_priced_chassis_for_a/"/>
-        <updated>2022-11-15T19:23:14.000Z</updated>
-        <summary type="html"><![CDATA[Hello everybody,
- I've been a lurker here for quite some time, and now that I'm starting to earn some money it's time to get myself a homelab.
- I've already experimented with an HP DL380 G7, but the power consumption was just too much to run it 24/7 (I'm in France so electricity isn't cheap).
- I'd like to build a server with consumer hardware: classic ATX motherboard, Core/Ryzen CPU so I'm not stuck with a motherboard which pulls 50W alone and other hardware which isn't made to be efficient at idle.
- My problem is that I'd like to build this in a rack form factor, ideally a 2U chassis with at least a dozen 2.5" SAS/SATA bays (I plan to use SATA SSDs because of the lower power consumption compared to HDDs). I can't find such a chassis with a reasonable price tag (ideally less than 400€) and easily available in Europe (if I buy from outside of Europe, I can count 20% more for taxes and a hundred bucks for shipping).
- I have another concern: 2U chassis only accept small form factor PSUs. Can I even find a PSU which isn't rated for high powers (remember, I'm aiming to lower my idle power consumption) and which I can plug into a desktop-class ATX motherboard?
- So there are two possibilities:
-  
-my 2U not-too-expensive lots-of-bays consumer-hardware-compatible build is, by some miracle, possible and maybe y'all can give me some chassis references and tips;
- I'm too focused on the idea of a 2U server with consumer hardware and I've missed other solutions which may be easier and cheaper to setup, then maybe you can enlighten me ^^
-  
-I hope this post is comprehensible, I'm not used to write on Reddit and I'm not used to write in english either. Please don't hesitate to ask questions about my requirements, I may have missed some points!
- Thanks
-    submitted by    /u/Cornichon622  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[using oracle to setup a minecraft server but I am a noob...]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw6uec/using_oracle_to_setup_a_minecraft_server_but_i_am/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw6uec/using_oracle_to_setup_a_minecraft_server_but_i_am/"/>
-        <updated>2022-11-15T19:19:56.000Z</updated>
-        <summary type="html"><![CDATA[I am following this guide https://youtu.be/RyC-m725uTs using Oracle Cloud to setup a server but am stuck at 8.03 where after removing the forge installer I need to launch the server the first time. The command seems to vary depending on your versions and needs (from what I saw at least, might not be the case because I dont know what im doing xD), but I am a noob (first SSH / VM experience), so can anyone provide the command to run the server?
- if it helps: 1.16.5 Forge Minecraft. 4 OCPUs and 24gb ram. I followed the video pretty much exactly (if so what is the same command but for 1.18.2 Forge Minecraft, 4 OCPUs and 24gb ram) 
- edit: I forgot to mention, someone in the comments had the same problem (username RYU, three months ago) there were replies but I dont understand it very well. maybe this helps?
- ​
-    submitted by    /u/Nejikins151  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQL DATE – Function, Query, Timestamp Example Format]]></title>
-        <id>https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/</id>
-        <link href="https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"/>
-        <updated>2022-11-15T18:58:58.000Z</updated>
-        <summary type="html"><![CDATA[Dates are an integral part of any programming language, and SQL is no exception. When you insert data into your SQL database, you can add a date and query the database based on that date. In this article, you’ll learn about DATE functions in SQL and how to query a]]></summary>
-        <author>
-            <name>Kolade Chris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data visualization with external sorting]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw69fl/data_visualization_with_external_sorting/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw69fl/data_visualization_with_external_sorting/"/>
-        <updated>2022-11-15T18:57:35.000Z</updated>
-        <summary type="html"><![CDATA[What.a.day.
- I got this huge project dumped on my desk this afternoon, and I am hoping some of you out here would be able to give me some pointers.
- Some context:
- We produce a software used by 80-odd companies.
- We collect data from various sources:
-  
-Datadog: usage of the software (which user accesses which function, at what time)
- HubSpot (CRM): Which stage of onboarding each company is at (i.e.: onboarding, admins onboarded, users onboarded, trial ongoing, etc…) 
- AWS database (RDS): user information (i.e.: how many users per company, data pertaining to the app functions, etc.) 
-  
-The project:
- The project is straightforward: produce a self-hosted platform that aggregates all that data (from all of these sources) and produce analytics, visually. 
-  
-For example, how is the productivity of a specific company before and after the company started using our product. Or, how much is each company using our software. Or, how is the usage of the tool varying, week by week.
-  
-Basically fancy graphs. 
- And, at the end, I need to be able to share these results with said companies, via an online portal (where the company can only access their own data)—preferably securely (password protected, SSL, etc.). 
- The process:
- As far as I can see, the steps are quite straightforward, when simplified:
-  
-Identify where the data required is stored 
- Centralize it somewhere (probably AWS S3?)
- Feed into the data visualization platform (self-hosted) 
- Serve the output externally.
-  
-The question:
- What data visualization platform would meet all the criteria outlined in the brief above? 
- So far, I have identified:
-  
-QlikView (I believe there is a self-hosted solution)
- Tableau
- AWS QuickSight
-  
-None of these tick all the boxes, but it would get me started. 
- Any other suggestions?
- Edit: clarifications & punctuation.
-    submitted by    /u/to-ie  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrate windows server to proxmox and I need help!]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yw66jk/migrate_windows_server_to_proxmox_and_i_need_help/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yw66jk/migrate_windows_server_to_proxmox_and_i_need_help/"/>
-        <updated>2022-11-15T18:54:32.000Z</updated>
-        <summary type="html"><![CDATA[I have a windows 2016 server os running on bare metal. It failed and I fixed it, but I want to migrate it to my proxmox server as a VM so I can manage it better with backup copies and images. 
- I don't know where to start and need help. I tried to run a p2v software to virtualize the windows server, but that VM is not compatible with proxmox..... 
- Help!
-    submitted by    /u/nakedgnome1  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Any music servers (like Navidrome) that can ALSO pull from Spotify?]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw5ok6/any_music_servers_like_navidrome_that_can_also/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw5ok6/any_music_servers_like_navidrome_that_can_also/"/>
-        <updated>2022-11-15T18:34:50.000Z</updated>
-        <summary type="html"><![CDATA[I think I'm ready to get a Zimaboard & install Navidrome for my music collection and use a subsonic friendly app to stream my personal music collection. But, there are also some gaps in my collection and I do have a paid Spotify acct. Is there a way for me to integrate the two music sources with one server-side app or one client that will work with both music sources? While away, I could stream songs from EITHER Spotify or my home collection- like the server looks at both my at-home collection and what Spotify offers & weaves them together to send to my client app? I know if I was on my desktop w/ the music collection local, I can ask Spotify to scan & include locally stored music and then just use Spotify, but I want access to my home collection while away from home on my cell without having to close my subsonic-ish client to open Spotify & switch between them. Does anything like that even exist?
-    submitted by    /u/netfella  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Does this exist? Browser in a Webpage]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw5m6t/does_this_exist_browser_in_a_webpage/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw5m6t/does_this_exist_browser_in_a_webpage/"/>
-        <updated>2022-11-15T18:32:06.000Z</updated>
-        <summary type="html"><![CDATA[Hey all, this may sound silly, but I want to throw this out there and see what happens. Feel free to readjust my idea, tell me what I'm missing, and/or offer an alternative.
- I was wondering if there was any sort of self-hosted web server where the sole purpose is to provide a webpage that you could browse the web through, basically a browser inside of a webpage, but when you enter a URL into it, it filters it with uBlock Origin and other filtering protections first, and then renders the page.
- The goal would be to use that self-hosted webpage and access it from iOS as a means of circumventing the iOS restriction of a proper ad-blocker.
-    submitted by    /u/0oWow  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding a hinge to a Game Boy that God never intended]]></title>
-        <id>https://posts.decontextualize.com/pocket-sp/</id>
-        <link href="https://posts.decontextualize.com/pocket-sp/"/>
-        <updated>2022-11-15T18:16:54.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Divers accidentally find a piece of the Challenger space shuttle]]></title>
-        <id>https://www.smithsonianmag.com/smart-news/divers-accidentally-find-a-piece-of-the-challenger-space-shuttle-180981121/</id>
-        <link href="https://www.smithsonianmag.com/smart-news/divers-accidentally-find-a-piece-of-the-challenger-space-shuttle-180981121/"/>
-        <updated>2022-11-15T17:56:34.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues converting VHS tapes to Digital]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw46ha/issues_converting_vhs_tapes_to_digital/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw46ha/issues_converting_vhs_tapes_to_digital/"/>
-        <updated>2022-11-15T17:39:42.000Z</updated>
-        <summary type="html"><![CDATA[I am in the process of converting a couple of my families' VHS cassettes to digital files and am running in to some issues. I have converted from VHS before, but was hoping to do things more correctly this time. I have also read the following post for some good guidelines: https://www.reddit.com/r/DataHoarder/comments/j4rwk1/the_how_do_i_digitizetransfercapture_video_tapes/
- I'm in a PAL country and using a Philips DVD755VR VCR/DVD combo unit thing, that only outputs to SCART for video.
- I have a bunch of capture cards at my disposal currently which I hope I can use to keep expenses down, but I have different issues with all of them:
- BlackMagic Decklink HD Extreme 3
- In the past I managed to purchase a 'BlackMagic Decklink HD Extreme 3' second hand for an absurdly cheap price. It is very …]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sapling: A new source control system with Git-compatible client]]></title>
-        <id>https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable/</id>
-        <link href="https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable/"/>
-        <updated>2022-11-15T17:39:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ever-expanding animation of the life of the 796th floor of a space station]]></title>
-        <id>https://floor796.com/</id>
-        <link href="https://floor796.com/"/>
-        <updated>2022-11-15T17:38:38.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do any NAS OS allow storage to pass through natively to Windows?]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw3isx/do_any_nas_os_allow_storage_to_pass_through/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw3isx/do_any_nas_os_allow_storage_to_pass_through/"/>
-        <updated>2022-11-15T17:17:03.000Z</updated>
-        <summary type="html"><![CDATA[I'm currently running my setup on an 11 year old RAID controller on a Windows 7 machine (I know, but reasons). I am looking to refresh my setup soon and add more disks and I'd like to remove this old Adapter 5805 from service before it becomes an issue (already failed once and I just happened to have a backup card at that point but some data DID corrupt!). 
- ​
- However, I do enjoy having Backblaze backing up my data and I cannot swing paying for B2 so I'd like to stay on my unlimited, which means "local" storage. Do TrueNAS or Unraid offer a method to passthrough data to the OS natively (to Windows 10 in a VM hosted on the same box)? I haven't seen a way yet in researching this. I know with dedicated NAS/SAN units I could setup an iSCSI target and I've done that in the past but I wasn't sure if this is a possibility within these OSes and I also not sure if I wanted to go through that method so looking for alternatives.
- ​
- Any suggestions or info on using the data within a vm, as a local disk, on TrueNAS/Unraid?
-    submitted by    /u/HClark86  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supermicro Power Distributor connectors]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw3i6q/supermicro_power_distributor_connectors/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw3i6q/supermicro_power_distributor_connectors/"/>
-        <updated>2022-11-15T17:16:25.000Z</updated>
-        <summary type="html"><![CDATA[My Supermicro power distributor has the following description. "Available Output: 24-Pin ATX + 8-Pin +12v, Legacy 4-Pin, and l2C" 
- I have questions on the last two. I presume one is describing the old 4 pin Molex connector, such as the one used on the backplane. But what is the lightweight 4 pin connector and how is it used? Is that for signaling or a power source for something?
-    submitted by    /u/BrandonVickers  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Libgrapheme: A simple freestanding C99 library for Unicode]]></title>
-        <id>https://libs.suckless.org/libgrapheme/</id>
-        <link href="https://libs.suckless.org/libgrapheme/"/>
-        <updated>2022-11-15T17:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How PlanetScale Boost serves SQL queries faster]]></title>
-        <id>https://planetscale.com/blog/how-planetscale-boost-serves-your-sql-queries-instantly</id>
-        <link href="https://planetscale.com/blog/how-planetscale-boost-serves-your-sql-queries-instantly"/>
-        <updated>2022-11-15T16:58:54.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers generate hydrogen more efficiently from water]]></title>
-        <id>https://phys.org/news/2022-10-revolutionary-technique-hydrogen-efficiently.html</id>
-        <link href="https://phys.org/news/2022-10-revolutionary-technique-hydrogen-efficiently.html"/>
-        <updated>2022-11-15T16:56:29.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Electric ferry uses a long extension cord [video]]]></title>
-        <id>https://www.youtube.com/watch?v=MYqCWxdM4ww</id>
-        <link href="https://www.youtube.com/watch?v=MYqCWxdM4ww"/>
-        <updated>2022-11-15T16:42:40.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Add ESLint to an Angular Application]]></title>
-        <id>https://www.freecodecamp.org/news/how-to-add-eslint-to-an-angular-application/</id>
-        <link href="https://www.freecodecamp.org/news/how-to-add-eslint-to-an-angular-application/"/>
-        <updated>2022-11-15T16:39:58.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we'll build a web application using the latest version of  Angular [https://angular.io/]. Then we'll add ESLint [https://eslint.org/] which analyzes the JavaScript code statically to find any problems. Prerequisites Before you start, you need to install and configure the tools below (if you don't already have them]]></summary>
-        <author>
-            <name>Rodrigo Kamada</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I just want to show some love for PiGallery2]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw2edx/i_just_want_to_show_some_love_for_pigallery2/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw2edx/i_just_want_to_show_some_love_for_pigallery2/"/>
-        <updated>2022-11-15T16:38:29.000Z</updated>
-        <summary type="html"><![CDATA[With so many people jumping into the PhotoPrism boat, I want to give a shout out to PiGallery2. Not to dis PhotoPrism - it's gorgeous - it's just too much machine for my needs.
- I have very simple, but specific, requirements for a photo... "browser"(?) but have been having a nightmare finding one that sticks.
- I just needed something that I point to my curated folder structure of photos and displays them - read-only - in a nice, quick fashion.
- PiGallery2 does this by the truckload!
- All of the others I've tried either require multiple elements to their docker-compose, try to get too clever with re-organising the photos, are too cluttered, buggy, or lock your setup into their database or specific configs.
- I can now continue to organise my photos in a way I like on my NAS - making sure the location and tagged names are all just-so - and let PiGallery2 serve them up in a simple web view for the family to browse through. Without the worry of them nausing up any files! My god, it's almost too perfect.
- I'm not affiliated with this at all, I just love it when I come across a project that does one thing and does it well!
- Because of the one-way indexing I can completely destroy the Docker container and bring it all back up again without having to re-configure the world.
- I can't see any donate buttons on the site - how does one donate to such a project? I need to go share some financial love while I'm on this high.
- OK, OK, I'll stop gushing.
-    submitted by    /u/FluffyMumbles  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Stratified Random Sampling? Definition and Python Example]]></title>
-        <id>https://www.freecodecamp.org/news/what-is-stratified-random-sampling-definition-and-python-example/</id>
-        <link href="https://www.freecodecamp.org/news/what-is-stratified-random-sampling-definition-and-python-example/"/>
-        <updated>2022-11-15T16:33:52.000Z</updated>
-        <summary type="html"><![CDATA[When we wish to conduct an experiment on a population – for example, the entire population of a country – it is not always practical or realistic to include every subject (citizen) in the experiment.  Instead, we rely on a sample, which is a subset of the population, and]]></summary>
-        <author>
-            <name>Ibrahim Abayomi Ogunbiyi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Galactica: an AI trained on humanity's scientific knowledge (by Meta)]]></title>
-        <id>https://galactica.org/</id>
-        <link href="https://galactica.org/"/>
-        <updated>2022-11-15T16:28:06.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every Issue Of Nintendo Power]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw1xoc/every_issue_of_nintendo_power/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw1xoc/every_issue_of_nintendo_power/"/>
-        <updated>2022-11-15T16:23:03.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/ron-swonson  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How do I reverse proxy internal to my LAN with SWAG]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw1mdw/how_do_i_reverse_proxy_internal_to_my_lan_with/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw1mdw/how_do_i_reverse_proxy_internal_to_my_lan_with/"/>
-        <updated>2022-11-15T16:11:54.000Z</updated>
-        <summary type="html"><![CDATA[First let me preface that I am not really a network guys or web guys but I am trying to learn in order to better manage the few apps/services I run on my network.
- My setup has SWAG and Emby running in docker container on my unraid sever. I have swag listening to ports 80 and 443 on the server. I also an adguard home instance running in a container with the router's DHCP server configured to use the adguard container as the DNS for every lease granted.
- I want to set up a reverse proxy to my services that I use. I'm trying to start with emby as my first proxied app, I want to be able to type media.domain.com both internally and externally of my network to access my media. There are a lot of tutorials on how to do this for accessing your services externally but how can I do this internally …]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Activeloop (YC S18) – Data lake for deep learning]]></title>
-        <id>https://news.ycombinator.com/item?id=33610834</id>
-        <link href="https://news.ycombinator.com/item?id=33610834"/>
-        <updated>2022-11-15T16:01:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zigbee2Mgtt can't start frontend]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw193g/zigbee2mgtt_cant_start_frontend/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw193g/zigbee2mgtt_cant_start_frontend/"/>
-        <updated>2022-11-15T15:59:51.000Z</updated>
-        <summary type="html"><![CDATA[Hey there,
- it seems i am not able to start the frontend. And i am not able to find the error.
- Google does not help in this case.
- user@user:/opt/zigbee2mqtt $ npm start
- > zigbee2mqtt@1.28.1 start
- > node index.js
- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
- READ THIS CAREFULLY
- Refusing to start because configuration is not valid, found the following errors:
- - frontend must be boolean
- - frontend must be object
- - frontend must match exactly one schema in oneOf
- If you don't know how to solve this, read https://www.zigbee2mqtt.io/guide/configuration
- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
- ​
- Here is my yaml:
- GNU nano 5.4 /opt/zigbee2mqtt/data/configuration.yaml
- homeassistant: false
- permit_join: true
- mqtt:
- base_topic: zigbee2mqtt
- server: 'mqtt://localhost:xxxx'
- serial:
- port: /dev/serial/by-id/usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0
- advanced:
- network_key: GENERATE
- ikea_ota_use_test_url: true
- legacy_api: false
- log_level: debug
- ​
- frontend: true
- port: xxxx
- host: xxx.xxx.xxx.xxx
- auth_token: xxxxxxxxxx
- url: https://192.168.0.242:8085
- ​
- device_options:
- legacy: false
- ​
- Has someone an idea?
-    submitted by    /u/Dragoro_SYS  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python script to import zlib sql database]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw17pj/python_script_to_import_zlib_sql_database/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw17pj/python_script_to_import_zlib_sql_database/"/>
-        <updated>2022-11-15T15:58:31.000Z</updated>
-        <summary type="html"><![CDATA[The database sql script from original post is 8GB: https://www.reddit.com/r/DataHoarder/comments/ymiwzs/zlibrary_isnt_really_gone_but_that_maybe_up_to_you/
- Total lines is only 8434 but a single line has so many data per line
- I couldn't import it with "normal" means, had to create a script to run the inserts 1 by 1:
- https://pastebin.com/JAcZ8WJP
- ​
- Requirements:
- pip install mysql-connector-python 
- and a mysql database obviously.
- ​
- Update:
- Script is still running, will update when done hopefully no errors.
- Works fine no errors
-    submitted by    /u/ciaaaaaat  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Slo Mo Guys: Adding 810TBs of Tape Storage]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw172k/slo_mo_guys_adding_810tbs_of_tape_storage/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw172k/slo_mo_guys_adding_810tbs_of_tape_storage/"/>
-        <updated>2022-11-15T15:57:53.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/synthacon09  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Behind the CSScenes, November 2022]]></title>
-        <id>https://css-tricks.com/?p=375066</id>
-        <link href="https://css-tricks.com/behind-the-csscenes-november-2022/"/>
-        <updated>2022-11-15T15:54:32.000Z</updated>
-        <summary type="html"><![CDATA[Is it Fall? Winter? I don’t know, but I woke up with snow in the front yard this morning and felt like it was time to write a little update about what’s been happening around CSS-Tricks this past month, as …
-Behind the CSScenes, November 2022 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Backblaze B2 Bucket Files]]></title>
-        <id>https://www.reddit.com/r/DataHoarder/comments/yw0jft/backblaze_b2_bucket_files/</id>
-        <link href="https://www.reddit.com/r/DataHoarder/comments/yw0jft/backblaze_b2_bucket_files/"/>
-        <updated>2022-11-15T15:35:46.000Z</updated>
-        <summary type="html"><![CDATA[Backblaze B2 I How can I split my 6 TB bucket into 3 Existing Separate Accounts as 2TB?
-    submitted by    /u/oyunkros2  
- [link]   [comments]]]></summary>
-        <author>
-            <name>It's A Digital Disease!</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cannot use import statement outside a module [React TypeScript Error Solved]]]></title>
-        <id>https://www.freecodecamp.org/news/cannot-use-import-statement-outside-a-module-react-typescript-error-solved/</id>
-        <link href="https://www.freecodecamp.org/news/cannot-use-import-statement-outside-a-module-react-typescript-error-solved/"/>
-        <updated>2022-11-15T15:30:56.000Z</updated>
-        <summary type="html"><![CDATA[When building a web application, you may encounter the SyntaxError: Cannot use import statement outside a module error.  This error might be raised when using either JavaScript or TypeScript in the back-end. So you could be working on the client side with React, Vue, and so on, and still]]></summary>
-        <author>
-            <name>Ihechikara Vincent Abba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hanging a rack on brick]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yw04jq/hanging_a_rack_on_brick/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yw04jq/hanging_a_rack_on_brick/"/>
-        <updated>2022-11-15T15:20:40.000Z</updated>
-        <summary type="html"><![CDATA[I got a come up on a new rack and a new UPS and so now I need to install them in my house. My current rack is in my basement and this is just going to go in the same place but the weight is going to be substantially more than what's in the current rack. 
- New rack: https://greatcabinets.com/product/wm/ (39"/19U model with the plexi door)
- New UPS: https://www.apc.com/us/en/product/SMT1500RM2UC/apc-smartups-line-interactive-1500va-rackmount-2u-120v-6x-nema-515r-outlets-smartconnect-port+smartslot-avr-lcd/
- Existing: Cisco Catalyst 2960X, HP Elitedesk 800 G4, HP Prodesk G4 400, 24 port patch panels x2, Xfinity modem, two 1U PDU's and some other random IoT stuff. Probably another 50lbs max so I'm guessing we're talking 150 lbs. weight max.
- The existing rack is a 12U open frame rack mounted to a brick wall in my house. The new rack is going in the same place but I want to make sure I mount it properly.
- So that's the question...what hardware should I use to mount this new rack so that all my gear doesn't spontaneously and violently meet my floor when I'm least expecting it thus ruing thousands of dollars worth of stuff?
-    submitted by    /u/400HPMustang  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[invisible authentik]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yw0180/invisible_authentik/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yw0180/invisible_authentik/"/>
-        <updated>2022-11-15T15:17:16.000Z</updated>
-        <summary type="html"><![CDATA[I have my own ddns domain set up from which I would like to access jellyfin using authentik for authorisation.
- I use npm for my reverse proxy and the containername for connectivity so there are no external ports exposed.
- Is there an easy way to host authentik without having the traditional auth.myurl.com ? I literally just want to use container names 
- Tia
-    submitted by    /u/simonmcnair  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Manage State in React]]></title>
-        <id>https://www.freecodecamp.org/news/how-to-manage-state-in-react/</id>
-        <link href="https://www.freecodecamp.org/news/how-to-manage-state-in-react/"/>
-        <updated>2022-11-15T15:17:14.000Z</updated>
-        <summary type="html"><![CDATA[React state management is a process for managing the data that React components need in order to render themselves. This data is typically stored in the component's state object. When the state object changes, the component will re-render itself. React state management is basically half of a React app. It]]></summary>
-        <author>
-            <name>Beau Carnes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beginner looking for advice on sharing files on a local network]]></title>
-        <id>https://www.reddit.com/r/selfhosted/comments/yvzyn9/beginner_looking_for_advice_on_sharing_files_on_a/</id>
-        <link href="https://www.reddit.com/r/selfhosted/comments/yvzyn9/beginner_looking_for_advice_on_sharing_files_on_a/"/>
-        <updated>2022-11-15T15:14:36.000Z</updated>
-        <summary type="html"><![CDATA[Apologies in advance if this kind of question is not allowed here 😊
- I am looking to create a file sharing service that works on a local network (that's not exposed to the internet) .
- The use case: I'm from a remote African village where internet is expensive and slow, and lots of people (when I'm there) ask for commonly used Apks (mostly WhatsApp, and other utility things like pdf readers) and also some other kinds of files. When I can I share these /download for them.
- I have old mini pcs, some Raspberry Pis, and hard drives lying around and I can get a router/modem to create a local network, and I've been thinking of making something where I can keep these files and allow people to connect to a Wi-Fi network and download them. It is essential that this does not require a data plan. It is also important that it consumes as little power as possible, since it'll run on solar and preferably 24/7.
- My preliminary research has yielded Nextcloud but I'm unsure whether it'll suffice.
- Additional context: I mostly will be adding these files with a USB stick so ideally this setup will not be exposed to the internet. However having it exposed to the internet will be great provided there isn't too much additional overhead, since I can update the files, monitor it remotely etc. I want also to keep the option of adding more content open, for example educational videos, free ebooks etc.
- The question to you amazing folk then is, is this doable, what are potential gotchas, are there other ways to do it, should I use Nextcloud or something else etc. Any general advice you might have would I'll be greatly appreciated. 
- Thanks
-    submitted by    /u/true_heart  
- [link]   [comments]]]></summary>
-        <author>
-            <name>Self-Hosted Alternatives to Popular Services</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The gut microbiome helps social skills develop in the brain in fish]]></title>
-        <id>https://www.quantamagazine.org/the-gut-microbiome-helps-social-skills-develop-in-the-brain-20221115/</id>
-        <link href="https://www.quantamagazine.org/the-gut-microbiome-helps-social-skills-develop-in-the-brain-20221115/"/>
-        <updated>2022-11-15T15:12:01.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Low-power(ish) kubernetes homelab w/ opnsense (proxmox, pi's and diagrams)]]></title>
-        <id>https://www.reddit.com/r/homelab/comments/yvzi80/lowpowerish_kubernetes_homelab_w_opnsense_proxmox/</id>
-        <link href="https://www.reddit.com/r/homelab/comments/yvzi80/lowpowerish_kubernetes_homelab_w_opnsense_proxmox/"/>
-        <updated>2022-11-15T14:55:37.000Z</updated>
-        <summary type="html"><![CDATA[submitted by    /u/lucamasira  
- [link]   [comments]]]></summary>
-        <author>
-            <name>homelabbity</name>
         </author>
     </entry>
 </feed>
